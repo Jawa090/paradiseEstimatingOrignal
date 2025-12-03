@@ -8,6 +8,8 @@ on:
 jobs:
   deploy-frontend:
     runs-on: ubuntu-latest
+    env:
+      TERM: xterm
     
     steps:
       - name: Checkout Code
@@ -24,13 +26,8 @@ jobs:
       - name: Build Frontend
         run: npm run build
 
-      # -----------------------------
-      # FIX: TERM variable for scp-action
-      # -----------------------------
       - name: Deploy Build Folder to VPS
-        uses: appleboy/scp-action@v0.1.4
-        env:
-          TERM: xterm
+        uses: appleboy/scp-action@v0.1.7
         with:
           host: ${{ secrets.VPS_HOST }}
           username: ${{ secrets.VPS_USER }}
@@ -41,11 +38,8 @@ jobs:
           strip_components: 1
           overwrite: true
 
-      # -----------------------------
-      # SSH commands to move files
-      # -----------------------------
       - name: Move Files to public_html
-        uses: appleboy/ssh-action@v0.1.8
+        uses: appleboy/ssh-action@v1.0.0
         with:
           host: ${{ secrets.VPS_HOST }}
           username: ${{ secrets.VPS_USER }}
