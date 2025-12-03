@@ -40,11 +40,13 @@ const App = () => (
           <Route path="/blog" element={<Blog />} />
 
 
-          
+
           <Route path="/contact" element={<Contact />} />
           <Route path="/get-free-quote" element={<Contact />} />
           <Route path="/services/category-1" element={<Category1 />} />
           <Route path="/services/category-2" element={<Category2 />} />
+
+
           <Route path="/services/category-3" element={<Category3 />} />
           <Route path="/services/category-4" element={<Category4 />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
