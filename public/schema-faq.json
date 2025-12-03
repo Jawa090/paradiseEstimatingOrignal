@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is construction estimating?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Construction estimating is the process of calculating the total cost of a construction project, including materials, labor, equipment, and other expenses. Professional estimators use industry-standard tools and methods to provide accurate cost projections."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How accurate are your construction estimates?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "We maintain a 98% accuracy rate through rigorous quality control, advanced technology, and 15+ years of industry experience. Our detailed estimates help prevent costly overruns and ensure project success."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a material take-off service?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Material take-off (MTO) is the process of identifying and quantifying all materials needed for a construction project. We use tools like Bluebeam to create detailed, accurate quantity calculations from your project plans."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How long does it take to get an estimate?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Turnaround time varies by project complexity. Simple residential estimates can be completed in 24-48 hours, while complex commercial projects may take 5-7 business days. We work with your timeline to meet deadlines."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do you serve my area?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes! We provide construction estimating services nationwide across all 50 states. Our remote capabilities allow us to work efficiently with clients regardless of location."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What types of projects do you estimate?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "We handle all project types including residential (single-family homes, multi-family), commercial (offices, retail, warehouses), and industrial facilities. Services include new construction, renovations, and specialized systems."
+      }
+    }
+  ]
+}

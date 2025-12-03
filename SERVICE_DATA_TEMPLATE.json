@@ -1,0 +1,124 @@
+{
+    "service-slug-here": {
+        "title": "Service Title Here",
+        "description": "Brief description for SEO and meta tags",
+        "content": {
+            "heroTitle": "Main Hero Title",
+            "heroSubtitle": "PARADISE ESTIMATING SERVICE COMPANY",
+            "mainHeading": "Service Main Heading",
+            "tagline": "Short. Catchy. Tagline",
+            "description": "Main service description paragraph that explains what this service offers and why it's valuable.",
+            "items": [
+                {
+                    "title": "Service Item 1",
+                    "description": "Description of this service item",
+                    "bullets": [
+                        "Optional bullet point 1",
+                        "Optional bullet point 2"
+                    ]
+                },
+                {
+                    "title": "Service Item 2",
+                    "description": "Description of this service item"
+                }
+            ],
+            "processSteps": [
+                {
+                    "number": 1,
+                    "title": "Step 1 Title",
+                    "description": "Description of what happens in this step"
+                },
+                {
+                    "number": 2,
+                    "title": "Step 2 Title",
+                    "description": "Description of what happens in this step"
+                },
+                {
+                    "number": 3,
+                    "title": "Step 3 Title",
+                    "description": "Description of what happens in this step"
+                },
+                {
+                    "number": 4,
+                    "title": "Step 4 Title",
+                    "description": "Description of what happens in this step"
+                }
+            ],
+            "whyChooseIntro": "Introductory paragraph explaining why clients should choose this service.",
+            "whyChoose": [
+                {
+                    "title": "Reason 1",
+                    "description": "Explanation of this reason",
+                    "bullets": [
+                        "Optional supporting point 1",
+                        "Optional supporting point 2"
+                    ]
+                },
+                {
+                    "title": "Reason 2",
+                    "description": "Explanation of this reason"
+                }
+            ],
+            "trades": [
+                {
+                    "title": "Trade Type 1",
+                    "description": "Description of this trade-specific service"
+                },
+                {
+                    "title": "Trade Type 2",
+                    "description": "Description of this trade-specific service"
+                }
+            ],
+            "renovation": {
+                "heading": "Renovation Section Heading",
+                "description": "Description of renovation services. Can include multiple paragraphs separated by \\n\\n",
+                "servicesHelp": [
+                    "Target audience 1",
+                    "Target audience 2",
+                    "Target audience 3"
+                ]
+            },
+            "portfolio": {
+                "intro": "Introduction to the portfolio section",
+                "items": [
+                    {
+                        "title": "Portfolio Item 1",
+                        "description": "Description of this portfolio item",
+                        "points": [
+                            "Detail point 1",
+                            "Detail point 2"
+                        ],
+                        "deliverables": [
+                            "Deliverable 1",
+                            "Deliverable 2"
+                        ],
+                        "subheading": "Optional subheading"
+                    }
+                ]
+            },
+            "nearbyAreas": [
+                "California",
+                "Texas",
+                "Florida",
+                "New York",
+                "Pennsylvania",
+                "Ohio",
+                "Georgia",
+                "New Jersey",
+                "Washington",
+                "Tennessee",
+                "Colorado"
+            ],
+            "faqs": [
+                {
+                    "question": "FAQ Question 1?",
+                    "answer": "Answer to the question. Can include bullet points using \\n• format"
+                },
+                {
+                    "question": "FAQ Question 2?",
+                    "answer": "Multi-line answer with bullets:\\n• Point 1\\n• Point 2\\n• Point 3"
+                }
+            ]
+        }
+    }
+}
