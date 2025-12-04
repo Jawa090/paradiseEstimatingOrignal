@@ -1,59 +1,22 @@
-name: Deploy to VPS (CyberPanel)
+name: ParadiseEstimating Auto Deploy
 
 on:
   push:
-    branches:
-      - master
+    branches: [ "main" ]
 
 jobs:
-  deploy-frontend:
+  deploy:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout Code
-        uses: actions/checkout@v3
-      
-      - name: Setup Node
-        uses: actions/setup-node@v3
-        with:
-          node-version: '18'
-      
-      - name: Install Dependencies
-        run: npm install
-      
-      - name: Build Frontend
-        run: npm run build
+    - name: Checkout repo
+      uses: actions/checkout@v3
 
-      - name: Deploy Build Folder to VPS
-      
-        uses: appleboy/scp-action@v0.1.7
-        env:
-          TERM: xterm   # <-- Ensure TERM is here inside the step
-        with:
-          host: ${{ secrets.VPS_HOST }}
-          username: ${{ secrets.VPS_USER }}
-          key: ${{ secrets.VPS_SSH_KEY }}
-          port: 22
-          source: "dist/*"
-          target: "/home/deploy/frontend"
-          strip_components: 1
-          overwrite: true
-          args: "env TERM=xterm"
-
-      - name: Move Files to public_html
-        uses: appleboy/ssh-action@v1.0.0
-        env:
-          TERM: xterm   # <-- Also set TERM here
-        with:
-          host: ${{ secrets.VPS_HOST }}
-          username: ${{ secrets.VPS_USER }}
-          key: ${{ secrets.VPS_SSH_KEY }}
-          port: 22
-          script: |
-            mkdir -p /home/deploy/frontend
-            mkdir -p /home/paradiseestimating.com/public_html
-
-            rm -rf /home/paradiseestimating.com/public_html/*
-            cp -r /home/deploy/frontend/* /home/paradiseestimating.com/public_html/
-
-            echo "Deployment completed successfully!"
+    - name: Deploy to Server
+      uses: appleboy/ssh-action@v0.1.10
+      with:
+        host: ${{ secrets.SERVER_IP }}
+        username: ${{ secrets.SERVER_USER }}
+        key: ${{ secrets.SERVER_SSH_KEY }}
+        script: |
+          bash /home/deploy/deploy.sh
