@@ -232,7 +232,7 @@ export const stateData: Record<string, StatePageData> = {
                 { name: "Cost-X", image: "/assets/logos/cost.jpg" },
                 { name: "FastWRAP", image: "/assets/logos/fast.jpg" },
                 { name: "Cost-work", image: "/assets/logos/Coststimator_logo.jpg" },
-                { name: "Quest Estimating", image: "/assets/logos/quest.jpg" }
+
             ]
         },
         expertLocalService: {
@@ -447,7 +447,7 @@ export const stateData: Record<string, StatePageData> = {
                 { name: "Cost-X", image: "/assets/logos/cost.jpg" },
                 { name: "FastWRAP", image: "/assets/logos/fast.jpg" },
                 { name: "Cost-work", image: "/assets/logos/Coststimator_logo.jpg" },
-                { name: "Quest Estimating", image: "/assets/logos/quest.jpg" }
+
             ]
         },
         expertLocalService: {
@@ -682,7 +682,7 @@ export const stateData: Record<string, StatePageData> = {
                 { name: "Cost-X", image: "/assets/logos/cost.jpg" },
                 { name: "FastWRAP", image: "/assets/logos/fast.jpg" },
                 { name: "Cost-work", image: "/assets/logos/Coststimator_logo.jpg" },
-                { name: "Quest Estimating", image: "/assets/logos/quest.jpg" }
+
             ]
         },
         expertLocalService: {
@@ -968,7 +968,7 @@ export const stateData: Record<string, StatePageData> = {
         areaNearMe: {
             heading: "Florida Construction Estimating Service Near Me",
             description: [
-                "Our professional construction estimators in Florida provide their services in all cities of Florida. With years of local experience in construction estimation, we offer our services in Columbia, DeSoto, Mort Myer, Duval, Escambia, Lafayette, Alachua, Cape Coral, Bradford, Calhoun, Boca Raton, Gadsden, Hamilton, Hillsborough, Clearwater,  and Miami-Dade.",
+                "We have been providing construction estimating services in Florida for over 20 years. Our estimators help contractors, project owners, and developers with projects of all sizes and types. Whether it is residential, commercial, or industrial. We focus on keeping your budget in check and your deadlines realistic. Our team works hard to make sure your project stays profitable. It runs smoothly from start to finish. Our professional construction estimators in Florida provide their services in all cities of Florida. With years of local experience in construction estimation, we offer our services in Columbia, DeSoto, Mort Myer, Duval, Escambia, Lafayette, Alachua, Cape Coral, Bradford, Calhoun, Boca Raton, Gadsden, Hamilton, Hillsborough, Clearwater,  and Miami-Dade",
                 ""
             ]
         }
@@ -1132,7 +1132,7 @@ export const stateData: Record<string, StatePageData> = {
             toolsList: [
                 { name: "Bluebeam", image: "/assets/logos/blue.jpg" },
                 { name: "Planswift", image: "/assets/logos/plan.jpg" },
-                { name: "RS Means", image: "/assets/logos/rs.jpg" },
+
                 { name: "Cost-X", image: "/assets/logos/cost.jpg" },
                 { name: "FastWRAP", image: "/assets/logos/fast.jpg" },
                 { name: "Cost-work", image: "/assets/logos/Coststimator_logo.jpg" },
@@ -1355,7 +1355,7 @@ export const stateData: Record<string, StatePageData> = {
             ],
             bidWinRatio: "",
             toolsList: [
-                { name: "Bluebeam", image: "/assets/logos/blue.jpg" },
+
                 { name: "Planswift", image: "/assets/logos/plan.jpg" },
                 { name: "RS Means", image: "/assets/logos/rs.jpg" },
                 { name: "Cost-X", image: "/assets/logos/cost.jpg" },
@@ -1649,116 +1649,176 @@ export const stateData: Record<string, StatePageData> = {
     "illinois": {
         stateName: "Illinois",
         hero: {
-            title: "",
+            title: "Illinois Construction Estimating Services",
             description: [
-                "",
-                ""
+                "Illinois’s construction market is growing quickly. Because more people need homes, and the state is seeing many new investments. Construction adds a lot to the state’s economy, showing how important it is for jobs and development. At the same time, there is a housing shortage. The state will need to build over 227,000 new homes in the next five years to meet demand. This means there is a strong need for accurate construction estimation services. We  help them to plan projects, manage costs, and make sure materials are ready for all the new building work.",
+                "Whether you’re a homeowner trying to figure out if or a contractor prepping a competitive bid. If you have tried to plan a construction project in Illinois. You probably already know the feeling when a contractor gives you a price that sounds too good to be true. Other hands give you a quote that feels like it belongs on a different planet. You are stuck somewhere in the middle of it. That’s exactly why Paradise Estimating offers tailored construction estimating services throughout Illinois."
             ],
             image: "/assets/services.png"
         },
         uniqueApproach: {
-            heading: "",
+            heading: "Why Are We the Right Choice for Illinois Construction Estimating Services?",
             description: [
-                "",
-                ""
+                "Choosing the right construction estimation service in Illinois is important. A good estimate helps you avoid costly mistakes and stay within your budget. A good estimator gives you accurate numbers so you can plan your project with confidence. This saves time, reduces stress, and helps your project move forward smoothly. We make the process easy and give you the clear information you need to plan your work with confidence.",
+                "Careful planning is key to finishing projects on time. An accurate estimate helps you to stay within budget. A skilled estimator helps builders and contractors avoid costly mistakes, save money, and use resources wisely. Accurate estimates also make sure the right amount of materials is ordered. The projects must follow local building rules. We keep project costs under control and prevent overspending. Our estimators provide exact material quantities and reduce waste. We provide reliable information for budgeting and planning. With a good estimator, construction projects in Illinois run more smoothly. It successfully meets the needs of both builders and the community."
             ],
             points: [
-                "",
-                "",
-                "",
-                "",
-                "",
-                ""
+                "Fast and accurate material takeoffs",
+                "Easy-to-understand reports",
+                "Friendly support whenever you need help",
+                "Affordable pricing that fits your budget",
+                "Experience with all types of projects",
+                "Trustworthy & reliable estimates"
             ],
-            turnaroundTime: ""
+            turnaroundTime: "9-24 Hours"
         },
         reliableServices: {
-            heading: "",
+            heading: "Our Illinois Construction Estimating & Takeoff Services",
             description: [
-                "",
+                "Paradise Estimating is your trusted partner, providing the best services in Illinois. We offer accurate commercial, residential, and industrial estimating and takeoff services in Illinois. Our estimator works with general contractors, homeowners, and builders. We also deal with architects, subcontractors, and investors throughout the state. If you’re building it, renovating it, or trying to figure out what it costs, we can help.",
                 ""
             ],
             services: [
-                { title: "" },
-                { title: "" },
-                { title: "" },
-                { title: "" },
-                { title: "" },
-                { title: "" },
-                { title: "" },
-                { title: "" },
-                { title: "" },
-                { title: "" },
-                { title: "" },
-                { title: "" }
+                { title: "Commercial Estimation" },
+                { title: "Residential Estimation" },
+                { title: "Industrial Estimation" },
+                { title: "Cost Estimation" },
+                { title: "Quantity takeoff" },
+                { title: "Material Takeoff" },
+                { title: "Preliminary Estimation" },
+                { title: "Outsourcing Estimation" },
+                { title: "Lead Generation" },
+                { title: "Marketing for subcontractors" },
+
+
+
             ]
         },
         estimatesAndTakeoff: {
-            heading: "",
-            description: "",
+            heading: "Illinois Industrial, Commercial, Residential Estimating & Takeoff service",
+            description: "Paradise Estimating is providing the best services in Georgia. We offer the best commercial, residential, and industrial estimating service in Georgia. We have 20 years of experience in delivering accurate and reliable estimates. We have earned the confidence and trust of our customers in every kind of project.",
             cards: [
                 {
-                    title: "",
+                    title: "Residential Construction Estimating Service",
                     image: "/assets/building.webp",
-                    desc: "",
-                    points: ["", "", "", "", "", "", "", ""]
+                    desc: "Homes in Illinois come in all shapes. It may be classic Chicago two-flats, ranch-style houses, and brand-new developments. Renovations and additions are a big deal here. People want realistic pricing before jumping in. We provide estimates for:",
+                    points: ["New home construction", "Additions and expansions", "Kitchen remodels", "Bathroom upgrades", "Basement finishing", "Roofing, siding, doors, windows", "Whole-home renovations"]
+
+
+
+
+
+
+
+
                 },
                 {
-                    title: "",
+                    title: "Commercial Construction Estimating Service",
                     image: "/assets/choose.webp",
-                    desc: "",
-                    points: ["", "", "", "", "", "", "", "", ""]
+                    desc: "Illinois has a pretty diverse business landscape. It consists of restaurants, corporate offices, manufacturing, warehouses, retail centres, and medical offices. We provide estimates for:",
+                    points: ["Office build-outs", "Retail spaces", "Restaurants and bars", "Coffee shops", "Dental & medical clinics", "Warehouses and light industrial", "Strip mall renovations", "Tenant improvements"]
+
+
+
+
+
+
+
+
+
                 },
                 {
-                    title: "",
+                    title: "Industrial Construction Estimating Service",
                     image: "/assets/governmental.webp",
-                    desc: "",
-                    points: ["", "", "", "", "", "", "", ""]
+                    desc: "Our estimating company is one of the best companies in Illinois. Because our expert team provides customised solutions and reliable construction cost estimation service. The estimate we offer",
+                    points: ["Warehouses", "Power plants", "Chemical plants", "Water plants", "Oil and gas facilities", "Industrial buildings", "Heavy industrial structures"]
+
+
+
+
+
+
+
+
                 },
                 {
-                    title: "",
+                    title: "Material Takeoff services",
                     image: "/assets/takeoff.webp",
-                    desc: "",
-                    points: ["", "", "", "", "", "", "", "", ""]
+                    desc: "We review your plans and create a clear, easy-to-understand list of quantities. So you can budget and plan with confidence. We offer takeoff services for:",
+                    points: ["Concrete", "Masonry", "Lumber", "Drywall", "Flooring", "Roofing", "Electrical", "Plumbing", "HVAC"]
+
+
+
+
+
+
+
+
+
+
+
                 }
             ]
         },
         detailedServices: {
-            heading: "",
+            heading: "Our Specialized Trades in Illinois",
             description: [
-                "",
+                "Our takeoff service helps you know exactly how much material your project needs. We look at your plans carefully and create a clear list of quantities you can trust. This makes it easier for you to plan, save money, and avoid mistakes. With every passing year, industrial advancement creates a space for more developments, but contractors and subcontractors can’t go parallel. Our industrial estimators use advanced tools and software to meet your needs by giving you accurate cost estimation and takeoff service in Illinois. Each trade has its own set of materials, and we make sure every item is counted correctly. This helps you plan better and avoid surprises during your project.",
                 ""
             ],
             trades: [
-                "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""
+                "Concrete", "Masonry", "Sitework", "Earthwork", "Mechanical", "Electrical", "Plumbing", "HVAC", "Metals", "Thermal & moisture protection", "Doors & Windows", "Finishes", "Painting", "Drywall", "Flooring", "Roofing", "Wood/Plastic", "Lumber", "Waterproofing", "Fireproofing", "Landscaping",
             ]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         },
         ourClients: {
-            heading: "",
+            heading: "Clients we serve for Illinois Construction Estimating Service",
             description: [
-                "",
+                "When it comes to construction estimating in Illinois. We make sure you get results you can actually rely on. Our estimators are fully licensed, qualified, and focused on giving you precise numbers that keep your project on budget. We know how stressful timelines can get, so we work to stick to schedules and hit deadlines every time. Clients we deal with are",
                 ""
             ],
             clients: [
-                "", "", "", "", "", "", "", "", ""
+                "General contractors", "Subcontractors", "Homeowners", "Builders", "Developers", "Architects", "Vendor", "Retailers", "Developers"
             ]
         },
         process: {
-            heading: "",
-            description: "",
+            heading: "Our Process For Illinois Construction Estimating Service",
+            description: "We have 20 years of experience in delivering estimating services in Illinois. Our estimation process starts with carefully reviewing the project plans. We check every detail to understand what materials and work are needed. After that, we prepare a clear list of materials and costs. Finally, we double-check everything to make sure the numbers are accurate. We provide accurate and reliable numbers. Our estimates are 99% accurate. Contractors and subcontractors rely on our numbers. This process helps our clients plan well and avoid surprises during construction.",
             steps: [
-                "",
-                "",
-                "",
-                "",
-                "",
-                ""
+                "Review the project plans",
+                "Understand the materials ",
+                "Measure and calculate quantities",
+                "Prepare a clear list of materials and costs",
+                "Check all numbers for accuracy",
+                "Share the estimate for easy planning"
             ]
         },
         tools: {
-            heading: "",
+            heading: "Software We Use For Construction Estimating Service in Illinois",
             description: [
-                "",
+                "We provide the best construction estimation services at very affordable rates. Our experts ensure bid-winning results. We outrank our competitors due to our precise, accurate, and reliable estimation and takeoff services. Our professionals are well-trained and equipped to utilise multiple software like",
                 ""
             ],
             bidWinRatio: "",
@@ -1766,197 +1826,218 @@ export const stateData: Record<string, StatePageData> = {
                 { name: "Bluebeam", image: "/assets/logos/blue.jpg" },
                 { name: "Planswift", image: "/assets/logos/plan.jpg" },
                 { name: "RS Means", image: "/assets/logos/rs.jpg" },
-                { name: "Cost-X", image: "/assets/logos/cost.jpg" },
+
                 { name: "FastWRAP", image: "/assets/logos/fast.jpg" },
                 { name: "Cost-work", image: "/assets/logos/Coststimator_logo.jpg" },
                 { name: "Quest Estimating", image: "/assets/logos/quest.jpg" }
             ]
         },
         expertLocalService: {
-            heading: "",
+            heading: "Reliable and Budget-friendly Construction Estimating Service in Illinois",
             description: [
-                "",
-                ""
+                "Our estimation service in Illinois offers cost-effective pricing. It helps you save money while getting accurate results. We provide clear and detailed estimates. So you know exactly what you need without paying for unnecessary extras. Our goal is to make sure your project stays within budget and runs smoothly. You get high-quality service at a price that makes sense for your construction needs.",
+                "Our estimators are providing a local estimating service in Illinois. We understand the needs of builders and contractors in the area. Estimators are familiar with local materials, labour costs, and building codes. Our local experience helps us provide accurate and reliable estimates. By working closely with local projects, we can give you numbers you can trust. We help your project stay on schedule and within budget. This makes planning easier and saves you time and money."
             ],
             image: "/assets/aboutus.webp"
         },
         faq: {
             items: [
                 {
-                    question: "",
-                    answer: ""
+                    question: "What does a construction estimating service do?",
+                    answer: "Construction estimating service is helping you to know how much material, labor, and cost your project needs."
                 },
                 {
-                    question: "",
-                    answer: ""
+                    question: "Why do I need an estimate?",
+                    answer: "An estimate helps you stay on budget, order the right materials, and avoid costly mistakes. It prevents you from unwanted surprises."
                 },
                 {
-                    question: "",
-                    answer: ""
+                    question: "Do you handle all types of projects?",
+                    answer: "Yes, we provide estimates for commercial, residential, and industrial projects. We also offer material takeoff all over Illinois."
                 },
                 {
-                    question: "",
-                    answer: ""
+                    question: "How accurate are your estimates?",
+                    answer: "We carefully check your plans and calculate everything. To ensure our estimates are precise and reliable."
                 },
                 {
-                    question: "",
-                    answer: ""
+                    question: "How long will it take to get an estimate?",
+                    answer: "Our turnaround time is about 9-24 hours. It depends on the size, type, and complexity of the project."
                 },
                 {
-                    question: "",
-                    answer: ""
+                    question: "Can you help with budgeting?",
+                    answer: "Yes. Our estimators give you accurate numbers. So you can plan your budget confidently and avoid unwanted surprises."
                 },
                 {
-                    question: "",
-                    answer: ""
+                    question: "Do you serve all areas in Illinois?",
+                    answer: "Yes, we work in major cities as well as smaller towns throughout the state. That's why no matter where your project is, we can help you. We help you to build your dream project without unnecessary worries."
                 }
             ]
         },
         cta: {
-            heading: ""
+            heading: "We can help you get accurate numbers you can trust. No guesswork, no fluff, no confusing spreadsheets. Contact Us. Upload your plan and get a quote."
         },
         portfolio: {
-            heading: "",
+            heading: "Our Portfolio",
             description: [
-                "",
-                ""
+                "At Paradise Estimating Service in Illinois, we take pride in helping clients. Our clients are builders, contractors, and developers. We help them to plan their projects with accuracy and confidence. Our portfolio includes a wide range of projects. From residential homes and commercial buildings to large industrial facilities. We focus on providing precise material takeoffs, cost estimates, and planning support. Our estimate makes every project run smoothly.",
+                "We are a combination of local knowledge with professional expertise.  Paradise Estimating has become a trusted partner for successful construction projects across Illinois. We offer services in Illinois, which are HVAC estimating service in Illinois and plumbing estimating. MEP estimating, residential estimating services, and piping estimating in Illinois. We also take care of lumber takeoff, drywall estimating, mechanical estimating, and roofing estimating services in Illinois. Framing estimating, commercial estimating, and electrical estimating services are also provided by us in Illinois."
             ],
             items: [
                 {
-                    heading: "",
-                    answer: ""
+                    heading: "Electrical estimating Service for subcontractors in Springfield, Illinois",
+                    answer: "Electrical work is contracted out to a subcontractor in Springfield, Illinois. It includes the installation of electrical wiring. Our estimators also provide panel setups, lighting fixtures, and a backup generator system. We provide the best electrical estimating service in Illinois."
                 },
                 {
-                    heading: "",
-                    answer: ""
+                    heading: "Plumbing Estimating Service in Peoria, Illinois",
+                    answer: "Plumbing is handled by a subcontractor in Peoria. It involves running water supply piping and sewer lines. It also includes installing fixtures such as sinks and toilets. Our estimators provide accurate material takeoff and cost estimation in Illinois."
                 },
                 {
-                    heading: "",
-                    answer: ""
+                    heading: "HVAC Estimating Service in Rockford, Illinois",
+                    answer: "For HVAC, the subcontractor in Rockford will handle the installation of ductwork, air conditioning units, and heating units. Paradise Estimating offers HVAC estimation services to subcontractors in Illinois. Contact us and get your results with 100% accuracy."
+                },
+                {
+                    heading: "Lumber Estimating  & Takeoff Services in Aurora, Illinois",
+                    answer: "Carpentry work involving framing, drywall installation, and finishing. It will be carried out by contractors & subcontractors based in Aurora. Being expert estimators with 20 years of experience, we deliver lumber takeoff service. Our clients are contractors, subcontractors, homeowners, builders, and developers."
+                },
+                {
+                    heading: "Roof Cost & Takeoff Estimating Service in Joliet, Illinois",
+                    answer: "We provide roofing cost estimation and takeoff service to Joliet-based clients. Our clients are contractors, subcontractors, builders, developers, and homeowners. In our estimation, the roofing cost is estimated. It includes asphalt shingles, insulation for the roof, and necessary flashing and seals."
                 }
             ]
         },
         areaNearMe: {
-            heading: "",
+            heading: "Illinois Construction Estimating Service Near Me",
             description: [
-                "",
-                ""
+                "We provide our estimation services across many areas in Illinois. Our team works with contractors and builders in cities, towns, and surrounding communities. That's why we make sure every project gets accurate estimates. So planning is easier, and costs stay under control. No matter where you are in Illinois. Our local knowledge and experience are ready to support your construction needs.",
+                "We work across the state in Chicago, Aurora, Naperville, Rockford, and Joliet. Estimators also serve in Springfield, Peoria, Elgin, Waukegan, Champaign, Bloomington, and Decatur. We also serve the surrounding towns and smaller communities throughout the state. We are making sure every project gets accurate estimates and reliable support."
             ]
         }
     },
     "arizona": {
         stateName: "Arizona",
         hero: {
-            title: "",
+            title: "Arizona Construction Estimating Service",
             description: [
-                "",
-                ""
+                "The construction estimating market in Arizona is growing. Because the state is building a lot of new homes and large industrial facilities. As more projects get started, contractors, subcontractors, and developers need accurate cost estimates. We help them to plan budgets, manage material, and make sure projects stay on track. Arizona is a big city. Due to its fast-growing population and steady business expansion. The demand for new developments remains high. That’s why there is a need for a reliable construction estimating service.",
+                "Paradise Estimating is the best local estimator in Arizona. We are providing commercial, residential, and industrial estimations and takeoff services. Arizona’s market is busy and competitive. It provides plenty of opportunities for esteemed professionals. If you have tried to plan a construction project in Arizona. You already know that contractors give you prices. That is way more than your expectations and your set budget. That’s why Paradise Estimating offers customized construction estimating services throughout Arizona. Our team is a blend of field experience, practical knowledge, and accuracy."
             ],
             image: "/assets/services.png"
         },
         uniqueApproach: {
-            heading: "",
+            heading: "Why Choosing the Right Arizona Construction Estimating Service Is Essential",
             description: [
-                "",
-                ""
+                "Arizona is a fast-growing state and is in need of experienced construction estimators. Because careful planning is key to finishing projects on time. With careful estimates, you can stay within budget. We are the #1 local estimator in Arizona. With 20 years of experience and an expert team, you can avoid mistakes. With us you can save money and prepare a list of materials wisely. Paradise Estimating makes sure the projects follow local building rules.",
+                "We provide accurate and reliable construction cost estimation and takeoff services. We give you a detailed analysis and accurate calculation. Our estimators pay proper attention to trouble-making factors. That reduces the risk of unwanted delays and expenses. With an expert estimator, construction estimation projects in Arizona run more smoothly."
             ],
             points: [
-                "",
-                "",
-                "",
-                "",
-                "",
-                ""
+                "100% accuracy with Trust",
+                "Budget-Friendly pricing",
+                "Licensed Estimators",
+                "Meet the deadlines",
+                "Deliver custom solutions",
+                "24/7 available"
             ],
-            turnaroundTime: ""
+            turnaroundTime: "9-24 hours"
         },
         reliableServices: {
-            heading: "",
+            heading: "Our Specialized Construction Estimating Services in Arizona",
             description: [
-                "",
+                "Paradise Estimating provides the best services in Arizona. We have been working in Arizona for more than 20 years. We offer accurate commercial, residential, and industrial estimating and takeoff services in Arizona. We work with general contractors, homeowners, builders, and architects throughout the state. Our estimates are detailed and accurate. We provide estimates that prevent money & time loss. Being local estimators, we have proper knowledge of the market. That's why contractors & subcontractors trust our numbers. We can help.",
                 ""
             ],
             services: [
-                { title: "" },
-                { title: "" },
-                { title: "" },
-                { title: "" },
-                { title: "" },
-                { title: "" },
-                { title: "" },
-                { title: "" },
-                { title: "" },
-                { title: "" },
-                { title: "" },
-                { title: "" }
+                { title: "Commercial Estimation" },
+                { title: "Residential Estimation" },
+                { title: "Industrial Estimation" },
+                { title: "Material Takeoff Services" },
+                { title: "Cost Estimation" },
+                { title: "Quantity Takeoff service" },
+                { title: "Outsourcing Estimation" },
+                { title: "Lead Generation" },
+                { title: "Marketing for subcontractors" },
+                { title: "Preliminary Estimation Service" },
+
             ]
         },
         estimatesAndTakeoff: {
-            heading: "",
-            description: "",
+            heading: "Arizona Commercial, residential, Industrial & Takeoff Service",
+            description: "Paradise Estimating is your reliable partner in Arizona. If you need an accurate estimation of labour, cost and material for your project. Get our services to run your project smoothly. Our numbers are 99% accurate and realistic. We deliver no fancy words.",
             cards: [
                 {
-                    title: "",
+                    title: "Residential Estimating Service",
                     image: "/assets/building.webp",
-                    desc: "",
-                    points: ["", "", "", "", "", "", "", ""]
+                    desc: "We help homeowners and contractors to understand the true cost of a project. We help them with clear, accurate, and detailed estimates. People want realistic pricing before starting a project. We provide estimates for:",
+                    points: ["New home", "Home additions", "Home expansions", "Kitchen remodelling", "Bathroom upgrading", "Basement finishes work", "Roofing & siding", "Doors & windows",]
+
                 },
                 {
-                    title: "",
+                    title: "Commercial Estimating Service",
                     image: "/assets/choose.webp",
-                    desc: "",
-                    points: ["", "", "", "", "", "", "", "", ""]
+                    desc: "Arizona is a fast-growing state. Due to its speedy development, it needs good estimators. We provide precise cost evaluation for large-scale projects. We provide estimates for:",
+                    points: ["Executive Office", "Retail stores", "Restaurants", "Coffee shops ", "Dental & medical clinics", "Warehouses", "Light industrial", "Shopping centres", "Tenant improvements"]
+
+
+
                 },
                 {
-                    title: "",
+                    title: "Industrial Estimating Service",
                     image: "/assets/governmental.webp",
-                    desc: "",
-                    points: ["", "", "", "", "", "", "", ""]
+                    desc: "Our expert estimators deliver accurate cost evaluations for complex facilities. We are providing customised solutions and delivering reliable construction estimation services. The estimate we offer is 99% accurate and realistic.",
+                    points: ["Warehouses", "Power plants", "Chemical plants", "Water plants", "Oil and gas facilities", "Industrial buildings", "Heavy industrial structures"]
+
+
                 },
                 {
-                    title: "",
+                    title: "Material Takeoff Service",
                     image: "/assets/takeoff.webp",
-                    desc: "",
-                    points: ["", "", "", "", "", "", "", "", ""]
+                    desc: "Paradise Estimating deals with cost estimation and takeoff service in Arizona.  When you upload your plan, we make a proper review and prepare a list of material. So you can start your project with confidence. We offer takeoff services for:",
+                    points: ["Concrete takeoffs", "Masonry takeoffs", "Lumber takeoff ", "Drywall ", "Roofing ", "Electrical ", "Plumbing ", "HVAC takeoffs", "Sitework & flooring",]
+
+
+
                 }
             ]
         },
         detailedServices: {
-            heading: "",
+            heading: "Our Specialized Trades in Arizona",
             description: [
-                "",
+                "Trades in construction are the different types of work needed to build a project. Each trade has its own set of materials, and we make sure every item is counted correctly. We help you to get an accurate material list required for your project. We create a clear and precise list of quantities you can trust. This makes it easier for you to plan, save money, and avoid mistakes. This helps you plan better and avoid surprises during your project.",
                 ""
             ],
             trades: [
-                "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""
+                "Concrete", "Masonry", "Sitework", "Earthwork", "Mechanical", "Electrical", "Plumbing", "HVAC", "Metals", "Doors & Windows", "Finishes", "Painting", "Drywall", "Flooring", "Roofing", "Wood/Plastic", "Lumber", "Waterproofing", "Fireproofing", "Landscaping"
             ]
+
+
+
+
+
         },
         ourClients: {
-            heading: "",
+            heading: "Clients For Arizona Construction Estimating Service",
             description: [
-                "",
+                "Paradise Estimating has been providing estimating services for more than 20 years. We deliver services to everyone in Arizona. We make sure you get results you can actually rely on. Our estimators are fully licensed, qualified, and focused on giving you precise numbers that keep your project on budget. We know how stressful timelines can get, so we work to stick to schedules and hit deadlines every time. Clients we deal with are",
                 ""
             ],
             clients: [
-                "", "", "", "", "", "", "", "", ""
+                "General contractors", "Subcontractors", "Homeowners", "Builders", "Developers", "Architects", "Vendor", "Retailers", "Developers"
             ]
         },
         process: {
-            heading: "",
-            description: "",
+            heading: "Our Process for Arizona Construction Estimating Service",
+            description: "We follow a detailed and transparent process for construction estimation. Our work begins with a thorough review of the project plans. When it comes to construction projects, having a transparent and detailed estimating service is absolutely key to ensuring everything runs smoothly. We are expert construction estimators that break down the costs in a clear and organised manner, giving clients honest details and a no-surprises breakdown of materials. Our estimators also take care of labor, permits, and any additional expenses. We pay special attention to specifications and client requirements. To ensure that we fully understand the scope of your project. After that, we prepare a clear list of materials and methods. And also providing them takeoff service for labour and quantities.  Finally, we check everything to make sure the numbers are accurate. This process helps our clients.",
             steps: [
-                "",
-                "",
-                "",
-                "",
-                "",
-                ""
+                "Review your plans",
+                "Understand the scope",
+                "Prepare a list of materials & methods",
+                "Takeoff service for material and labor",
+                "Double-check all numbers for accuracy",
+                "Share the estimate"
             ]
         },
         tools: {
-            heading: "",
+            heading: "Software We Use For Arizona Construction Estimating Service",
             description: [
-                "",
+                "Paradise Estimating has 20 years of hands-on experience. We are delivering accurate numbers with precision. With each passing year, new advancements create a space for more developments, but contractors and subcontractors can’t go parallel. Our industrial estimators use advanced tools and software to meet your needs. We are giving you accurate cost estimation and takeoff service. Our estimators use the following tools & software for construction estimating services.",
                 ""
             ],
             bidWinRatio: "",
@@ -1966,201 +2047,233 @@ export const stateData: Record<string, StatePageData> = {
                 { name: "RS Means", image: "/assets/logos/rs.jpg" },
                 { name: "Cost-X", image: "/assets/logos/cost.jpg" },
                 { name: "FastWRAP", image: "/assets/logos/fast.jpg" },
-                { name: "Cost-work", image: "/assets/logos/Coststimator_logo.jpg" },
+
                 { name: "Quest Estimating", image: "/assets/logos/quest.jpg" }
             ]
         },
         expertLocalService: {
-            heading: "",
+            heading: "Local Cost-Effective Arizona Construction Estimating Service",
             description: [
-                "",
-                ""
+                "Our estimation service in Arizona offers affordable pricing. It saves your money while getting accurate results. We provide clear and detailed estimates. So you know exactly what you need without paying for unnecessary extras. Our goal is to run your project smoothly without wasting your money. We believe in long-term relations with our clients. You get high-quality service at a very affordable price. It meets the needs of your construction projects.",
+                "Paradise Estimating is the local company in Arizona. We provide services to contractors and subcontractors. Because we truly understand the needs of builders and contractors in the area. We are familiar with local materials, labour costs, and building codes, which helps us provide accurate and reliable estimates. When you work with us, we give you exact numbers. That's why you can trust and help your project stay on schedule and within budget."
             ],
             image: "/assets/aboutus.webp"
         },
         faq: {
             items: [
                 {
-                    question: "",
-                    answer: ""
+                    question: "How accurate are your estimates?",
+                    answer: "After checking your plans and calculating everything. Our estimators ensure our estimates are precise, reliable, and accurate. Our estimates stay close to accuracy."
                 },
                 {
-                    question: "",
-                    answer: ""
+                    question: "Why did I choose your estimating service?",
+                    answer: "We are one of the best estimating companies in Arizona. We have 20 years of experience in local estimating service. We help you stay on budget, order the right materials, and avoid costly mistakes. Our estimates prevent you from unwanted expenses."
                 },
                 {
-                    question: "",
-                    answer: ""
+                    question: "What is your turnaround time for a normal-sized project?",
+                    answer: "Our turnaround time for a normal-sized project is 9-24 hours. It totally depends on the size, type, complexity, and scope of the project."
                 },
                 {
-                    question: "",
-                    answer: ""
+                    question: "Do you serve all areas in Arizona?",
+                    answer: "Yes, we work in major cities as well as smaller towns throughout the state. So no matter where your project is. We can help you build your dream project without unnecessary worries"
                 },
                 {
-                    question: "",
-                    answer: ""
+                    question: "What does a construction estimating service do?",
+                    answer: "Our estimating service helps you to understand the exact cost of your project. We give you clear and accurate numbers of materials and labour your project needs"
                 },
                 {
-                    question: "",
-                    answer: ""
+                    question: "Can you help with budgeting?",
+                    answer: "Yes. Our estimators give you accurate numbers. So you can plan your budget confidently and avoid unwanted surprises."
                 },
                 {
-                    question: "",
-                    answer: ""
+                    question: "What kind of projects do you handle?",
+                    answer: "We provide estimates for every kind of project. Whether it is commercial, residential, or industrial, and material takeoffs all over Arizona."
                 }
             ]
         },
         cta: {
-            heading: ""
+            heading: "Are you in need to get accurate numbers for your project ? You can trust us. No guesswork, provide custom solution. Contact Us."
         },
         portfolio: {
-            heading: "",
+            heading: "Our Portfolio",
             description: [
-                "",
-                ""
+                "Our portfolio includes a wide range of projects. From residential and commercial to all industrial projects. At Paradise Estimating, we help builders, contractors, and developers. We help them to plan their projects with 100% accuracy and confidence. We focus on providing precise material takeoffs and cost estimates. Our estimators are planning support that makes every project run smoothly.",
+                "We are the combination of local knowledge with professional expertise. Paradise Estimating has become a trusted partner for successful construction projects across Arizona. We offer services in Arizona. It includes HVAC estimating service, plumbing estimating, MEP estimating, residential estimating services, piping estimating, lumber takeoff service, drywall estimating services, mechanical estimating, roofing estimating services, framing estimating, commercial estimating in Arizona, and electrical estimating services in Arizona."
             ],
             items: [
                 {
-                    heading: "",
-                    answer: ""
+                    heading: "Concrete Estimating Service in Phoenix, Arizona",
+                    answer: "Concrete estimating is specialized for contractors in Phoenix, Arizona. It includes estimations for foundations, slabs, footings, and reinforcement. We provide the best concrete estimating service in Arizona. Contact us and get an accurate estimating service."
                 },
                 {
-                    heading: "",
-                    answer: ""
+                    heading: "Masonry Estimating Service in Tucson, Arizona",
+                    answer: "Masonry in Tucson is handled by a subcontractor. It involves estimating for bricks, blocks, and stonework. Our estimators provide accurate material takeoff and cost estimation in Arizona."
                 },
                 {
-                    heading: "",
-                    answer: ""
+                    heading: "HVAC Estimating Service in Mesa, Arizona",
+                    answer: "In Mesa, HVAC estimation is handled by the subcontractor. It involves the installation of ductwork, air conditioning units, and heating units. Paradise Estimating offers HVAC estimation services to subcontractors in Arizona. Contact us and get your results with 100% accuracy."
+                },
+                {
+                    heading: "Interior & exterior finishes in Gilbert, Arizona",
+                    answer: "We are offering estimates for paintings, drywall, plaster, stucco, and decorative coatings. It will be carried out by contractors & subcontractors based in Gilbert. Being expert estimators with 20 years of experience, we deliver accurate services. We offer services for contractors, subcontractors, homeowners, builders, and developers."
+                },
+                {
+                    heading: "Metal Estimating Service in Scottsdale, Arizona",
+                    answer: "We provide estimation and takeoff services to Scottsdale-based contractors. In Arizona we also serve subcontractors, builders, developers, and homeowners. In our estimation, we deal with steel, beams, girders, rebar, and other metal trades."
                 }
             ]
         },
         areaNearMe: {
-            heading: "",
+            heading: "Arizona Construction Estimating Service Near Me",
             description: [
-                "",
-                ""
+                "We provide our estimation services across many areas in Arizona. Our team works with contractors and builders. We offer services in cities, counties, towns, and surrounding communities. We make sure every project gets accurate estimates. So planning is easier, and costs stay under control. No matter where you are in Arizona. Our local knowledge and experience are ready to support your construction needs.",
+                "We work across the state in Phoenix, Tucson, Mesa, Gilbert, Chandler, and Glendale. Scottsdale, Peoria, Tempe, Surprise, Buckeye, San Tan Valley, and Yuma are also served by us. We also provide our estimating services in different counties of Arizona. Counties include Maricopa County, Apache County, Greenlee County, Navajo County, and Graham County. Mohave County, Pima County, Yavapai County, and Coconino County are also served by us. We offer services in Gila County, La Paz County, Yuma County, Cochise County, and Pinal County."
             ]
         }
     },
     "north-carolina": {
         stateName: "North Carolina",
         hero: {
-            title: "",
+            title: "North Carolina Construction Estimating Service",
             description: [
-                "",
-                ""
+                "Construction estimation services matter a lot in North Carolina. Because people want to know what they are getting into before a project begins. No one wants to start a job blind. When builders and developers have a clear idea of the actual cost. Everything becomes easier. The construction industry here is huge and still growing. That means a lot of companies depend on solid cost planning to stay ahead. As more developmental projects are undertaken. The need for dependable estimating services naturally grows, too. A good estimate can really guide contractors in the right direction. Helping them make smart choices and build better bids. Keep their work on schedule without running over budget.",
+                "Paradise Estimating does not just give you numbers and walk away. Our team checks all the details, including material costs, labor, and prices. We turn them into estimates that really make sense. Contractors often feel relaxed working with real numbers instead of guessing. Working with us doesn’t feel like hiring a service. It feels more like having someone quietly on your side who wants your project to succeed just as much as you do. They bring clarity, calm, and a kind of quiet confidence from day one, and in this business, that is worth a lot."
             ],
             image: "/assets/services.png"
         },
         uniqueApproach: {
-            heading: "",
+            heading: "Why Choose Our Construction Estimating Service in North Carolina?",
             description: [
-                "",
+                "Why choose us in North Carolina? Honestly, it’s not just about numbers or reports. It’s about showing up, paying attention, and actually caring about your project like it’s our own. We know this state; it's the ups and downs of the local market. Little things that can throw a project off if you’re not careful. People often tell us it’s refreshing to work with a team that feels real. Those who listen and get that deadlines and budgets can be stressful. We bring honesty, focus, and a little bit of calm to the chaos, and maybe a touch of humour when things get tricky. At the end of the day, choosing us means choosing someone who will be in your corner. Rolling up sleeves and figuring it out with you.",
                 ""
             ],
             points: [
-                "",
-                "",
-                "",
-                "",
-                "",
-                ""
+                "98-99% accuracy with Trust",
+                "Budget-Friendly pricing",
+                "Licensed Estimators",
+                "Meet the deadlines",
+                "Deliver custom solutions",
+                "24/7 available"
             ],
-            turnaroundTime: ""
+            turnaroundTime: "9-24 Hours"
         },
         reliableServices: {
-            heading: "",
+            heading: "North Carolina Construction Estimating & Takeoff Services",
             description: [
-                "",
+                "Whether it is residential, commercial, or industrial construction, estimation. Accurate estimation is an essential and compulsory step for all kinds of projects. Paradise Estimation has an expert and skilled team with years of experience. We are offering a consultation & construction cost estimation service. That is enhancing the efficiency and accuracy of your projects. Paradise Estimation leads a team of professional estimators. We analyse deeply and deliver proper solutions specific to the project.",
                 ""
             ],
             services: [
-                { title: "" },
-                { title: "" },
-                { title: "" },
-                { title: "" },
-                { title: "" },
-                { title: "" },
-                { title: "" },
-                { title: "" },
-                { title: "" },
-                { title: "" },
-                { title: "" },
-                { title: "" }
+                { title: "Cost Estimation" },
+                { title: "Commercial Estimation" },
+                { title: "Residential Estimation" },
+                { title: "Industrial Estimation" },
+                { title: "Material Takeoff Service" },
+                { title: "Quantity Takeoff Service" },
+                { title: "Preliminary Estimation Service" },
+                { title: "Outsourcing Estimation" },
+                { title: "Lead Generation" },
+                { title: "Subcontractors marketing" },
+                { title: "Consultation" },
+
             ]
         },
         estimatesAndTakeoff: {
-            heading: "",
-            description: "",
+            heading: "North Carolina Commercial, residential, Industrial & Takeoff Service",
+            description: "Paradise Estimating is your reliable partner in North Carolina. If you need an accurate estimation of labour, cost and material for your project. Get our services to run your project smoothly. Our numbers are 99% accurate and realistic. We deliver no fancy words.",
             cards: [
                 {
-                    title: "",
+                    title: "Residential Construction Estimates",
                     image: "/assets/building.webp",
-                    desc: "",
-                    points: ["", "", "", "", "", "", "", ""]
+                    desc: "Whether you are building a home or renovating it, it's a big deal. Our residential estimating services help you understand every cost from foundation to finishes. We make accurate estimates of materials and labour. So you know exactly where your money is going. We cover",
+                    points: ["New home construction", "Home additions", "Kitchen renovation", "Bathroom remodelling", "Roofing & Siding", "Windows & doors", "Flooring", "Basement & Finishes work"]
+
+
+
+
+
+
+
+
+
                 },
                 {
-                    title: "",
+                    title: "Commercial Construction Estimates",
                     image: "/assets/choose.webp",
-                    desc: "",
-                    points: ["", "", "", "", "", "", "", "", ""]
+                    desc: "Commercial construction estimation is different from residential construction’s estimation. Whether you’re working on a new project or renovating an old one. We provide detailed takeoffs and cost estimation in North Carolina.",
+                    points: ["Office building", "Retail stores", "Restaurants", "Cafés", "Pharmacy", "Warehouses", "Light industrial", "Shopping centres"]
+
+
+
                 },
                 {
-                    title: "",
+                    title: "Industrial Estimating Service",
                     image: "/assets/governmental.webp",
-                    desc: "",
-                    points: ["", "", "", "", "", "", "", ""]
+                    desc: "Industrial projects are a big investment. We carefully estimate materials. That's why we try to keep everything on schedule and within budget. Even when the unexpected occurs, we continue to move forward. We provide estimation services for",
+                    points: ["Warehouses", "Power plants", "Chemical plants", "Water plants", "Waste management plant", "Oil and gas factories", "Industrial projects", "Large-scale industrial structure"]
+
+
+
                 },
                 {
-                    title: "",
+                    title: "Material Takeoffs Service",
                     image: "/assets/takeoff.webp",
-                    desc: "",
-                    points: ["", "", "", "", "", "", "", "", ""]
+                    desc: "We carefully examine your drawings and measure all of your requirements. In this manner, nothing is left to chance before work even begins, and you know exactly what to order. Takeoff services we offer",
+                    points: ["Roofing", "Drywall", "Plumbing", "Electrical", "MEP", "Steel", "Metal", "Painting", "Masonry", "Concrete"]
+
+
+
+
                 }
             ]
         },
         detailedServices: {
-            heading: "",
+            heading: "Trades We Offer In North Carolina",
             description: [
-                "",
+                "Our company is the best estimating company. It has professional, expert, and experienced construction estimators in North Carolina. Each trade comes with its own materials, and we ensure every item is accurately accounted for. We provide a detailed and reliable material list for your project. We are making it easier to plan, control costs, and prevent errors. This helps you to run your plan smoothly and avoid unexpected issues as your project progresses.",
                 ""
             ],
             trades: [
-                "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""
+                "Concrete", "Masonry", "Sitework", "Earthwork", "Mechanical", "Electrical", "Plumbing", "HVAC", "Metals", "Doors & Windows", "Finishes", "Painting", "Drywall", "Flooring", "Roofing", "Wood/Plastic", "Lumber", "Waterproofing", "Fireproofing", "Landscaping"
             ]
+
+
         },
         ourClients: {
-            heading: "",
+            heading: "Our Clients For North Carolina Construction Estimating Service",
             description: [
-                "",
-                ""
+                "Paradise Estimation Company is the #1 construction estimation company in North Carolina. We proudly serve a wide range of clients in North Carolina. Our construction estimators ensure a 98% bid-winning ratio. Our team assists clients with precise estimation to win bids for every kind of project. Customer satisfaction is our topmost priority. Our expert team always satisfies its clients with accurate estimations.",
+                "Our clients are:"
             ],
             clients: [
-                "", "", "", "", "", "", "", "", ""
+                "General Contractors", "Subcontractors", "Architects", "Developers", "Homeowners", "Retailers", "Vendors"
             ]
+
+
+
         },
         process: {
-            heading: "",
-            description: "",
+            heading: "Process We Follow for Estimating Service in North Carolina",
+            description: "Paradise Estimating is one of the top-rated companies in North Carolina. We provide expert estimating services for a wide range of construction projects. Whether you are a general contractor, a homeowner planning, or a developer. We provide customised services to your needs. Our goal is to give you clear, accurate, and reliable numbers. Our accuracy rate is 99%. So you can plan your project right and avoid surprises. Giving contractors accurate estimates at a fair price. Being local also means faster communication and quicker turnaround. Our turnaround time is 9-24 hours. We are making your project planning smoother. Our estimators try to keep things within the cost.",
             steps: [
-                "",
-                "",
-                "",
-                "",
-                "",
-                ""
+                "We properly look at the project plans.",
+                "Our estimators calculate materials needed for the project.",
+                "We provide cost and labour takeoff according to local pricing.",
+                "Create easy-to-read reports ready for bidding",
+                "Double-check every detail to get an accurate estimate.",
+                "Provide revisions if needed."
             ]
         },
         tools: {
-            heading: "",
+            heading: "Software & Tools We Used For Construction Estimating Service",
             description: [
-                "",
+                "We provide the best construction estimation services in North Carolina. Our services are at very affordable rates. Our experts ensure 98% bid-winning results. We outrank our competitors. Because of our precise, accurate, and reliable estimation and takeoff services. Our estimators use multiple software programs like ",
                 ""
             ],
-            bidWinRatio: "",
+            bidWinRatio: "98%",
             toolsList: [
                 { name: "Bluebeam", image: "/assets/logos/blue.jpg" },
-                { name: "Planswift", image: "/assets/logos/plan.jpg" },
+
                 { name: "RS Means", image: "/assets/logos/rs.jpg" },
                 { name: "Cost-X", image: "/assets/logos/cost.jpg" },
                 { name: "FastWRAP", image: "/assets/logos/fast.jpg" },
@@ -2169,75 +2282,396 @@ export const stateData: Record<string, StatePageData> = {
             ]
         },
         expertLocalService: {
-            heading: "",
+            heading: "Reliable Local Service, Competitive Cost in North Carolina",
             description: [
-                "",
-                ""
+                "Estimators of our team look at everything, like costs, labor, and local market trends. Even the small details can cause problems if they are missed. Paradise Estimating is the best local estimating service provider in North Carolina. We put it all together into estimates that are easy to understand. So you can plan your budget without guessing. Our team also helps with scheduling, tracking, and keeping the project moving. When unexpected things happen. Our goal is to run your project smoothly and to make sure you feel confident every step of the way.",
+                "Paradise Estimation provides cost estimation and consultation services for construction and takeoff services. We facilitate the contractors and subcontractors with our trade-specific services. We always deliver pocket-friendly services with accuracy."
             ],
             image: "/assets/aboutus.webp"
         },
         faq: {
             items: [
                 {
-                    question: "",
-                    answer: ""
+                    question: "What does a construction estimator do?",
+                    answer: "Estimators analyze and provide takeoff services. Our team takes your blueprints or plans and breaks down every cost. So you know the exact amount, with no surprises later on."
                 },
                 {
-                    question: "",
-                    answer: ""
+                    question: "How long does it take to get an estimate?",
+                    answer: "It depends on the size and complexity of your project. Most of our clients receive their estimates within 9-12 hours."
                 },
                 {
-                    question: "",
-                    answer: ""
+                    question: "Do you handle estimates for both residential and commercial projects?",
+                    answer: "We work on all kinds of projects in North Carolina. From homes, restaurants, and office buildings to large industrial developments."
                 },
                 {
-                    question: "",
-                    answer: ""
+                    question: "What do I need to give you to get started?",
+                    answer: "We need your project plans, which could be blueprints or handmade drawings. You can send your files by email or through our website."
                 },
                 {
-                    question: "",
-                    answer: ""
+                    question: "How much do your estimating services cost?",
+                    answer: "Our pricing depends on the size and complexity of the project. We always keep our rates fair and pocket-friendly. Once we look over your plans, we’ll give you a clear quote: no hidden fees, no surprises."
                 },
-                {
-                    question: "",
-                    answer: ""
-                },
-                {
-                    question: "",
-                    answer: ""
-                }
+
             ]
         },
         cta: {
-            heading: ""
+            heading: "For winning more bids, contact us. Get a quote, upload your plans, and receive detailed estimates in 24 hours. Get the best estimating service in North Carolina."
         },
         portfolio: {
-            heading: "",
+            heading: "Our Portfolio",
             description: [
-                "",
+                "Our reliable estimators provide comprehensive services, accurate takeoffs, and local pricing estimates. Our construction estimators in North Carolina have years of experience in construction. Not just behind a desk. We know what it takes to actually build in North Carolina, from the materials that last in humid climates to the codes that keep structures storm-safe. With years of experience, we have built a solid reputation for delivering accurate estimates. We offer residential, commercial, industrial, and material takeoff services. North Carolina provides customised and accurate construction estimating services in different areas of  North Carolina. Our estimators provide accurate pricing so you feel confident about the entire process from start to finish. Estimators of our company provide the right estimating service, avoid unexpected costs down the road, and keep your project on track and within budget.",
                 ""
             ],
             items: [
                 {
-                    heading: "",
-                    answer: ""
+                    heading: "Mechanical Estimation Service in Goldsboro, North Carolina",
+                    answer: "Our mechanical estimators provide detailed estimates and quantity takeoffs. Our MEP estimating service includes sheet metal, chillers, boilers, heat pumps, lighting, fireproofing, fire protection, and moisture protection."
                 },
                 {
-                    heading: "",
-                    answer: ""
+                    heading: "Electrical estimating Service in Concord, North Carolina",
+                    answer: "We offer electrical estimation and takeoff services in North Carolina. It includes the installation of electrical wiring, panel setups, lighting fixtures, and a backup generator system. We provide the best electrical estimating service in North Carolina."
                 },
                 {
-                    heading: "",
-                    answer: ""
+                    heading: "Plumbing Estimating Service in Charlotte, North Carolina",
+                    answer: "Plumbing, which will be handled by a subcontractor in Charlotte, involves running water supply piping and sewer lines and installing fixtures such as sinks and toilets. Our estimators provide accurate material takeoff and cost estimation in North Carolina."
+                },
+                {
+                    heading: "HVAC Estimating Service in Wilmington, North Carolina",
+                    answer: "For HVAC, the subcontractor in Wilmington will handle the installation of ductwork, air conditioning units, and heating units. Paradise Estimating offers HVAC estimation services to subcontractors in North Carolina. Contact us and get your results with 99% accuracy."
+                },
+                {
+                    heading: "Lumber cost & takeoff service in Durham, North Carolina",
+                    answer: "Carpentry work, such as framing, drywall installation, and finishing, will be carried out by contractors & subcontractors based in Aurora. Being expert estimators with 20 years of experience. We deliver lumber takeoff service for contractors, subcontractors, homeowners, builders, and developers."
                 }
             ]
         },
         areaNearMe: {
-            heading: "",
+            heading: "North Carolina Construction Estimating Service Near Me",
             description: [
-                "",
-                ""
+                "We provide expert estimation services in North Carolina. Our team works with contractors and builders in cities, counties, towns, and surrounding communities. We make sure every project gets accurate estimates so planning is easier and costs stay under control. No matter where you are in Arizona, our local knowledge and experience are ready to support your construction needs.",
+                "We are the best local estimators in North Carolina. We provide our services in different areas of North Carolina, including Charlotte, Raleigh, Wilmington, Fayetteville, Chapel Hill, Cary, Winston-Salem, and New Bern. Mooresville, Gastonia, Goldsboro, Wilson, Statesville, Lumberton, High Point, Boone, Greensboro, Durham, Asheville, Cary, Emerald Isle, Concord, Rocky Mount, Elizabeth City, Henderson, Apex, Asheboro, Kinston, and Mount Airy."
             ]
+        }
+    },
+    "new-jersey": {
+        stateName: "New Jersey",
+        hero: {
+            title: "New Jersey Construction Estimating Services",
+            description: ["New Jersey is a busy and growing city. That's why precise planning and estimating are important. When your projects start with clarity, you move forward with confidence. Are you trying to find a trustworthy construction estimation service in New Jersey? Or are you in need of top local building estimators? Paradise Estimating is your trusted partner. Choosing the right one is important to get better results. For a variety of estimating services in New Jersey, we are a one-stop shop. We offer our services with 98-99% accuracy and at very affordable prices. Our estimators provide help to homeowners, contractors, and developers. So, they easily understand the real cost of their project.",
+                "With 20 years of experience, Paradise Estimating provides reliable services in New Jersey. We review material costs, labor requirements, local building codes, and project details. Give you a clear picture of your budget before work begins. Whether you are building in a busy city, a coastal town, or a quiet suburb. Our estimators provide you with the real numbers for your project. With the help of Paradise Estimating, you get accurate numbers. Timely support and a smooth path from planning to construction."],
+            image: "/assets/services.png"
+        },
+        uniqueApproach: {
+            heading: "Reliable, Clear & Honest New Jersey Construction Estimating Service",
+            description: ["New Jersey is a fast-growing state. It requires experienced construction estimators. Because careful planning is key to finishing projects on time and within budget. We are the #1 local estimators with 20 years of experience. Our expert team avoids mistakes, saves money, and prepares a list of materials wisely. Paradise Estimating makes sure the projects follow local building codes. We provide accurate and reliable construction cost estimation and takeoff services. We give you a detailed analysis and accurate calculations to reduce the risk of unwanted delays and expenses. With an expert estimator, construction estimation projects in New Jersey run more smoothly. We are special because we deliver:", ""],
+            points: ["Reliable, precise results you can trust", "Costs that stay easy on your budget ", "Fully licensed and qualified estimators", "We stay on schedule and hit every deadline", "Estimates tailored to your project’s needs", "Support available around the clock"],
+            turnaroundTime: "9 to 24 hours"
+        },
+        reliableServices: {
+            heading: "Affordable New Jersey Construction Estimating & Takeoff Services",
+            description: ["In New Jersey, we offer reliable, accurate, and precise estimating services. We have been working as construction estimators for 20 years. We work with general contractors, homeowners, builders, and architects throughout the state. Whether you’re working on a new building project or remodelling the old ones. We take care of the details so you can move forward with confidence and avoid costly surprises. We focus on keeping your budget in check. Our team keeps your deadlines realistic. We work hard to make sure your project stays profitable. With our estimates, your project runs smoothly from start to finish. Services we offer are:", ""],
+            services: [
+                { title: "Bid Estimation" }, { title: "Generate leads for subcontractors" }, { title: "Outsourcing Estimation" }, { title: "Commercial Estimation" },
+                { title: "Residential Estimation" }, { title: "Industrial Estimation" }, { title: "Cost Estimation" }, { title: "Material Takeoff Service" },
+                { title: "Quantity takeoff Service" }, { title: "Preliminary Estimation Service" },
+            ]
+        },
+        estimatesAndTakeoff: {
+            heading: "New Jersey Commercial, Residential, and Industrial Estimating & Takeoff service ",
+            description: "Paradise Estimating has been providing construction estimation services for over 20 years. Our estimators help contractors, project owners, and developers with projects of all sizes and types. We ensure accuracy. Our estimates are reliable and precise.",
+            cards: [
+                {
+                    title: "Residential Estimating Service",
+                    image: "/assets/building.webp",
+                    desc: "We assist homeowners and contractors in getting a clear picture of a project’s actual cost with precise and detailed estimates. Everyone wants realistic pricing before beginning work. We offer estimates for:",
+                    points: ["Apartments", "Single-family home", "Large mansions", "Home additions ", "Home expansions", "Kitchen remodelling projects", "Bathroom upgrading", "Basement finishes work", "Roofing & siding", "Doors & windows", "Old home renovations"]
+
+
+
+                },
+                {
+                    title: "Commercial Estimating Service",
+                    image: "/assets/choose.webp",
+                    desc: "New Jersey is growing quickly, and with all this development, reliable estimators are essential. We deliver accurate cost assessments for projects of any size. We offer estimates for:",
+                    points: ["Individual Offices", "Retail shops", "Schools", "Universities", "Laboratories", "Government building", "Restaurants", "Cafés", "Hospitality projects", "Light industrial", "Shopping malls"]
+
+
+                },
+                {
+                    title: "Industrial Estimating Service",
+                    image: "/assets/governmental.webp",
+                    desc: "Our skilled estimators provide precise cost assessments for even the most complex projects. We are offering tailored solutions and dependable construction estimating services. The estimates we provide",
+                    points: ["Warehouses & storage units", "Power plants ", "Pharmaceutical companies", "Laboratories", "Production unit", "Chemical plants", "Water plant ", "Oil and gas facilities", "Industrial buildings", "Packing plant", "Heavy industrial structures"]
+
+
+                },
+                {
+                    title: "Material Takeoff Services",
+                    image: "/assets/takeoff.webp",
+                    desc: "Our experienced estimators offer accurate cost assessments for complex projects. We are providing reliable construction estimates. Contractors & subcontractors rely on our numbers. The estimates we provide are for",
+                    points: ["Masonry", "Lumber takeoff", "Drywall", "Roofing", "Plumbing", "Metal", "Electrical", "Plumbing", "HVAC", "Framing", "Concrete"]
+
+
+
+                }
+            ]
+        },
+        detailedServices: {
+            heading: "Boost Your Project Efficiency with the Trades We Offer in New Jersey",
+            description: ["Paradise Estimating has been providing services for more than 20 years. Due to our hands-on experience and local knowledge. We provide estimates that are 99% accurate.  Contractors & subcontractors rely on our numbers. Because our numbers are precise and based on local market trends. That's why contractors & subcontractors rely on us. With our estimate, they win more jobs. In construction estimating, 'trades' refers to the various types of work required to complete a project.", "Each trade comes with its own materials, and we ensure every item is accurately accounted for. We provide a detailed and reliable material list for your project. We are making it easier to plan, control costs, and prevent errors. This helps you to run your plan smoothly and avoid unexpected issues as your project progresses. Whether you are planning a small renovation or a large commercial build, our estimators provide accurate pricing so you feel confident about the entire process from start to finish. Estimators of our company provide the right estimating service, avoid unexpected costs down the road, and keep your project on track and within budget."],
+            trades: [
+                "Concrete Estimating", "Masonry", "Sitework", "Earthwork", "Mechanical Estimating", "Electrical", "Plumbing Takeoffs", "HVAC Takeoffs", "Metals", "Doors & Windows", "Finishes", "Painting", "Drywall Takeoffs ", "Flooring Estimating", "Roofing", "Wood/Plastic", "Lumber Takeoff", "Waterproofing", "Fireproofing", "Landscaping", "Thermal/Moisture Protection",
+            ]
+
+
+
+
+
+        },
+        ourClients: {
+            heading: "Clients for New Jersey Construction Estimating Service",
+            description: ["When it comes to construction estimating in New Jersey. We make sure you get results you can actually rely on. Our estimators are fully licensed, qualified, and focused on giving you precise numbers that keep your project on budget. We know how stressful timelines can get, so we work to stick to schedules and hit deadlines every time. Clients we deal with are", ""],
+            clients: ["General contractors", "Subcontractors", "Developers", "Architects", "Homeowners", "Builders", "Vendor", "Retailers"]
+
+
+
+        },
+        process: {
+            heading: "Process For New Jersey Construction Estimating Service",
+            description: "We follow a detailed and transparent process for construction estimation. Our work begins with a thorough review of the project plans, specifications, and client requirements to ensure that we fully understand the scope of your project. After that, we prepare a clear list of materials and methods and a takeoff service for labour and quantities. Finally, we check everything to make sure the numbers are accurate. Our industrial estimators use advanced tools and software to meet your needs by giving you accurate cost estimation and takeoff service. This process helps our clients.",
+            steps: ["Review your plans", "Understand the scope", "Prepare a list of materials & methods", "Takeoff service for material and labor", "Double-check all numbers for accuracy", "Share the estimate"]
+
+
+
+
+        },
+        tools: {
+            heading: "Software We Use For Estimation in New Jersey",
+            description: ["We use advanced digital software for estimation. That's why we accurately calculate the required materials, labour, and other essential project elements. Using these precise takeoffs, we prepare a detailed and dependable construction cost estimate. Our estimates stay within the set budget. Our estimators use the following tools & software for construction estimating services.", ""],
+            bidWinRatio: "98%",
+            toolsList: [
+                { name: "Bluebeam", image: "/assets/logos/blue.jpg" },
+                { name: "Planswift", image: "/assets/logos/plan.jpg" },
+                { name: "RS Means", image: "/assets/logos/rs.jpg" },
+                { name: "Cost-X", image: "/assets/logos/cost.jpg" },
+                { name: "FastWRAP", image: "/assets/logos/fast.jpg" },
+                { name: "Cost-work", image: "/assets/logos/Coststimator_logo.jpg" },
+
+            ]
+        },
+        expertLocalService: {
+            heading: "Cost-Effective & Local New Jersey Construction Estimating Service",
+            description: ["Worried about the cost of your project? Our estimating company is a trusted local service provider in New Jersey. With our team of professional estimators, you receive accurate and detailed cost estimates for your project. General contractors and subcontractors often face heavy workloads. They may not have the time for precise estimations and takeoffs. Lack of knowledge about changing prices and cost estimation can sometimes lead to project delays or budget issues. We are the No. 1 local construction estimating company in New Jersey. We help you optimize your budget and timelines, keeping your project on track and avoiding unnecessary problems.", "Paradise Estimating is a New Jersey-based company serving contractors and subcontractors. We understand the unique needs of builders in the area. Our knowledge of local materials, labor costs, and building regulations allows us to deliver precise and dependable estimates. Partnering with us means you get accurate numbers you can rely on, helping your project stay on time and on budget."],
+            image: "/assets/aboutus.webp"
+        },
+        faq: {
+            items: [
+                { question: "What process do you follow for estimates?", answer: "When you upload your plan, we check your plan and calculate everything to make sure our estimates are precise, reliable, and accurate. Our estimates stay close to accuracy." },
+                { question: "Why is our estimating service different from others?", answer: "We are one of the best estimating companies in New Jersey. With 20 years of experience in local estimating services, we help you stay on budget, order the right materials, and avoid costly mistakes. We protect you from unwanted expenses. That's why we are different from others." },
+                { question: "What is our turnaround time for a normal-sized project?", answer: "Our turnaround time for a normal-sized project is 9-24 hours. It totally depends on the size, type, complexity, and scope of the project." },
+                { question: "Do we serve all areas in New Jersey?", answer: "Yes, we work in major cities as well as smaller towns throughout the state. So, no matter where your project is, we can help you build your dream project without unnecessary worries." },
+                { question: "What do estimators do?", answer: "Our estimators help you to understand the exact cost of your project. With our help, you get clear and accurate numbers of materials and labor your project needs." },
+                {
+                    question: "Can you help with pricing?",
+                    answer: "Yes. Our estimators give you accurate numbers and realistic cost estimations. So, you can plan your budget and avoid unwanted surprises."
+                },
+                {
+                    question: "What type of estimation do you handle in New Jersey?",
+                    answer: "We provide estimates for every kind of project. Paradise Estimating delivers specialized estimation services in New Jersey. Whether it is commercial, residential, or industrial, cost estimation, material, or quantity takeoff."
+                }
+            ]
+        },
+        cta: {
+            heading: "Planning a project in New Jersey? Reach out and tell us what you’re building. We’ll give you clear, honest numbers so you can move forward with confidence."
+        },
+        portfolio: {
+            heading: "Our Portfolio",
+            description: ["Our estimating team covers residential, commercial, and industrial projects. At Paradise Estimating in New Jersey, we support builders, contractors, and developers. Giving them clear and accurate information they can rely on. We specialize in detailed material takeoffs, cost estimates, and planning guidance. We help every project move forward without issues.",
+                "By combining local knowledge with professional expertise, Paradise Estimating Service has become a trusted partner for successful construction projects across the country. We offer services in New Jersey, which include HVAC estimating service in New Jersey, plumbing estimating, MEP estimating, residential estimating services in New Jersey, piping estimating, lumber takeoff service, drywall estimating services, mechanical estimating, roofing estimating services, framing estimating, commercial estimating in New Jersey, and electrical estimating services in New Jersey."],
+            items: [
+                { heading: "Concrete estimating Service in Clifton, New Jersey", answer: "Concrete estimating is specialized in New Jersey. It includes estimations for foundations, slabs, footings, and reinforcement. We provide the best concrete estimating service in New Jersey. With our help, get an accurate estimating service." },
+                { heading: "Electrical Estimating Service in Newark, New Jersey", answer: "Electrical estimation in Newark, including wiring, lighting, and panel installation. It is often handled by subcontractors. We deliver accurate material takeoffs and cost estimates for all electrical projects in New Jersey." },
+                { heading: "Plumbing Estimating Service in Jersey City, New Jersey", answer: "Plumbing in Jersey City includes pipes, fixtures, and water systems. Paradise Estimating delivers precise plumbing estimates. Our estimators ensure your project stays on budget and on schedule." },
+                { heading: "Roofing Estimating Service in Hoboken, New Jersey", answer: "Estimating for roofing, including shingles, metal roofs, and waterproofing. It is handled by contractors and subcontractors in Hoboken. With years of experience, we provide reliable roof cost estimates. We offer services to homeowners, builders, and developers." },
+
+            ]
+        },
+        areaNearMe: {
+            heading: "New Jersey Construction Estimating Service Near Me",
+            description: ["We provide our estimation services across many areas in New Jersey. Our team works with contractors and builders in cities, towns, and surrounding communities. That's why we make sure every project gets accurate estimates, so planning is easier, and costs stay under control. No matter where you are in New Jersey, our local knowledge and experience are ready to support your construction needs.", "We offer our estimation services in different areas of New Jersey, including Bayonne, Newark, Jersey City, North Bergen, Paterson, Atlantic City, Bayonne, Belleville, Toms River, and Elizabeth, Edison, Woodbridge, Lakewood, Hamilton, Clifton, Passaic, Middletown, Union City, Old Bridge, Vineland, East Orange, Hoboken, Plainfield, Perth Amboy, Atlantic City"]
+        }
+    },
+    "washington": {
+        stateName: "Washington",
+        hero: {
+            title: "Washington Construction Estimating Service",
+            description: [
+                "Paradise Estimating helps people in Washington understand the real cost of a project. Every city has different rules, so we sort through those as well. As a result, you get numbers that feel real, not guessed. The point is simple. You should start your project without uncertainty. Working with Paradise Estimating feels easy because we explain everything in plain words. We have been working as an estimating team for 20 years. Our services are more accurate and reliable than any company in Washington. We are the #1 company in Washington. The value of a good estimate is very high because it gives you confidence. It keeps your project steady from the start.",
+                "Our estimating company provides clear and accurate construction estimates. We offer services for projects of all sizes and scopes. We prepare detailed material takeoffs, labor installation, and budget breakdowns. So you know exactly what your project requires. Our estimating company helps you determine the actual cost of your project. We are using real numbers and local pricing. We check every detail, such as materials, pricing, and labor. We take care of everything that might affect your budget. In the end, you get a clear, honest estimate that makes planning your project much easier."
+            ],
+            image: "/assets/services.png"
+        },
+        uniqueApproach: {
+            heading: "Why Choosing the Right Washington Construction Estimating Services Is Important?",
+            description: ["Choosing the best construction estimators in Washington feels less like hiring a service. It’s like bringing someone onto your team who actually understands how things work. We pay attention to the details that often cause trouble. Such as weather delays, changing material prices, or permit rules from city to city. When something looks off, we say it honestly, and when something can save you money, we point that out too.", "People come to us because they want straight answers, not guesses, and that is exactly what we provide them. In a place where building can get complicated evenly, you want someone who knows the landscape and treats your project like it matters. That is why clients choose us."],
+            points: [
+                "Give estimates you can really trust",
+                "Provide services that fit your budget",
+                "Our team is experienced and licensed",
+                "Meet deadlines every time",
+                "Create solutions for your specific project",
+                "We are here whenever you need us"
+            ],
+            turnaroundTime: "9-24 Hours"
+        },
+        reliableServices: {
+            heading: "Trustworthy Washington Construction Estimating & Takeoff Services",
+            description: ["At Paradise Estimating, we have been helping builders, contractors, and homeowners in Washington for over 20 years. We know that building a project can be confusing. Prices change, materials are hard to find sometimes, and very little things can slow down everything. That’s where we come in. We give you clear and accurate estimates so you know exactly what to expect. We help take the guesswork out of budgeting, bidding, and planning. Reduces the stress that comes with unclear numbers. Our team is fully experienced. They have practical knowledge and have a slight obsession with accuracy. Just honest information from people who have actually worked construction. Our estimating team dealt with subcontractors and ordered materials. We also deal with crushing moments when steel prices jump overnight.  No surprises and no guesswork.",
+                ""],
+            services: [
+                { title: "Provide Consultation" }, { title: "Estimation for Commercial projects" }, { title: "Outsourcing Estimation" }, { title: "Estimation for Residential projects" },
+                { title: "Estimation for Bid" }, { title: "Material Takeoff service" }, { title: "Quantity takeoff service" },
+                { title: "Preliminary Estimation Service" }, { title: "Generate lead" }, { title: "Marketing for subcontractors" }, { title: "Cost Estimation for every kind of project" },
+            ]
+        },
+        estimatesAndTakeoff: {
+            heading: "Washington Commercial, Industrial, Residential Estimating & Takeoff service",
+            description: "Paradise Estimating is your reliable partner in Washington. If you need an accurate estimation of labor, cost, and material for your project. Get our services to run your project smoothly. Our numbers are 99% accurate and realistic. We deliver no fancy words.",
+            cards: [
+                {
+                    title: "Commercial Construction Estimating",
+                    image: "/assets/building.webp",
+                    desc: "We help businesses see exactly what their project will cost. Whether it’s an office building or a retail space, we give numbers that make sense. That way, you know your budget before anything starts.",
+                    points: ["Large-scale building estimation", "Shopping Malls", "Hotels", "Resorts", "Schools", "Universities", "Corporate headquarters ", "Hospitality projects", "Distribution Centers", "Production houses"]
+
+
+                },
+                {
+                    title: "Industrial Construction Estimating",
+                    image: "/assets/choose.webp",
+                    desc: "For warehouses, factories, or big industrial projects, we check every detail. Materials, labor, and timing are all included. We make sure nothing is forgotten so your project runs smoothly.",
+                    points: ["New Factories", "Pharmaceutical companies", "Laboratories", "Power plants", "Chemical industry", "Waste management plants", "Oil refineries", "Research centers", "Heavy-duty structures"]
+
+                },
+                {
+                    title: "Residential Construction Estimating",
+                    image: "/assets/governmental.webp",
+                    desc: "Building a home can feel overwhelming. We break down costs for materials, labor, and everything in between. You get clear numbers you can trust before the first nail goes in.",
+                    points: ["Single-family home", "Apartments and flats", "Student accommodations", "Luxury penthouses", "Lower-income houses", "Single-story house", "Material takeoff for different projects in-house", "Old home renovations"]
+
+
+                },
+                {
+                    title: "Material Takeoff Services",
+                    image: "/assets/takeoff.webp",
+                    desc: "Our experienced estimators offer accurate cost assessments for complex projects. Creating customized solutions and reliable construction estimates. The estimates we provide are for",
+                    points: ["Masonry", "Lumber takeoff", "Drywall", "Roofing", "Plumbing", "Metal", "Electrical", "Plumbing", "HVAC", "Framing", "Concrete"]
+
+
+
+                }
+            ]
+        },
+        detailedServices: {
+            heading: "Trades We Offer for Washington Construction Estimating Service",
+            description: ["Paradise Estimating is your reliable partner in Washington. We have 20 years of experience in estimating service. We don’t just hand over numbers and disappear. We look at everything, from materials and labour to timing and delivery, so your project runs smoothly. Whether you are working on a new building project or remodelling the old ones. We take care of the details so you can move forward with confidence and avoid costly surprises.",
+                "Many projects often fail due to a lack of knowledge about fluctuating prices. Clients don't have expertise in cost estimation and time. We catch the little details that often get missed. So, we can save your money. Projects become less stressful. When you work with Paradise Estimating, you get a partner who cares about your project just as much as you do. Each one gets its own detailed numbers. This keeps your project organized and on track."],
+            trades: [
+                "Concrete Estimating", "Masonry", "Sitework", "Earthwork", "Mechanical", "Electrical Estimating", "Plumbing Takeoffs", "HVAC Takeoffs", "Metals", "Doors & Windows", "Finishes", "Painting", "Drywall Takeoffs", "Flooring Estimating", "Roofing Takeoffs", "Wood/Plastic", "Lumber Takeoffs", "Waterproofing", "Fireproofing", "Landscaping"
+            ]
+
+
+        },
+        ourClients: {
+            heading: "Clients for Washington Construction Estimating Service",
+            description: ["Paradise Estimating provides service for everyone in Washington. We make sure you get results you can actually rely on. Our estimators are fully licensed, qualified, and focused on giving you precise numbers that keep your project on budget. We know how stressful timelines can get, so we work to stick to schedules and hit deadlines every time. Clients we deal with are", ""],
+            clients: ["General contractors", "Subcontractors", "Developers", "Architects", "Homeowners", "Builders", "Vendor", "Retailers"]
+        },
+
+        process: {
+            heading: "Process For Construction Estimating Service in Washington",
+            description: "We follow a detailed and transparent process for construction estimation. Our work begins with a thorough review of the project plans and specifications. We review client requirements. Ensure that we fully understand the scope of your project. After that, we prepare a clear list of materials and methods and a takeoff service for labour and quantities. Finally, we check everything to make sure the numbers are accurate. This process helps our clients.",
+            steps: ["Review your project plans", "Understand the scope", "Prepare a list of materials & methods", "Takeoff service for both material and labor", "Check all numbers for accuracy", "Share the estimate"]
+        },
+        tools: {
+            heading: "Software We Use For Washington Construction Estimating Service",
+            description: ["We use advanced digital software for estimating service. That's why we accurately calculate the required materials, labor, and other essential project elements. Using these precise takeoffs, we prepare a detailed and dependable construction cost estimate. Our estimates stay within the set budget. Our estimators use the following tools & software for construction estimating services.", ""],
+            bidWinRatio: "98%",
+            toolsList: [
+                { name: "Bluebeam", image: "/assets/logos/blue.jpg" },
+                { name: "Planswift", image: "/assets/logos/plan.jpg" },
+                { name: "RS Means", image: "/assets/logos/rs.jpg" },
+                { name: "Cost-X", image: "/assets/logos/cost.jpg" },
+                { name: "FastWRAP", image: "/assets/logos/fast.jpg" },
+                { name: "Cost-work", image: "/assets/logos/Coststimator_logo.jpg" },
+
+            ]
+        },
+        expertLocalService: {
+            heading: "Improve Your Estimating With Local Cost-Effective Estimation Service in Washington",
+            description: ["We know building a project can get expensive fast. That’s why at Paradise Estimating, we keep our rates low without cutting corners. You still get a careful, detailed estimate from a team that knows what they’re doing. The goal is simple: you get numbers you can trust and save money at the same time. No surprises, no hidden costs.",
+                "We’re right here in Washington, so we know the area and the rules. Need us to check your site? We can come by quickly and see things in person. That means your estimates are realistic, accurate, and actually useful. Being local also makes it easy to reach us anytime you have a question. We’re just around the corner, helping your project run smoothly."],
+            image: "/assets/aboutus.webp"
+        },
+        faq: {
+            items: [
+                {
+                    question: "Do you provide estimating services in Seattle?",
+                    answer: "Yes, we do. We can help with your project costs and check materials, labour, and local rules so you know what to expect."
+                },
+
+                {
+                    question: "Can you help with projects in Spokane?",
+                    answer: "Of course. We handle all types of projects there and make sure every detail is counted so there are no surprises."
+                },
+
+                {
+                    question: "Do you work in Tacoma?",
+                    answer: "Yes. Whether it’s plumbing, electrical, or a full takeoff, we make sure projects in Tacoma are planned right."
+                },
+
+                {
+                    question: "Are your services available in Bellevue?",
+                    answer: "Yes. We know Bellevue’s building rules and costs. We give estimates that are easy to understand and reliable."
+                },
+
+                {
+                    question: "Can you help in Redmond?",
+                    answer: "Absolutely. We cover HVAC, roofing, and other trades. We check everything so your project runs smoothly."
+                },
+                {
+                    question: "Do you cover Everett?",
+                    answer: "Yes. We can provide material takeoff lists and cost estimates for any Everett project."
+                },
+                {
+                    question: "Are your services available in Kent?",
+                    answer: "Yes. We help Kent contractors and homeowners plan projects with clear, accurate numbers."
+                },
+                {
+                    question: "Can you handle projects in Yakima?",
+                    answer: "Sure. We make sure every Yakima project has the correct numbers, and nothing is missed."
+
+                }
+            ]
+        },
+        cta: {
+            heading: "Bid Smarter, Request Now, Get Your Accurate Washington Estimate Today."
+        },
+        portfolio: {
+            heading: "Our Portfolio",
+            description: ["We’ve worked on all sorts of projects here in Washington. Houses, apartments, offices, warehouses. Every project is different, so we make sure our estimates match what’s really needed. The goal is simple: help builders and homeowners plan better, avoid surprises, and stay on budget. When you look at our work, you’re seeing projects we’ve helped bring to life with numbers that actually make sense.", ""],
+            items: [
+                { heading: "Electrical Estimation in Seattle, Washington", answer: "For electrical work, we recently helped with a project in Seattle with all the wiring and lighting. We provide the best concrete estimating service in Washington. Contact us and get an accurate estimating service." },
+                { heading: "Plumbing Estimation in Tacoma, Washington", answer: "Plumbing estimates were done for a new building in Tacoma, covering pipes and fixtures. Our estimators provide accurate material takeoff and cost estimation in Washington." },
+                { heading: "Roofing Estimation in Spokane, Washington", answer: "In Spokane, we handled roofing, checking shingles, and metal roofs carefully. With two decades of expertise, we offer precise interior and exterior finishing estimates. We offer services for contractors, subcontractors, homeowners, builders, and developers." },
+                { heading: "Masonry Estimating Service in Bellevue, Washington", answer: "Masonry work in Bellevue was another project, where we counted bricks, blocks, and stone. Our expert estimators provide estimation and takeoff services. We offer services for contractors, subcontractors, builders, developers, and homeowners." },
+                { heading: "HVAC estimation Service in Redmond, Washington", answer: "We provided HVAC estimates for a project in Redmond, including ductwork and heating systems. Each project was different, but we made sure every detail was included and the numbers made sense." }
+            ]
+        },
+        areaNearMe: {
+            heading: "Washington Construction Estimating Service Near Me",
+            description: ["Our expert estimators with 20 years of experience deliver interior & exterior finishing services. We offer services for contractors, subcontractors, homeowners, builders, and developers. We provide our construction estimating services all across Washington. Whether your project is in Seattle, Spokane, Tacoma, or Vancouver, we’ve got you covered. We also work in Bellevue, Everett, Kent, Yakima, and Renton. We serve multiple cities in Washington and ensure estimates are up to 98% accurate. No matter where your project is in the state, Paradise Estimating is ready to help.", ""]
         }
     }
 };

@@ -6,7 +6,8 @@ interface ServiceContentWithFormProps {
     mainHeading: string;
     heading: string;
     tagline: string;
-    description: string;
+    description: string[];
+    SubDescription?: string;
     items: {
         title: string;
         description: string;
@@ -14,7 +15,7 @@ interface ServiceContentWithFormProps {
     }[];
 }
 
-const ServiceContentWithForm = ({ mainHeading, heading, tagline, description, items }: ServiceContentWithFormProps) => {
+const ServiceContentWithForm = ({ mainHeading, heading, tagline, description, items, SubDescription }: ServiceContentWithFormProps) => {
     return (
         <section className="py-8 lg:py-12 bg-white">
             <div className="container mx-auto px-4 lg:px-6">
@@ -29,9 +30,11 @@ const ServiceContentWithForm = ({ mainHeading, heading, tagline, description, it
                         </p>
 
                         <div className="prose prose-lg max-w-none mb-8">
-                            <p className="text-gray-700 leading-relaxed mb-6">
-                                {description}
-                            </p>
+                            {description.map((para, index) => (
+                                <p key={index} className="text-gray-700 leading-relaxed mb-6">
+                                    {para}
+                                </p>
+                            ))}
 
                             <Button className="bg-[#7ED957] text-black font-bold text-base px-8 py-6 rounded-full shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] hover:translate-y-1 hover:shadow-none transition-all mb-12">
                                 Download Samples
@@ -40,6 +43,14 @@ const ServiceContentWithForm = ({ mainHeading, heading, tagline, description, it
                             <h3 className="text-2xl lg:text-3xl font-bold text-black mb-6">
                                 {heading}
                             </h3>
+
+
+                            <p className="text-gray-700 leading-relaxed mb-6">
+                                {SubDescription}
+                            </p>
+
+
+
 
                             <ul className="space-y-6">
                                 {items.map((item, index) => (

@@ -28,7 +28,7 @@ const FreeEstimateSection = () => {
                                 </div>
                                 <div>
                                     <p className="font-bold text-white text-lg">Call Us Now</p>
-                                    <p className="text-[#7ED957] text-lg">+1 (234) 567-8900</p>
+                                    <p className="text-[#7ED957] text-lg">+1 (718) 719-6171</p>
                                 </div>
                             </div>
 

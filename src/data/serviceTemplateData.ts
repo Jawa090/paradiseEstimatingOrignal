@@ -10,13 +10,15 @@ export interface ServiceTemplateContent {
         mainHeading: string;
         heading: string;
         tagline: string;
-        description: string;
+        SubDescription?: string;
+        description: string[];
         items: Array<{
             title: string;
             description: string;
             bullets?: string[];
         }>;
         processHeading: string;
+        processDescription?: string;
         processSteps: Array<{
             number: number;
             title: string;
@@ -72,7 +74,7 @@ export const serviceTemplateData: Record<string, ServiceTemplateContent> = {
             heroSubtitle: "PARADISE ESTIMATING SERVICE COMPANY",
             mainHeading: "Residential Estimating Services",
             tagline: "Accurate. Reliable. Efficient",
-            description: "Home construction or remodeling projects start with accurate cost planning. If you have a clear estimate, it will save money. Your cost overruns when your project estimate is right and clear. It will increase profit margins and build trust with clients. Our Residential Estimating Services provide material takeoffs and labor cost lists. You can bid on new home builds and on renovating interior properties.",
+            description: ["Home construction or remodeling projects start with accurate cost planning. If you have a clear estimate, it will save money. Your cost overruns when your project estimate is right and clear. It will increase profit margins and build trust with clients. Our Residential Estimating Services provide material takeoffs and labor cost lists. You can bid on new home builds and on renovating interior properties."],
             heading: "Our Residential Estimating Services include",
             items: [
                 {
@@ -390,7 +392,7 @@ export const serviceTemplateData: Record<string, ServiceTemplateContent> = {
             heroSubtitle: "PARADISE ESTIMATING SERVICE COMPANY",
             mainHeading: "Commercial Estimating Services",
             tagline: "Accurate. Reliable.Efficient",
-            description: "We have been providing commercial estimating services for more than 20 years. Our commercial estimating services start every project with control and balance. If you stick to your budget, it helps you win more projects. Even small mistakes in numbers can lead to big problems later. If you make your budget clear, it will work as a tool to win the estimation. Even a few mistakes in numbers or labor figures can cause losses or project disputes. Hence, we provide the best commercial construction takeoff services. They help control these issues with precision. We work with contractors, subcontractors, companies, developers, and architects. Our estimates help you plan your work and create accurate bids or budgets. They can guide you from the start of the project all the way to purchasing materials. We have been providing commercial estimating services for more than 20 years. Our commercial estimating services start every project with control and balance. If you stick to your budget, it helps you win more projects. Even small mistakes in numbers can lead to big problems later. If you make your budget clear, it will work as a tool to win the estimation. Even a few mistakes in numbers or labor figures can cause losses or project disputes. Hence, we provide the best commercial construction takeoff services. They help control these issues with precision. We work with contractors, subcontractors, companies, developers, and architects. Our estimates help you plan your work and create accurate bids or budgets. They can guide you from the start of the project all the way to purchasing materials.",
+            description: ["We have been providing commercial estimating services for more than 20 years. Our commercial estimating services start every project with control and balance. If you stick to your budget, it helps you win more projects. Even small mistakes in numbers can lead to big problems later. If you make your budget clear, it will work as a tool to win the estimation. Even a few mistakes in numbers or labor figures can cause losses or project disputes. Hence, we provide the best commercial construction takeoff services. They help control these issues with precision. We work with contractors, subcontractors, companies, developers, and architects. Our estimates help you plan your work and create accurate bids or budgets. They can guide you from the start of the project all the way to purchasing materials."],
             heading: "What’s Included in Commercial Estimating Services?",
             items: [
                 {
@@ -623,201 +625,258 @@ export const serviceTemplateData: Record<string, ServiceTemplateContent> = {
         title: "Industrial Estimating Services",
         description: "Professional industrial estimating services for accurate project planning and budgeting.",
         content: {
-            heroTitle: "Accurate Industrial Estimating Services",
+            heroTitle: "Industrial Estimating Services",
             heroSubtitle: "PARADISE ESTIMATING SERVICE COMPANY",
             mainHeading: "Industrial Estimating Services",
-            tagline: "Robust. Reliable. Results-Driven",
-            description: "Industrial projects demand specialized knowledge and precision. Our industrial estimating services cover warehouses, manufacturing facilities, processing plants, and heavy industrial construction with accurate material quantities, equipment costs, and labor projections. We understand the unique challenges of industrial construction.",
+            tagline: "Accurate, Reliable, Efficient",
+            heading: "What’s included in Industrial Estimating Services?",
+            SubDescription: "Our Industrial Estimating Services offer the details of every aspect of estimating. We will deliver fast, reliable services on a low budget. Paradise Estimating Company makes the clients tension-free.",
+            description: ["We are providing precise industrial estimating services across the world. These services help contractors, builders, and plant owners plan with confidence. Paradise Estimating provides estimating solutions for EPC contractors and project owners.",
+                "Engineering firms across the USA use our services. Financial investors and joint venture partners also rely on them.",
+                "We make sure your numbers are accurate, reliable, and ready before construction begins. Are you building a new facility? Our industrial estimating services will guide you in detail. We provide these services to all builders on time and without delay.",
+                "We combine advanced software, current material pricing, and trade experience. Our method brings 98% accuracy, clarity, and speed to every project.",
+                "Our estimates help contractors, project managers, and engineers during construction. We support design, bidding, and construction stages. Our expert residential estimating ensures every project stays on schedule and within budget."
+            ],
+
             items: [
                 {
-                    title: "Industrial Material Takeoff",
-                    description: "Comprehensive material quantification for industrial facilities including structural steel, heavy equipment foundations, and specialized industrial systems."
+                    title: "Material Takeoffs.",
+                    description: " We measure all materials needed for your industrial project. This includes steel, concrete, pipes, insulation, and other materials. It helps you order the right amount without shortages. Your project stays on track and avoids delays."
                 },
                 {
-                    title: "Equipment Cost Estimation",
-                    description: "Detailed cost analysis for industrial equipment installation, including cranes, conveyors, processing equipment, and specialized machinery."
+                    title: "Equipment Estimating",
+                    description: "We list all tools, machines, and specialized equipment required. This includes cranes, lifts, mixers, and other heavy equipment. helps you schedule machines on time and avoid downtime. Your project stays organized and cost-effective."
                 },
                 {
-                    title: "Process Piping Estimating",
-                    description: "We estimate complex process piping systems for manufacturing and chemical plants. This includes pipes, valves, fittings, and supports."
+                    title: "Cost Estimating.",
+                    description: "We prepare a full breakdown of project costs. This includes materials, labor, equipment, and overheads. You get a clear picture of your total project budget. This helps you plan finances and make accurate bids."
                 },
                 {
-                    title: "Electrical & Instrumentation",
-                    description: "Our estimates cover heavy industrial electrical systems, power distribution, control systems, and instrumentation."
+                    title: "Bid Preparation & Support",
+                    description: "We prepare complete bid packages for contractors. We also review drawings to ensure accuracy and competitiveness. It saves time and helps you win more projects. You submit professional and reliable bids every time."
+                },
+                {
+                    title: "Budget Estimating",
+                    description: "We create early-stage estimates even with limited drawings. This helps you plan budgets and compare options. It gives a clear idea of costs before design is complete. You can make confident decisions early in the project."
                 }
             ],
-            processHeading: "Our Industrial Takeoff Process",
+            processHeading: "Our Process For Industrial Takeoff Services",
+            processDescription: "We use proven and tested methods or rules to take off your submitted plans. We do estimates by different steps that make the process easy. Our estimations are made such that everyone can easily understand it. Industrial Construction Estimating  in USA  ensures that if you get our services you will win the project.",
             processSteps: [
                 {
                     number: 1,
-                    title: "Scope Analysis",
-                    description: "We thoroughly analyze the project scope, including P&IDs, equipment lists, and technical specifications."
+                    title: "Project Analysis",
+                    description: "First, send your drawings or blueprints (PDF, DWG, or CAD) to our contact number. Add all details about the project, such as scope, trade, and deadlines. Our team will review all the details of your submitted plans and provide an estimate. So that you will get an accurate estimation of your plans on time, with an accurate budget."
                 },
                 {
                     number: 2,
-                    title: "Detailed Quantification",
-                    description: "We perform a detailed takeoff of all civil, structural, mechanical, and electrical components."
+                    title: "Detailed Takeoff",
+                    description: "We will review your plans after preparing material quantities, labor costs, and pricing. Then, we will check your estimate according to the local market rates. Then we will hand over to you Comprehensive Industrial Estimating Services in USA."
                 },
                 {
                     number: 3,
-                    title: "Specialized Costing",
-                    description: "We apply specialized industrial pricing data, factoring in heavy equipment, specialized labor, and safety requirements."
+                    title: "Cost Development",
+                    description: "We will review your documents in detail. We will send you a custom quote based on project size, trade, and complexity. After your approval, we will assign an estimator specialized in your project type to you."
                 },
                 {
                     number: 4,
-                    title: "Review & Delivery",
-                    description: "The estimate is reviewed by an industrial construction expert before being delivered to you in your preferred format."
+                    title: "Final Delivery",
+                    description: "You will receive your complete estimate report in Excel and PDF formats. CSI divisions, cost summaries, and detailed line items are also in the provided list. We also offer follow-up revisions in case of scope or design updates."
                 }
             ],
-            whyChooseHeading: "Why Choose Our Industrial Estimating Services?",
-            whyChooseIntro: "Industrial projects require a higher level of expertise. Our team has the technical knowledge and experience to handle even the most complex industrial estimates.",
+            whyChooseHeading: "Why Choose our Industrial Estimating Services?",
+            whyChooseIntro: "We know that industrial projects demand precision and speed. That is why we build our estimating services around real data, timelines, and results. Our professionals make up simple reports that are useful for clients.",
             whyChoose: [
                 {
-                    title: "Industrial Expertise",
-                    description: "Specialized knowledge in industrial construction, manufacturing facilities, and heavy industrial projects."
+                    title: "Accuracy You Can Trust",
+                    description: "We use trusted quantity-takeoff software such as Bluebeam to measure exact quantities. Our team checks every scope item from piping to concrete foundations. So your estimate reflects true field conditions and local market rates"
                 },
                 {
-                    title: "Accurate Cost Projections",
-                    description: "Detailed estimates that account for specialized equipment, materials, and labor requirements."
+                    title: "Fast Turnaround",
+                    description: "Industrial bids run on strict timelines and never afford delays. Our industrial electrical system estimating services work fast without cutting corners.  It ensures your bid packages are ready before deadlines every time."
                 },
                 {
-                    title: "Risk Mitigation",
-                    description: "We help you identify and mitigate risks associated with industrial construction through accurate estimating and planning."
+                    title: "Localized Labor & Material Pricing",
+                    description: "We tailor all costs according to the location of your project, considering:",
+                    bullets: [
+                        "Local supplier rates for an accurate residential estimate",
+                        "Union and non-union labor",
+                        "Equipment rental costs",
+                        "Regional productivity factors",
+                    ]
                 },
                 {
-                    title: "Comprehensive Coverage",
-                    description: "We cover all disciplines, including civil, structural, architectural, mechanical, electrical, and instrumentation."
-                }
+                    title: "Transparent Deliverables",
+                    description: "We never provide complex data. We deliver only simple, actionable numbers you can trust. We provide clear, easy-to-understand reports that include:",
+                    bullets: [
+                        "Editable Excel sheetss",
+                        "Color-coded PDF takeoffs",
+                        "Trade-by-trade cost summaries",
+                        "Labor, material, and equipment breakdowns"
+                    ]
+                },
+                {
+                    title: "Scalable Support",
+                    description: "Whether you bid on one industrial project per quarter or several per month. Our services scale with your workflow. We become your reliable estimating partner. We are always ready whenever you need us."
+                },
             ],
-            tradesHeading: "Industrial Estimating Trades",
-            tradesIntro: "We provide estimating services for all specialized trades involved in industrial construction projects.",
+            tradesHeading: "Trades for Industrial Estimating Services",
+            tradesIntro: "Professional Industrial Estimates analyze plans, specifications, and project requirements. We use modern and industry-standard software and materials. Thus, we prepare clear breakdowns that support competitive bids and budget planning. We also serve other trades such as:",
             tradesOverview: [
-                "Heavy Civil & Concrete",
-                "Structural Steel Erection",
-                "Process Piping",
-                "Industrial Electrical",
-                "Instrumentation & Controls",
-                "Equipment Installation",
-                "Insulation & Fireproofing",
-                "Painting & Coatings"
+                "Mechanical Estimating",
+                "Electrical Estimating",
+                "Duct Takeoff",
+                "HVAC Estimating",
+                "Drywall Estimating",
+                "Painting Estimating",
+                "Flooring Estimating",
+                "Millwork Estimating",
             ],
             trades: [
                 {
-                    title: "Structural Steel",
-                    description: "Estimates for heavy structural steel, pipe racks, platforms, and equipment supports."
+                    title: "Painting Estimating",
+                    description: "We calculate how much paint and materials you need for your project. This includes walls, ceilings, trims, and finishes. We also estimate labor hours for painters to complete the job. It helps you stay on budget and ensures a smooth painting process."
                 },
                 {
-                    title: "Process Piping",
-                    description: "Detailed takeoffs for carbon steel, stainless steel, and alloy piping systems."
+                    title: "Electrical Power Generating Estimating",
+                    description: "We estimate all materials, equipment, and labor for power generation systems. This includes generators, wiring, panels, and controls. Our estimates help contractors plan costs and resources accurately. Your project stays safe, efficient, and within budget."
                 },
                 {
-                    title: "Industrial Electrical",
-                    description: "Estimates for substations, MCCs, transformers, and cable trays."
+                    title: "Interior and Exterior Finishes Estimating",
+                    description: "We measure all materials for finishes inside and outside your building. This includes flooring, tiles, paint, siding, and decorative elements. We calculate labor and material costs to give you an accurate budget. Your building looks great without going over your budget."
                 },
                 {
-                    title: "Instrumentation",
-                    description: "Takeoffs for field instruments, control valves, and DCS/PLC systems."
+                    title: "Deck Estimating",
+                    description: "We calculate all materials and labor needed to build a deck. This includes wood, fasteners, railings, and finishing materials. Professional Industrial Estimates provide accurate costs to help plan your project. Your deck is built on time, safe, and within your budget."
+                },
+                {
+                    title: "Drywall Estimating",
+                    description: "We measure all drywall panels, screws, joint compound, and tape needed. We also calculate labor for installation and finishing. Our detailed estimates help avoid material waste and delays. Your walls are installed smoothly, on time, and within budget."
                 }
             ],
-            renovation: {
-                heading: "Industrial Facility Upgrades",
-                description: "We provide comprehensive estimates for industrial facility renovations, expansions, and equipment upgrades. Whether you are adding a new production line or upgrading your utility systems, we can help you budget effectively.",
-                helpHeading: "Our industrial renovation services help:",
-                servicesHelp: [
-                    "Manufacturing Facility Owners",
-                    "Industrial Contractors",
-                    "Plant Managers",
-                    "Industrial Developers",
-                    "EPC Contractors"
-                ]
-            },
+
             portfolio: {
-                heading: "Our Industrial Estimating Portfolio",
-                intro: "Our industrial estimating services cover a wide range of facility types and project scopes, from small plant upgrades to greenfield projects.",
+                heading: "Our Industrial Estimating Services Portfolio",
+                intro: "We handle many large governmental and military projects. We also handle all major industrial construction projects. Here is what we can estimate: Heavy Industrial Complexes Estimating Services:",
                 overview: [
-                    "Manufacturing Plants",
-                    "Warehouses & Distribution",
-                    "Food & Beverage Facilities",
-                    "Chemical Plants",
-                    "Power Plants",
-                    "Water Treatment Plants",
-                    "Oil & Gas Facilities",
-                    "Pharmaceutical Plants"
+                    "Chemical",
+                    "Petrochemical",
+                    "Mining & Metals",
+                    "Marine",
+                    "Drilling Platforms",
+                    "Oil & Gas",
+                    "Pharmaceutical Plants",
+                    "Food Processing",
+                    "Hydrocarbon Processing"
                 ],
                 items: [
                     {
                         title: "Manufacturing Facilities",
-                        description: "Estimates for automotive, aerospace, and general manufacturing plants.",
-                        points: [
-                            "Assembly lines",
-                            "Clean rooms",
-                            "Production areas"
-                        ]
+                        description: "automotive, steel, textiles, and packaging",
                     },
                     {
-                        title: "Warehouses",
-                        description: "Cost estimates for distribution centers, cold storage, and logistics facilities.",
-                        points: [
-                            "Tilt-up construction",
-                            "High-pile storage",
-                            "Loading docks"
-                        ]
+                        title: "Power & Energy Plants",
+                        description: "solar, hydro, wind, and thermal",
                     },
                     {
-                        title: "Process Plants",
-                        description: "Estimates for chemical, pharmaceutical, and food processing facilities.",
-                        points: [
-                            "Process equipment",
-                            "Hygienic piping",
-                            "Utility systems"
-                        ]
+                        title: "Oil, Gas, and Refinery Projects",
+                        description: "piping, tanks, and mechanical systems",
                     },
                     {
-                        title: "Energy Facilities",
-                        description: "We estimate power generation and distribution projects.",
-                        points: [
-                            "Solar farms",
-                            "Substations",
-                            "Power plants"
-                        ]
-                    }
+                        title: "Food & Beverage Plants",
+                        description: "production, cold storage, and packaging lines",
+                    },
+                    {
+                        title: "Water Treatment Plants",
+                        description: "filtration, piping, and concrete tanks",
+                    },
+                    {
+                        title: "Pharmaceutical Facilities",
+                        description: "clean rooms, utilities, and processing equipment",
+                    },
+                    {
+                        title: "Warehouses & Logistics Centers",
+                        description: "storage, racking, HVAC, and lighting",
+                    },
                 ]
             },
-            nearbyAreasHeading: "Industrial Services Near Me",
+            nearbyAreasHeading: "Industrial Estimating Services Near Me",
             nearbyAreas: [
                 "Texas",
-                "Louisiana",
+                "Washington",
                 "Pennsylvania",
                 "Ohio",
-                "Illinois",
+                "Tennessee",
                 "California",
-                "Michigan",
-                "Indiana",
-                "Alabama",
-                "Georgia"
+                "Florida",
+                "Georgia",
+                "New york",
+                "Colorado"
             ],
             faqs: [
                 {
-                    question: "What types of industrial projects do you estimate?",
-                    answer: "We estimate warehouses, manufacturing facilities, processing plants, distribution centers, and heavy industrial construction projects."
+                    question: "What do you include in your industrial estimate?",
+                    answer: "We provide a detailed residential estimate. We also offer comprehensive industrial estimating services in the USA. Each estimate includes quantities, material and labor costs, and equipment allowances. It also covers markups and color-coded plan markups."
                 },
                 {
-                    question: "How long does an industrial estimate take?",
-                    answer: "Turnaround time varies based on project complexity, typically 3-7 business days for most industrial projects."
+                    question: "Do you provide estimates for EPC and design-build firms?",
+                    answer: "Yes, we support EPC, design-build, and general contracting companies nationwide."
                 },
                 {
-                    question: "Do you estimate equipment installation costs?",
-                    answer: "Yes, we include the cost of receiving, handling, and setting equipment, as well as final alignment and grouting."
+                    question: "Can you estimate based on preliminary drawings?",
+                    answer: " Yes. We provide conceptual and schematic estimates to guide early-stage budgeting."
                 },
                 {
-                    question: "Can you handle estimates for plant shutdowns/turnarounds?",
-                    answer: "Yes, we have experience estimating time-critical work for plant shutdowns and turnarounds."
+                    question: "Do you provide regional cost adjustments?",
+                    answer: "Yes. Regional databases and supplier data localise all pricing. Our professional residential estimating services will cooperate with you at any cost."
                 },
                 {
-                    question: "Do you provide estimates for EPC projects?",
-                    answer: "Yes, we support EPC contractors with detailed estimates for all phases of the project lifecycle."
+                    question: "How do you ensure accuracy?",
+                    answer: "We double-check quantities, cross-verify specs, and update our pricing databases weekly."
+                },
+                {
+                    question: "What formats do you deliver estimates in?",
+                    answer: " All estimates come in editable Excel with PDF markups for easy verification."
+                },
+                {
+                    question: "Can you handle multi-plant or phased projects?",
+                    answer: "Yes, we organize estimates by building, phase, or system for easy tracking"
+                },
+                {
+                    question: "Do you include labor productivity factors?",
+                    answer: "Yes. We account for crew size, production rates, and equipment needs"
+                },
+                {
+                    question: "What industries do you specialize in?",
+                    answer: "We estimate energy, manufacturing, oil & gas, food processing, and logistics."
+                },
+                {
+                    question: "How accurate are your estimates?",
+                    answer: "Our estimates are within 1–3% of the actual project cost, based on client feedback"
+                },
+                {
+                    question: "Can I get an estimate for Industrial Estimating Services?",
+                    answer: "Yes. We offer expedited services for urgent bid deadlines."
+                },
+                {
+                    question: "Do you work with small contractors for Industrial Estimating Services?",
+                    answer: "Yes. We tailor solutions for both small and large industrial contractors."
+                },
+                {
+                    question: "Is there a smallest project size for Industrial Estimating Services?",
+                    answer: "No. We estimate everything from small retrofits to large industrial complexes."
+                },
+                {
+                    question: "How do I get started?",
+                    answer: "Upload your plans or email us your drawings. We will review and send you a custom quote within a few hours."
                 }
-            ]
+            ],
+            renovation: {
+                heading: "",
+                description: "",
+                helpHeading: "",
+                servicesHelp: []
+            }
         }
     },
     "renovation-estimating": {
@@ -828,7 +887,8 @@ export const serviceTemplateData: Record<string, ServiceTemplateContent> = {
             heroSubtitle: "PARADISE ESTIMATING SERVICE COMPANY",
             mainHeading: "Renovation Estimating Services",
             tagline: "Thorough. Transparent. Transformative",
-            description: "Renovation projects require careful assessment of existing conditions and detailed planning. We provide comprehensive estimates for remodeling, retrofits, and renovation projects, accounting for demolition, structural modifications, and finish upgrades.",
+            heading: "",
+            description: ["Renovation projects require careful assessment of existing conditions and detailed planning. We provide comprehensive estimates for remodeling, retrofits, and renovation projects, accounting for demolition, structural modifications, and finish upgrades."],
             items: [
                 {
                     title: "Demolition & Removal Estimates",
@@ -1010,7 +1070,8 @@ export const serviceTemplateData: Record<string, ServiceTemplateContent> = {
             heroSubtitle: "PARADISE ESTIMATING SERVICE COMPANY",
             mainHeading: "Apartments Estimating Services",
             tagline: "Precise. Professional. Profitable",
-            description: "Multi-family residential projects require detailed cost analysis and efficient planning. Our apartment estimating services provide comprehensive material takeoffs, labor calculations, and cost projections for apartment buildings, condominiums, and multi-unit developments.",
+            heading: "",
+            description: ["Multi-family residential projects require detailed cost analysis and efficient planning. Our apartment estimating services provide comprehensive material takeoffs, labor calculations, and cost projections for apartment buildings, condominiums, and multi-unit developments."],
             items: [
                 {
                     title: "Multi-Family Material Takeoff",
@@ -1191,7 +1252,8 @@ export const serviceTemplateData: Record<string, ServiceTemplateContent> = {
             heroSubtitle: "PARADISE ESTIMATING SERVICE COMPANY",
             mainHeading: "Remodeling Estimating Services",
             tagline: "Detailed. Dependable. Delivered",
-            description: "Remodeling projects demand precision and attention to detail. Our remodeling estimating services provide accurate cost projections for kitchen remodels, bathroom upgrades, whole-house renovations, and commercial space transformations.",
+            heading: "",
+            description: ["Remodeling projects demand precision and attention to detail. Our remodeling estimating services provide accurate cost projections for kitchen remodels, bathroom upgrades, whole-house renovations, and commercial space transformations."],
             items: [
                 {
                     title: "Kitchen Remodeling Estimates",

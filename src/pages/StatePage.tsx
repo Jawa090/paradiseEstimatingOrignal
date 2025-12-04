@@ -450,13 +450,7 @@ const StatePage = () => {
                                     ))}
                                 </div>
                                 <div className="flex items-center gap-4">
-                                    <div className="flex -space-x-4">
-                                        {[1, 2, 3, 4].map((i) => (
-                                            <div key={i} className="w-12 h-12 rounded-full border-2 border-white bg-gray-200 flex items-center justify-center text-xs font-bold">
-                                                User
-                                            </div>
-                                        ))}
-                                    </div>
+
                                     <div className="text-sm font-bold">
                                         <span className="text-[#7ED957]">{data.tools.bidWinRatio}</span> Bid Win Ratio
                                     </div>
@@ -468,7 +462,7 @@ const StatePage = () => {
                                 {data.tools.toolsList.map((tool, index) => {
                                     const Icon = tool.iconName ? iconMap[tool.iconName] : null;
                                     return (
-                                        <div key={index} className="bg-gray-50 p-6 rounded-2xl border border-gray-100 hover:border-[#7ED957] hover:shadow-lg transition-all duration-300 flex flex-col items-center justify-center gap-3 group text-center h-full">
+                                        <div key={index} className="bg-[#7ED957]/20 p-6 rounded-2xl border border-gray-100 hover:border-[#7ED957] hover:shadow-lg transition-all duration-300 flex flex-col items-center justify-center gap-3 group text-center h-full">
                                             <div className="w-16 h-16 flex items-center justify-center bg-white rounded-xl shadow-sm p-2 group-hover:scale-110 transition-transform duration-300">
                                                 {tool.image ? (
                                                     <img

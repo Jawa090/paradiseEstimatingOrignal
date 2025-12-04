@@ -507,6 +507,7 @@ const ServiceTemplate = () => {
                     tagline={service.content.tagline}
                     description={service.content.description}
                     items={service.content.items}
+                    SubDescription={service.content.SubDescription}
                 />
 
                 {/* Divider */}
@@ -518,6 +519,9 @@ const ServiceTemplate = () => {
                             <h2 className="text-3xl lg:text-5xl font-black text-[#1A2E1A] mb-4">
                                 {service.content.processHeading}
                             </h2>
+                            <p className="text-gray-700 leading-relaxed mb-6 w-[50%] mx-auto">
+                                {service.content.processDescription}
+                            </p>
                         </div>
                         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
                             {service.content.processSteps.map((step, index) => (
@@ -624,59 +628,7 @@ const ServiceTemplate = () => {
                     </div>
                 </section>
 
-                {/* Divider */}
-                <div className="w-full" style={{ height: '0.5px', backgroundColor: '#d1d5db' }}></div>
 
-                {/* Residential Remodeling and Renovation Section */}
-                <section className="py-16 lg:py-24 bg-white">
-                    <div className="container mx-auto px-4 lg:px-6">
-                        <div className="grid lg:grid-cols-2 gap-12 items-center">
-                            {/* Left - Image */}
-                            <div className="order-2 lg:order-1">
-                                <div className="relative rounded-2xl overflow-hidden shadow-xl">
-                                    <img
-                                        src="/assets/governmental.webp"
-                                        alt="Residential Remodeling and Renovation"
-                                        className="w-full h-auto object-cover"
-                                    />
-                                </div>
-                            </div>
-
-                            {/* Right - Content */}
-                            <div className="order-1 lg:order-2">
-                                <h2 className="text-3xl lg:text-4xl font-black text-black mb-6">
-                                    {service.content.renovation.heading}
-                                </h2>
-
-                                <div className="prose prose-lg max-w-none mb-8">
-                                    {service.content.renovation.description.split('\n\n').map((paragraph, index) => (
-                                        <p key={index} className="text-gray-700 leading-relaxed mb-4">
-                                            {paragraph}
-                                        </p>
-                                    ))}
-                                </div>
-
-                                <div className="mb-6">
-                                    <h3 className="text-xl font-bold text-black mb-4">
-                                        {service.content.renovation.helpHeading}
-                                    </h3>
-                                    <ul className="space-y-3">
-                                        {service.content.renovation.servicesHelp.map((item, index) => (
-                                            <li key={index} className="flex items-start gap-3 items-center">
-                                                <div className="flex-shrink-0 w-3 h-3 rounded-full bg-[#7ED957] flex items-center justify-center mt-0.5">
-
-                                                </div>
-                                                <span className="text-gray-700 text-base leading-relaxed">
-                                                    {item}
-                                                </span>
-                                            </li>
-                                        ))}
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
 
                 {/* Divider */}
                 <div className="w-full" style={{ height: '0.5px', backgroundColor: '#d1d5db' }}></div>

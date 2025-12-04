@@ -14,6 +14,10 @@ export const serviceCategories = [
     "Bridge Estimating", "Garage Estimating", "Telecom Estimating", "Quantity Surveyor", "Building Estimating", "Equipment Estimating", "Commercial Estimating", "Industrial Estimating", "Residential Estimating", "Renovation Estimating", "Apartments Estimating", "Remodeling Estimating", "Blueprint Estimating", "Preliminary Estimating", "Conveying Estimating", "Specialties Estimating", "Special Construction", "Construction Takeoff", "Quantity/Material Takeoff", "Home Addition Estimating", "Cost/Budget Estimating", "Xactimate Estimating", "Transportation Estimating", "Swimming Pool Estimating", "Cut And Fill Estimating", "Civil Estimating Services", "Construction Lead Generation", "Construction Documentation", "Carpentry estimating Services", "Surface Grading Estimating", "Demolition Estimating Services", "Exterior Improvements Estimating", "Consultation and Bid Submission", "Outsource/Freelance Estimating", "Single Family Residential Estimating", "Multi Family Residential Estimating", "Integrated Automation Estimating", "Electronic Safety and Security Estimating", "Pollution Control Equipment Estimating"
 ];
 
+export const tradeCategories = [
+    "Concrete", "Masonry", "Sitework", "Earthwork", "Mechanical", "Electrical", "Plumbing", "HVAC", "Metals", "Doors & Windows", "Finishes", "Painting", "Drywall", "Flooring", "Roofing", "Wood/Plastic", "Lumber", "Waterproofing", "Fireproofing", "Landscaping", "Thermal/Moisture Protection"
+];
+
 const defaultContent: ServiceContent = {
     heroTitle: "100% ACCURATE QUANTITY TAKE-OFF SERVICES",
     heroSubtitle: "PARADISE ESTIMATING SERVICE COMPANY",

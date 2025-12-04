@@ -44,11 +44,11 @@ const HelpContractorsSection = () => {
                     </div>
 
                     {/* Right Image */}
-                    <div className="lg:col-span-5 relative  overflow-hidden shadow-2xl">
+                    <div className="lg:col-span-5 relative rounded-lg overflow-hidden shadow-2xl shadow-[#7ED957]">
                         <img
-                            src="/assets/help.webp"
+                            src="/assets/help.jpeg"
                             alt="Construction Estimating"
-                            className="w-full h-full object-cover max-h-[600px] lg:min-h-[450px]"
+                            className="w-full h-full object-cover max-h-[600px] lg:min-h-[500px]"
                             loading="lazy"
                         />
                         {/* Optional Overlay/Gradient if needed to match the 'premium' feel, but standard image is requested */}

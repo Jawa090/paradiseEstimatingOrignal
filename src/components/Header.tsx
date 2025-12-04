@@ -1,17 +1,26 @@
 import { Button } from "@/components/ui/button";
 import { Menu, ChevronDown } from "lucide-react";
-import { useState } from "react";
+import { useState, useEffect } from "react";
+import { useLocation } from "react-router-dom";
 
-import { serviceCategories, generateSlug } from "@/data/services";
+import { serviceCategories, tradeCategories, generateSlug } from "@/data/services";
 import TopBar from "@/components/TopBar";
 
 const Header = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [servicesOpen, setServicesOpen] = useState(false);
+  const [tradesOpen, setTradesOpen] = useState(false);
+  const location = useLocation();
+  const currentPath = location.pathname;
+
+  const isActive = (path: string) => {
+    if (path === "/" && currentPath === "/") return true;
+    if (path !== "/" && currentPath.startsWith(path)) return true;
+    return false;
+  };
 
   const navItems = [
     { label: "Portfolio", href: "/portfolio" },
-    { label: "Locations", href: "/service-areas" },
     { label: "About Us", href: "/about-us" },
     { label: "Blog", href: "/blog" },
     { label: "Contact", href: "/contact" },
@@ -37,7 +46,7 @@ const Header = () => {
               <div className="flex items-center">
                 <a
                   href="/"
-                  className="text-xs font-bold uppercase text-foreground hover:text-primary transition-colors tracking-wide"
+                  className={`text-sm font-bold uppercase transition-colors tracking-wide ${isActive("/") ? 'text-[#82E658]' : 'text-foreground hover:text-primary'}`}
                 >
                   Home
                 </a>
@@ -52,7 +61,7 @@ const Header = () => {
               >
                 <a
                   href="/services/category-1"
-                  className={`flex items-center gap-1 text-xs font-bold uppercase tracking-wide transition-colors h-full ${servicesOpen ? 'text-[#82E658]' : 'text-foreground hover:text-primary'
+                  className={`flex items-center gap-1 text-sm font-bold uppercase tracking-wide transition-colors h-full ${servicesOpen || isActive('/services') ? 'text-[#82E658]' : 'text-foreground hover:text-primary'
                     }`}
                 >
                   Services
@@ -77,11 +86,44 @@ const Header = () => {
                 <span className="mx-3 text-muted-foreground/50">|</span>
               </div>
 
+              {/* Trades Dropdown */}
+              <div
+                className="relative flex items-center h-full"
+                onMouseEnter={() => setTradesOpen(true)}
+                onMouseLeave={() => setTradesOpen(false)}
+              >
+                <a
+                  href="/trades"
+                  className={`flex items-center gap-1 text-sm font-bold uppercase tracking-wide transition-colors h-full ${tradesOpen || isActive('/trades') ? 'text-[#82E658]' : 'text-foreground hover:text-primary'
+                    }`}
+                >
+                  Trades
+                  <ChevronDown className={`w-3 h-3 transition-transform ${tradesOpen ? 'rotate-180' : ''}`} />
+                </a>
+
+                {/* Dropdown Menu */}
+                {tradesOpen && (
+                  <div className="absolute top-full left-[-200px] mt-0 w-[800px] bg-white border border-border rounded-lg shadow-lg p-6 grid grid-cols-3 gap-x-8 gap-y-2">
+                    {tradeCategories.map((trade, index) => (
+                      <a
+                        key={trade}
+                        href={`/trades/${generateSlug(trade)}`}
+                        className="flex items-start gap-2 text-[13px] font-medium text-black hover:bg-[#D0F0C0] px-2 py-1 rounded transition-colors group"
+                      >
+                        <span className="text-[#82E658] text-[10px] mt-1">▶</span>
+                        <span className="leading-tight">{trade}</span>
+                      </a>
+                    ))}
+                  </div>
+                )}
+                <span className="mx-3 text-muted-foreground/50">|</span>
+              </div>
+
               {navItems.map((item, index) => (
                 <div key={item.label} className="flex items-center">
                   <a
                     href={item.href}
-                    className="text-xs font-bold uppercase text-foreground hover:text-primary transition-colors tracking-wide"
+                    className={`text-sm font-bold uppercase transition-colors tracking-wide ${isActive(item.href) ? 'text-[#82E658]' : 'text-foreground hover:text-primary'}`}
                   >
                     {item.label}
                   </a>
@@ -141,6 +183,31 @@ const Header = () => {
                           className="block text-sm font-medium text-foreground hover:text-[#82E658] transition-colors"
                         >
                           {service}
+                        </a>
+                      ))}
+                    </div>
+                  )}
+                </div>
+
+                {/* Mobile Trades Dropdown */}
+                <div>
+                  <button
+                    onClick={() => setTradesOpen(!tradesOpen)}
+                    className={`flex items-center gap-1 text-sm font-bold uppercase transition-colors ${tradesOpen ? 'text-[#82E658]' : 'text-foreground'
+                      }`}
+                  >
+                    Trades
+                    <ChevronDown className={`w-3 h-3 transition-transform ${tradesOpen ? 'rotate-180' : ''}`} />
+                  </button>
+                  {tradesOpen && (
+                    <div className="ml-4 mt-2 space-y-2">
+                      {tradeCategories.map((trade, index) => (
+                        <a
+                          key={trade}
+                          href={`/trades/${generateSlug(trade)}`}
+                          className="block text-sm font-medium text-foreground hover:text-[#82E658] transition-colors"
+                        >
+                          {trade}
                         </a>
                       ))}
                     </div>
