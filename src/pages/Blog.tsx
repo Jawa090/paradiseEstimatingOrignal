@@ -61,7 +61,7 @@ const Blog = () => {
       <SEOHead
         title="Construction Estimating Blog | Tips, Insights & Industry News"
         description="Expert construction estimating insights, best practices, and industry news. Learn from professionals with 15+ years of experience."
-        canonical="https://yoursite.lovable.app/blog"
+        canonical="https://paradiseestimating.com/blog"
         structuredData={structuredData}
       />
       <Header />

@@ -81,7 +81,7 @@ const StatePage = () => {
             <SEOHead
                 title={`${data.stateName} Construction Estimation Service | Paradise Estimating`}
                 description={`Reliable construction estimating service in ${data.stateName}. Best local construction estimators for residential, commercial, and industrial projects.`}
-                canonical={`https://yoursite.lovable.app/locations/${state}`}
+                canonical={`https://paradiseestimating.com/locations/${state}`}
                 structuredData={{
                     "@context": "https://schema.org",
                     "@type": "ProfessionalService",

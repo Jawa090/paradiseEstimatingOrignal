@@ -5,7 +5,7 @@ Disallow: /api/
 Disallow: /admin/
 
 # Sitemaps
-Sitemap: https://yoursite.lovable.app/sitemap.xml
+Sitemap: https://paradiseestimating.com/sitemap.xml
 
 # Major Search Engines
 User-agent: Googlebot

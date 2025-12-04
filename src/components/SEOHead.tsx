@@ -13,7 +13,7 @@ const SEOHead = ({
   title,
   description,
   canonical,
-  ogImage = "https://lovable.dev/opengraph-image-p98pqg.png",
+  ogImage = "/assets/logo.webp",
   structuredData,
   preloadImages = []
 }: SEOHeadProps) => {

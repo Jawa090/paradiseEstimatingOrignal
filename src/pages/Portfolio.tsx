@@ -55,7 +55,7 @@ const Portfolio = () => {
       <SEOHead
         title="Project Portfolio | Paradise Construction Estimating"
         description="View our successful construction estimating projects across residential, commercial, and industrial sectors. 2000+ completed projects."
-        canonical="https://yoursite.lovable.app/portfolio"
+        canonical="https://paradiseestimating.com/portfolio"
         structuredData={structuredData}
       />
       <Header />

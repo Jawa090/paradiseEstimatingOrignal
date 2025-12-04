@@ -26,7 +26,7 @@ const Index = () => {
     "@type": "ProfessionalService",
     "name": "Paradise Construction Estimating",
     "description": "Professional construction estimating services with 15+ years of experience. Get accurate material take-offs, residential and commercial estimates.",
-    "url": "https://yoursite.lovable.app",
+    "url": "https://paradiseestimating.com",
     "telephone": "+1-917-300-1079",
     "address": {
       "@type": "PostalAddress",
@@ -52,7 +52,7 @@ const Index = () => {
       <SEOHead
         title="Paradise Construction Estimating | Expert Construction Estimation Services"
         description="Professional construction estimating services with 15+ years of experience. Get accurate material take-offs, residential and commercial estimates. Trusted by 2000+ projects."
-        canonical="https://yoursite.lovable.app/"
+        canonical="https://paradiseestimating.com/"
         structuredData={structuredData}
         preloadImages={["/assets/hero_illustration.png"]}
       />

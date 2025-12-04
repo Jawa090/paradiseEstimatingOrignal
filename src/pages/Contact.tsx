@@ -24,7 +24,7 @@ const Contact = () => {
       <SEOHead
         title="Contact Us | Get a Free Construction Estimate Quote"
         description="Contact Paradise Construction Estimating for a free consultation and quote. Call +1 (917) 300-1079 or fill out our online form."
-        canonical="https://yoursite.lovable.app/contact"
+        canonical="https://paradiseestimating.com/contact"
         structuredData={structuredData}
       />
       <Header />

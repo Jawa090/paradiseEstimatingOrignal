@@ -22,7 +22,7 @@ const ServiceAreas = () => {
       <SEOHead
         title="Service Areas | Paradise Construction Estimating"
         description="Professional construction estimating services available across all 50 states. Select your location to learn more."
-        canonical="https://yoursite.lovable.app/service-areas"
+        canonical="https://paradiseestimating.com/service-areas"
         structuredData={structuredData}
       />
       <Header />

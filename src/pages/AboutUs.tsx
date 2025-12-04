@@ -49,7 +49,7 @@ const AboutUs = () => {
       <SEOHead
         title="About Us | Paradise Construction Estimating - 15+ Years Experience"
         description="Learn about Paradise Construction Estimating. 15+ years of expertise, 2000+ successful projects, and commitment to accuracy and excellence."
-        canonical="https://yoursite.lovable.app/about-us"
+        canonical="https://paradiseestimating.com/about-us"
         structuredData={structuredData}
       />
       <Header />

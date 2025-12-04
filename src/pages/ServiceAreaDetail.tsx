@@ -32,7 +32,7 @@ const ServiceAreaDetail = () => {
             <SEOHead
                 title={`Construction Estimating Services in ${cityName}, ${stateName}`}
                 description={`Professional construction estimating and takeoff services in ${cityName}, ${stateName}. Accurate, reliable, and fast estimates for contractors.`}
-                canonical={`https://yoursite.lovable.app/service-areas/${state}/${city}`}
+                canonical={`https://paradiseestimating.com/service-areas/${state}/${city}`}
                 structuredData={structuredData}
             />
             <Header />

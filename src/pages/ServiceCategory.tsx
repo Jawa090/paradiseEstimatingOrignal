@@ -28,7 +28,7 @@ const ServiceCategory = ({
             <SEOHead
                 title={`${categoryName} | Paradise Construction Estimating Services`}
                 description={categoryDescription}
-                canonical={`https://yoursite.lovable.app/services/${categoryName.toLowerCase().replace(/\s+/g, '-')}`}
+                canonical={`https://paradiseestimating.com/services/${categoryName.toLowerCase().replace(/\s+/g, '-')}`}
                 structuredData={structuredData}
             />
             <Header />
