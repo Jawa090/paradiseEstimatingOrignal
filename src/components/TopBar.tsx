@@ -11,9 +11,7 @@ const TopBar = () => {
     });
 
     useEffect(() => {
-        // Set a deadline (e.g., 24 hours from now for demo, or a fixed date)
-        // For a "recurring" feel, let's count down to the next midnight or just a fixed 5 hour timer that resets.
-        // Let's do a 24-hour countdown that resets daily.
+
         const calculateTimeLeft = () => {
             const now = new Date();
             const tomorrow = new Date(now);

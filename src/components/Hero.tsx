@@ -1,4 +1,8 @@
+import { useNavigate } from 'react-router-dom';
+
 const Hero = () => {
+  const navigate = useNavigate();
+
   return (
     <section className="relative w-full h-[550px] bg-background">
 
@@ -28,7 +32,7 @@ const Hero = () => {
 
           </p>
 
-          <button className="bg-[#7ED957] text-black font-bold uppercase py-2 sm:py-3 px-4 sm:px-6 rounded-full 
+          <button onClick={() => navigate('/category-1')} className="bg-[#7ED957] text-black font-bold uppercase py-2 sm:py-3 px-4 sm:px-6 rounded-full 
                              text-sm sm:text-base md:text-lg shadow-[3px_3px_0_rgba(0,0,0,1)] sm:shadow-[4px_4px_0_rgba(0,0,0,1)]
                              hover:translate-y-1 hover:shadow-none transition-all">
             Explore our Services

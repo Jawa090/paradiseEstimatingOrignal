@@ -7,6 +7,7 @@ const ServiceButtons = () => {
       <div className="container mx-auto px-4 lg:px-6">
         <div className="flex flex-col md:flex-row justify-center items-center gap-8 max-w-4xl mx-auto">
           <Button
+
             size="lg"
             className="bg-[#7ED957] text-black font-bold uppercase tracking-wide rounded-full 
                        px-6 py-6 text-xl

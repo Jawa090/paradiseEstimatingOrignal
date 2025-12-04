@@ -20,10 +20,10 @@ const Header = () => {
   };
 
   const navItems = [
-    { label: "Portfolio", href: "/portfolio" },
+    // { label: "Portfolio", href: "/portfolio" },
     { label: "About Us", href: "/about-us" },
-    { label: "Blog", href: "/blog" },
-    { label: "Contact", href: "/contact" },
+    // { label: "Blog", href: "/blog" },
+    { label: "Contact Us", href: "/contact" },
   ];
 
   return (
@@ -86,38 +86,7 @@ const Header = () => {
                 <span className="mx-3 text-muted-foreground/50">|</span>
               </div>
 
-              {/* Trades Dropdown */}
-              <div
-                className="relative flex items-center h-full"
-                onMouseEnter={() => setTradesOpen(true)}
-                onMouseLeave={() => setTradesOpen(false)}
-              >
-                <a
-                  href="/trades"
-                  className={`flex items-center gap-1 text-sm font-bold uppercase tracking-wide transition-colors h-full ${tradesOpen || isActive('/trades') ? 'text-[#82E658]' : 'text-foreground hover:text-primary'
-                    }`}
-                >
-                  Trades
-                  <ChevronDown className={`w-3 h-3 transition-transform ${tradesOpen ? 'rotate-180' : ''}`} />
-                </a>
 
-                {/* Dropdown Menu */}
-                {tradesOpen && (
-                  <div className="absolute top-full left-[-200px] mt-0 w-[800px] bg-white border border-border rounded-lg shadow-lg p-6 grid grid-cols-3 gap-x-8 gap-y-2">
-                    {tradeCategories.map((trade, index) => (
-                      <a
-                        key={trade}
-                        href={`/trades/${generateSlug(trade)}`}
-                        className="flex items-start gap-2 text-[13px] font-medium text-black hover:bg-[#D0F0C0] px-2 py-1 rounded transition-colors group"
-                      >
-                        <span className="text-[#82E658] text-[10px] mt-1">▶</span>
-                        <span className="leading-tight">{trade}</span>
-                      </a>
-                    ))}
-                  </div>
-                )}
-                <span className="mx-3 text-muted-foreground/50">|</span>
-              </div>
 
               {navItems.map((item, index) => (
                 <div key={item.label} className="flex items-center">

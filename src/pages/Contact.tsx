@@ -54,10 +54,8 @@ const Contact = () => {
                   Are you ready to bid smarter, reduce project risks, and get precise cost estimates?
                   You are in the right place. Our team provides fast, accurate, and budget-friendly construction estimating services for contractors, builders, and developers across the globe.
                   Whether you want a quick estimate, a full project takeoff, or expert guidance, we are here to help.
-
                 </p>
                 <p>
-
                 </p>
               </div>
             </div>
@@ -96,7 +94,7 @@ const Contact = () => {
                       <div className="w-12 h-12 bg-[#82E658] flex items-center justify-center flex-shrink-0">
                         <Mail className="w-6 h-6 text-black" />
                       </div>
-                      <span className="text-xl font-bold text-black">info@paradiseestimating.com</span>
+                      <span className="text-xl font-bold text-black">Paradisestimating@gmail.com</span>
                     </div>
                   </div>
 
@@ -107,7 +105,7 @@ const Contact = () => {
                       <div className="w-12 h-12 bg-[#82E658] flex items-center justify-center flex-shrink-0">
                         <MapPin className="w-6 h-6 text-black fill-black" />
                       </div>
-                      <span className="text-xl font-bold text-black">2000 Taylor St, Houston, TX 77007, United States</span>
+                      <span className="text-xl font-bold text-black">898 Bay Ridge Avenue, Brooklyn, NY 11220, USA.</span>
                     </div>
                   </div>
 
@@ -331,10 +329,10 @@ const Contact = () => {
         </section>
 
         {/* Areas We Serve Section */}
-        <section className="py-16 lg:py-24 bg-white">
+        <section className="py-8 lg:py-12 bg-white">
           <div className="container mx-auto px-4 lg:px-6">
             <h2 className="text-3xl lg:text-4xl font-bold text-center mb-12 text-black">
-              Areas We Serve
+              Areas <span className="text-[#82E658]">We</span> Serve
             </h2>
             <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-4">
               {serviceAreasData.map((data) => (

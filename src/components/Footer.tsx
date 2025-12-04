@@ -3,12 +3,12 @@ import { Facebook, Instagram, Linkedin, Twitter, ChevronRight } from "lucide-rea
 const Footer = () => {
   const quickLinks = [
     { label: "Home", href: "/" },
-    { label: "Pricing", href: "/pricing" },
-    { label: "Blog", href: "/blog" },
-    { label: "Results", href: "/results" },
+    // { label: "Pricing", href: "/pricing" },
+    // { label: "Blog", href: "/blog" },
+    // { label: "Results", href: "/results" },
     { label: "About Us", href: "/about-us" },
     { label: "Locations", href: "/service-areas" },
-    { label: "Case Studies", href: "/case-studies" },
+    // { label: "Case Studies", href: "/case-studies" },
   ];
 
   const serviceLinks = [

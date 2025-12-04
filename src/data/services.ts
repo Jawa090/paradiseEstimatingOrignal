@@ -10,8 +10,7 @@ export interface ServiceContent {
     }[];
 }
 
-export const serviceCategories = [
-    "Bridge Estimating", "Garage Estimating", "Telecom Estimating", "Quantity Surveyor", "Building Estimating", "Equipment Estimating", "Commercial Estimating", "Industrial Estimating", "Residential Estimating", "Renovation Estimating", "Apartments Estimating", "Remodeling Estimating", "Blueprint Estimating", "Preliminary Estimating", "Conveying Estimating", "Specialties Estimating", "Special Construction", "Construction Takeoff", "Quantity/Material Takeoff", "Home Addition Estimating", "Cost/Budget Estimating", "Xactimate Estimating", "Transportation Estimating", "Swimming Pool Estimating", "Cut And Fill Estimating", "Civil Estimating Services", "Construction Lead Generation", "Construction Documentation", "Carpentry estimating Services", "Surface Grading Estimating", "Demolition Estimating Services", "Exterior Improvements Estimating", "Consultation and Bid Submission", "Outsource/Freelance Estimating", "Single Family Residential Estimating", "Multi Family Residential Estimating", "Integrated Automation Estimating", "Electronic Safety and Security Estimating", "Pollution Control Equipment Estimating"
+export const serviceCategories = ["Commercial Estimating", "Industrial Estimating", "Residential Estimating", "Construction Takeoff Services", "Construction Estimating Consultant", "Carpentry estimating Services", "Surface Grading Estimating", "Demolition Estimating Services", "Exterior Improvements Estimating", "Consultation and Bid Submission", "Outsource/Freelance Estimating", "Single Family Residential Estimating", "Multi Family Residential Estimating", "Integrated Automation Estimating", "Electronic Safety and Security Estimating", "Pollution Control Equipment Estimating"
 ];
 
 export const tradeCategories = [
@@ -64,12 +63,7 @@ const serviceContentMap: Record<string, Partial<ServiceContent>> = {
         tagline: "robust. reliable. results-driven",
         description: "Industrial projects demand specialized knowledge and precision. Our industrial estimating services cover warehouses, manufacturing facilities, processing plants, and heavy industrial construction with accurate material quantities, equipment costs, and labor projections.",
     },
-    "renovation-estimating": {
-        heroTitle: "Accurate Renovation Estimating Services",
-        mainHeading: "Renovation Estimating Services",
-        tagline: "thorough. transparent. transformative",
-        description: "Renovation projects require careful assessment of existing conditions and detailed planning. We provide comprehensive estimates for remodeling, retrofits, and renovation projects, accounting for demolition, structural modifications, and finish upgrades.",
-    },
+
 };
 
 export const getServiceBySlug = (slug: string) => {

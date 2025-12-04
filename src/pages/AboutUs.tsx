@@ -296,7 +296,7 @@ const AboutUs = () => {
                 </h2>
                 <div className="space-y-4 text-muted-foreground">
                   <p>
-                    [Founder Name] started Paradise Estimating with a simple idea. This  was to make life easier for contractors who are worried between the job site and the bidding desk. After spending two decades working in construction management, estimating, and hands-on field operations, he noticed the same problem everywhere he went. Contractors were juggling too much, and preparing accurate, competitive bids was becoming harder with every project.
+                    Usman Chaudary started Paradise Estimating with a simple idea. This  was to make life easier for contractors who are worried between the job site and the bidding desk. After spending two decades working in construction management, estimating, and hands-on field operations, he noticed the same problem everywhere he went. Contractors were juggling too much, and preparing accurate, competitive bids was becoming harder with every project.
 
                     Seeing this gap in the industry, he set out to create a solution. That’s how Paradise Estimating was born. A service built to take the pressure off contractors, deliver reliable numbers. It gave them the support they need to win more work without sacrificing their time. They need to win more projects, reduce workload, and operate with confidence.
 

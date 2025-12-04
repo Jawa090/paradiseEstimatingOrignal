@@ -5,7 +5,7 @@ import SEOHead from "@/components/SEOHead";
 import ServiceContentWithForm from "@/components/ServiceContentWithForm";
 import { getServiceTemplateData } from "@/data/serviceTemplateData";
 import { useState } from "react";
-import { useParams } from "react-router-dom";
+import { Navigate, useParams } from "react-router-dom";
 
 
 // Trade Accordion Item Component
@@ -455,12 +455,7 @@ const ServiceTemplate = () => {
     // If service not found, redirect to 404 or show residential by default
     if (!service) {
         return (
-            <div className="min-h-screen flex items-center justify-center">
-                <div className="text-center">
-                    <h1 className="text-4xl font-bold text-black mb-4">Service Not Found</h1>
-                    <p className="text-gray-600">The service you're looking for doesn't exist.</p>
-                </div>
-            </div>
+            <Navigate to="/NotFound" />
         );
     }
 

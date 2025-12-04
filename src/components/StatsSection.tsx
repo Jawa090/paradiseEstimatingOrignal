@@ -17,13 +17,13 @@ const StatsSection = () => {
       icon: "clock",
       value: "9-24 Hours",
       label: "Rapid Delivery",
-      videoUrl: "https://www.youtube.com/embed/95Hpu9yh0Mk",
+      videoUrl: "",
     },
     {
       icon: "check-circle",
       value: "Quality",
       label: "100% Guaranteed",
-      videoUrl: "https://www.youtube.com/embed/95Hpu9yh0Mk",
+      videoUrl: "",
     },
     {
       icon: "settings",

@@ -16,11 +16,14 @@ All service keys follow the pattern: `{service-type}-estimating`
 2. **`commercial-estimating`** - Commercial Estimating Services
    - Basic structure created (placeholder content)
    - Ready to be populated with commercial-specific content
+   
+3. **`industrial-estimating`** - Industrial Estimating Services
+   - Basic structure created (placeholder content)
+   - Ready to be populated with industrial-specific content
 
 ### To Be Added:
 Based on the services menu, you can add these keys:
 
-3. **`industrial-estimating`** - Industrial Estimating Services
 4. **`renovation-estimating`** - Renovation Estimating Services
 5. **`bridge-estimating`** - Bridge Estimating
 6. **`garage-estimating`** - Garage Estimating
@@ -34,6 +37,29 @@ Based on the services menu, you can add these keys:
 /services/residential-estimating  → Shows residential content
 /services/commercial-estimating   → Shows commercial content
 /services/industrial-estimating   → Shows industrial content
+/services/construction-estimating-consultant   → Shows construction estimating consultant content
+/services/construction-takeoff-services   → Shows construction takeoff services content
+/services/quantity-material-takeoff   → Shows quantity material takeoff content
+/services/home-addition-estimating   → Shows home addition estimating content
+/services/cost-budget-estimating   → Shows cost budget estimating content
+/services/xactimate-estimating   → Shows xactimate estimating content
+/services/transportation-estimating   → Shows transportation estimating content
+/services/swimming-pool-estimating   → Shows swimming pool estimating content
+/services/cut-and-fill-estimating   → Shows cut and fill estimating content
+/services/civil-estimating-services   → Shows civil estimating services content
+/services/construction-lead-generation   → Shows construction lead generation content
+/services/construction-estimating-consultant   → Shows construction estimating consultant content
+/services/carpentry-estimating-services   → Shows carpentry estimating services content
+/services/surface-grading-estimating   → Shows surface grading estimating content
+/services/demolition-estimating-services   → Shows demolition estimating services content
+/services/exterior-improvements-estimating   → Shows exterior improvements estimating content
+/services/consultation-and-bid-submission   → Shows consultation and bid submission content
+/services/outsource-freelance-estimating   → Shows outsource freelance estimating content
+/services/single-family-residential-estimating   → Shows single family residential estimating content
+/services/multi-family-residential-estimating   → Shows multi family residential estimating content
+/services/integrated-automation-estimating   → Shows integrated automation estimating content
+/services/electronic-safety-and-security-estimating   → Shows electronic safety and security estimating content
+/services/pollution-control-equipment-estimating   → Shows pollution control equipment estimating content
 ```
 
 ### 2. Data File Location
@@ -44,29 +70,9 @@ Based on the services menu, you can add these keys:
 ```typescript
 export const serviceTemplateData: Record<string, ServiceTemplateContent> = {
     "residential-estimating": { /* ... */ },
-    "commercial-estimating": { /* ... */ },
-    
+    "commercial-estimating": { /* ... */ }, 
     // Add new service here:
-    "industrial-estimating": {
-        title: "Industrial Estimating Services",
-        description: "Professional industrial estimating services...",
-        content: {
-            heroTitle: "Accurate Industrial Estimating Services",
-            heroSubtitle: "PARADISE ESTIMATING SERVICE COMPANY",
-            mainHeading: "Industrial Estimating Services",
-            tagline: "Robust. Reliable. Results-Driven",
-            description: "Your description here...",
-            items: [ /* service items */ ],
-            processSteps: [ /* process steps */ ],
-            whyChooseIntro: "Why choose text...",
-            whyChoose: [ /* reasons */ ],
-            trades: [ /* trade-specific info */ ],
-            renovation: { /* renovation details */ },
-            portfolio: { /* portfolio items */ },
-            nearbyAreas: [ /* list of states */ ],
-            faqs: [ /* FAQ items */ ]
-        }
-    }
+    "industrial-estimating": { /* ... */}
 };
 ```
 

@@ -38,12 +38,7 @@ export interface ServiceTemplateContent {
             title: string;
             description: string;
         }>;
-        renovation: {
-            heading: string;
-            description: string;
-            helpHeading: string;
-            servicesHelp: string[];
-        };
+
         portfolio: {
             heading: string;
             intro: string;
@@ -70,12 +65,13 @@ export const serviceTemplateData: Record<string, ServiceTemplateContent> = {
         title: "Residential Estimating Services",
         description: "Professional residential estimating services for accurate project planning and budgeting.",
         content: {
-            heroTitle: "Accurate Residential Estimating Services",
+            heroTitle: "Residential Estimating Services",
             heroSubtitle: "PARADISE ESTIMATING SERVICE COMPANY",
-            mainHeading: "Residential Estimating Services",
+            mainHeading: "Accurate Residential Estimating Services",
             tagline: "Accurate. Reliable. Efficient",
             description: ["Home construction or remodeling projects start with accurate cost planning. If you have a clear estimate, it will save money. Your cost overruns when your project estimate is right and clear. It will increase profit margins and build trust with clients. Our Residential Estimating Services provide material takeoffs and labor cost lists. You can bid on new home builds and on renovating interior properties."],
             heading: "Our Residential Estimating Services include",
+            SubDescription: "Our residential estimating services include the details of every aspect of estimating. We will deliver fast, reliable services on a low budget. Paradise Estimating Company makes the clients' experience tension-free.",
             items: [
                 {
                     title: "Residential Material Takeoff.",
@@ -209,18 +205,7 @@ export const serviceTemplateData: Record<string, ServiceTemplateContent> = {
                     description: "We provide HVAC estimating lists of all heating, cooling, and ventilation materials. It includes ductwork, units, vents, insulation, and related parts. This helps contractors install the right systems for the building. And it keeps the project comfortable, energy-efficient, and on budget."
                 }
             ],
-            renovation: {
-                heading: "Residential Remodeling and Renovation Estimates",
-                description: "The most important step in any project is knowing the cost before starting. Our Residential Remodeling and Renovation Estimates give you a clear cost. This helps homeowners, contractors, and designers make final decisions.\n\nAre you fixing a kitchen or adding space to your home? We give you a complete estimate of the price and other details. This helps your project stay on budget and on time.",
-                helpHeading: "Our renovation estimating services help:",
-                servicesHelp: [
-                    "General contractors and remodeling contractors",
-                    "Home builders who are starting renovation work",
-                    "Interior designers and architects",
-                    "Real estate investors and house flippers",
-                    "Homeowners running their own projects"
-                ]
-            },
+
             portfolio: {
                 heading: "Our Residential Estimating Services Portfolio",
                 intro: "Our residential services give details of the complete process of home construction. We provide pre-budgeting plans and final plans. Our cost estimation gives a better plan to finish your project with ease and success.",
@@ -385,15 +370,16 @@ export const serviceTemplateData: Record<string, ServiceTemplateContent> = {
         }
     },
     "commercial-estimating": {
-        title: "Best Commercial Estimating Services",
+        title: "Commercial Estimating Services",
         description: "Professional commercial estimating services for accurate project planning and budgeting.",
         content: {
-            heroTitle: "Best Commercial Estimating Services",
+            heroTitle: "Commercial Estimating Services",
             heroSubtitle: "PARADISE ESTIMATING SERVICE COMPANY",
             mainHeading: "Commercial Estimating Services",
             tagline: "Accurate. Reliable.Efficient",
-            description: ["We have been providing commercial estimating services for more than 20 years. Our commercial estimating services start every project with control and balance. If you stick to your budget, it helps you win more projects. Even small mistakes in numbers can lead to big problems later. If you make your budget clear, it will work as a tool to win the estimation. Even a few mistakes in numbers or labor figures can cause losses or project disputes. Hence, we provide the best commercial construction takeoff services. They help control these issues with precision. We work with contractors, subcontractors, companies, developers, and architects. Our estimates help you plan your work and create accurate bids or budgets. They can guide you from the start of the project all the way to purchasing materials."],
+            description: ["We have been providing commercial estimating services for more than 20 years. Our commercial estimating services start every project with control and balance", "If you stick to your budget, it helps you win more projects. Even small mistakes in numbers can lead to big problems later. If you make your budget clear, it will work as a tool to win the estimation. Even a few mistakes in numbers or labor figures can cause losses or project disputes. Hence, we provide the best commercial construction takeoff services. They help control these issues with precision. We work with contractors, subcontractors, companies, developers, and architects. Our estimates help you plan your work and create accurate bids or budgets. They can guide you from the start of the project all the way to purchasing materials."],
             heading: "What’s Included in Commercial Estimating Services?",
+            SubDescription: "Commercial Estimating Services provides the details of every aspect of estimating. We will deliver fast, reliable services on a low budget. We make the clients tension-free with the Best commercial construction takeoff.",
             items: [
                 {
                     title: "Complete Quantity Takeoffs.",
@@ -520,18 +506,7 @@ export const serviceTemplateData: Record<string, ServiceTemplateContent> = {
                     description: "Our MEP estimates include mechanical, electrical, and plumbing systems. We count fixtures, equipment, and piping/conduit lengths."
                 }
             ],
-            renovation: {
-                heading: "Commercial Renovation and Remodeling",
-                description: "Renovating a commercial space requires careful planning and budgeting. We provide accurate estimates for tenant improvements, office build-outs, and retail renovations. We account for demolition, existing conditions, and new construction to give you a complete picture of the project cost.",
-                helpHeading: "Our commercial renovation services help:",
-                servicesHelp: [
-                    "General Contractors",
-                    "Property Managers",
-                    "Business Owners",
-                    "Real Estate Developers",
-                    "Architects and Designers"
-                ]
-            },
+
             portfolio: {
                 heading: "Our Commercial Estimating Portfolio",
                 intro: "We have successfully estimated a wide range of commercial projects. Our portfolio demonstrates our ability to handle projects of varying size and complexity.",
@@ -871,563 +846,602 @@ export const serviceTemplateData: Record<string, ServiceTemplateContent> = {
                     answer: "Upload your plans or email us your drawings. We will review and send you a custom quote within a few hours."
                 }
             ],
-            renovation: {
-                heading: "",
-                description: "",
-                helpHeading: "",
-                servicesHelp: []
-            }
+
         }
     },
-    "renovation-estimating": {
-        title: "Renovation Estimating Services",
-        description: "Professional renovation estimating services for accurate project planning and budgeting.",
+    "construction-takeoff-services": {
+        title: "Construction Takeoff Services",
+        description: "Accuracy matters a  lot in estimating the industry, and we deliver it. From residential to commercial projects, Paradise Estimating provides dependable measurements. We will provide you with trusted bids with high win ratio. ",
         content: {
-            heroTitle: "Accurate Renovation Estimating Services",
+            heroTitle: "Construction Takeoff Services",
             heroSubtitle: "PARADISE ESTIMATING SERVICE COMPANY",
-            mainHeading: "Renovation Estimating Services",
-            tagline: "Thorough. Transparent. Transformative",
-            heading: "",
-            description: ["Renovation projects require careful assessment of existing conditions and detailed planning. We provide comprehensive estimates for remodeling, retrofits, and renovation projects, accounting for demolition, structural modifications, and finish upgrades."],
+            mainHeading: "Get  Accurate Construction Takeoff Services",
+            tagline: "Accurate, Reliable, Efficient",
+            heading: "What’s included in Construction Takeoff Services?",
+            SubDescription: "Our construction takeoff specialist enlist in the detail of every aspect of estimating. We will deliver fast,reliable services on a low budget. Paradise Estimating company makes the clients tension free.",
+            description: ["Paradise Estimating has been providing construction takeoff services for 20 years. We are well known in the estimating field for delivering expert, accurate, and reliable takeoffs. Therefore, it is the best construction takeoff company in the USA. Our team handles commercial projects, renovation work, and large construction jobs with ease. Our estimators use modern software and simple, proven methods to ensure accuracy. We deliver precise material lists and construction takeoff services you can rely on.", "We cover concrete, framing, drywall, finishes, MEP, and sitework. You do not need to guess your estimates. You would not miss any materials with our detailed reports. We provide reliable lists and cost data that help you plan smarter and build with confidence."],
             items: [
                 {
-                    title: "Demolition & Removal Estimates",
-                    description: "Detailed cost analysis for demolition work, debris removal, and site preparation for renovation projects."
+                    title: "Material Quantities",
+                    description: "We provide a complete list of all materials your project needs. Every item, like concrete, wood, steel, pipes, and tiles, is counted with care. This helps you order the right amount without guessing. As a result, you avoid shortages and keep your project on track"
                 },
                 {
-                    title: "Renovation Material Takeoff",
-                    description: "Comprehensive material quantification for renovation work including new materials and allowances for existing conditions."
+                    title: "Labor Quantities",
+                    description: " We calculate how many workers your project needs and for how long. This gives you a clear idea of labor hours and staffing requirements. With accurate labor data, your team planning becomes simple. This help makes Mechanical Piping Estimating Services run smoothly."
                 },
                 {
-                    title: "Structural Modifications",
-                    description: "Estimates for load-bearing wall removal, beam installation, and foundation reinforcement."
+                    title: "Equipment Needs",
+                    description: "We identify all tools and machines needed for the job. This includes cranes, lifts, trucks, and other essential equipment. By knowing this early, you can schedule equipment on time. So your project stays organized and moves without delays"
                 },
                 {
-                    title: "Finish Upgrades",
-                    description: "Cost projections for new flooring, painting, cabinetry, fixtures, and appliances."
+                    title: "Cost Estimation. Our Estimators",
+                    description: "prepare a detailed cost breakdown for materials, labor, and equipment. Every price is based on current market rates for accuracy. This makes budgeting easier and more transparent. And it helps you submit strong, competitive bids with confidence."
+                },
+                {
+                    title: "Fast Turnaround Time",
+                    description: "We know that time is critical in bidding and project planning. Our team provides quick and detailed takeoff reports. We help you meet tight deadlines and submit bids on time"
+                },
+                {
+                    title: "Cost Efficiency",
+                    description: "Our takeoff services help you control project costs and drop guesswork. Every quantity and estimate is based on reliable data, so you can plan confidently."
+                },
+                {
+                    title: "Increased Bidding Accuracy",
+                    description: "Accurate takeoffs mean more competitive bids. Every number and estimate is based on reliable data, so you can plan costs confidently."
+                },
+                {
+                    title: "Reduced Risk of Errors",
+                    description: "Manual calculations often lead to mistakes. Our digital takeoff tools and professional estimators reduce human error. They also reduce costly rework and material waste."
+                },
+                {
+                    title: "Customized Reports for Every Trade",
+                    description: "Whether you are a general contractor, subcontractor, or home builder. We tailor all material takeoff services to your specific trade. We offer from concrete and masonry to drywall, electrical, and mechanical works."
+                },
+                {
+                    title: "Scalable Support for All Project Sizes",
+                    description: "We are available 24/7 for small residential jobs to large commercial developments. Our construction takeoff services scale according to your needs. We offer flexibility and consistent quality for every project."
                 }
             ],
-            processHeading: "Our Renovation Takeoff Process",
+            processHeading: "Our Proven Process",
+            processDescription: "We use proven and tested methods or rules to take off your submitted plans. We do estimates by different steps that make the process easy. Our estimations are made such that everyone can easily understand it. Commercial project cost estimation sure that if you get our services you will win the project.",
             processSteps: [
                 {
                     number: 1,
-                    title: "Site Assessment",
-                    description: "Evaluate existing conditions and identify renovation scope and requirements."
+                    title: "Project Analysis",
+                    description: "First, send your drawings or blueprints (PDF, DWG, or CAD) to our contact number. Add all details about the project, such as scope, trade, and deadlines. Our team will review all the details of your submitted plans and provide an estimate. So that you will get an accurate estimation of your plans on time, with an accurate budget"
                 },
                 {
                     number: 2,
-                    title: "Detailed Takeoff",
-                    description: "Perform material takeoffs accounting for demolition, modifications, and new construction."
+                    title: "Detailed Mechanical Takeoff",
+                    description: "We will review your plans after preparing material quantities, labor costs, and pricing. Then, we will check your estimate according to the local market rates. Our mechanical estimating will give you a detailed structure of the mechanical estimating."
                 },
                 {
                     number: 3,
                     title: "Cost Development",
-                    description: "Develop comprehensive estimates including demolition, renovation, and finish work."
+                    description: "We will review your documents in detail. We will send you a custom quote based on project size, trade, and complexity. After your approval, we will assign an estimator specialized in your project type to you."
                 },
                 {
                     number: 4,
                     title: "Final Delivery",
-                    description: "Deliver complete estimate with detailed breakdowns and contingency recommendations."
+                    description: "You will receive your complete estimate report in Excel and PDF formats. CSI divisions, cost summaries, and detailed line items are also in the provided list. We also offer follow-up revisions in case of scope or design updates."
                 }
             ],
-            whyChooseHeading: "Why Choose Our Renovation Estimating Services?",
-            whyChooseIntro: "Our renovation estimating services help you plan and budget for successful remodeling projects.",
+            whyChooseHeading: "Industries We Serve for Construction Takeoff Services",
+            whyChooseIntro: "Our Best Construction Takeoff Company saves time and focuses on building. We provide clear and organized construction takeoff services for contractors and builders. Our reports make you feel comfortable and build more trust.",
             whyChoose: [
                 {
-                    title: "Renovation Expertise",
-                    description: "Specialized knowledge in renovation work, existing building assessment, and remodeling projects."
+                    title: "Accurate Construction Takeoff",
+                    description: "Accuracy is everything when you bid on a project in takeoff services for construction.  Even one mistake can cause delays, missing materials, or extra costs. Our construction estimators review your blueprints. They review every line and measure each item carefully to ensure nothing is missed. We use industry-leading digital takeoff software combined with real construction knowledge. This ensures your takeoff matches real construction work, not just digital numbers. With accurate materials and quantities, you can submit bids. But ensure that bids are realistic,  competitive, and without guesswork for construction estimating."
                 },
                 {
-                    title: "Comprehensive Estimates",
-                    description: "Detailed estimates that account for demolition, modifications, and unforeseen conditions."
+                    title: "Advanced Takeoff Technology",
+                    description: "Time is one of the most important resources for contractors. Our workflow is digital. Our construction estimators measure and calculate faster than traditional manual takeoff methods. We use software such as Bluebeam, PlanSwift, On-Screen Takeoff, Revit, and CostX. These tools help us measure accurately and stay consistent on every project. This digital process saves time, lowers errors, and keeps everything clear and transparent."
                 },
                 {
-                    title: "Contingency Planning",
-                    description: "We help you plan for the unexpected by including appropriate contingency allowances in our estimates."
+                    title: "Experienced Takeoff Estimating Team",
+                    description: "Paradise Estimating has experienced estimators. They have worked in the field as builders, project managers, and cost planners.",
+                    bullets: [
+                        "Understand how materials are actually installed", "Recognize labor implications and sequencing", "Expect constructability issues and cost impacts"
+                    ]
                 },
                 {
-                    title: "Value Engineering",
-                    description: "We suggest cost-effective alternatives for materials and methods to help you stay within budget."
+                    title: "Wide Takeoff Solutions",
+                    description: "Construction estimates and their estimating needs are not the same. Our construction takeoff services are tailored to your project size and trade involvement. We provide estimating support in:",
+                    bullets: [
+                        "Residential construction (new builds, remodels, additions)",
+                        "Commercial construction (offices, retail, hospitality, education)",
+                        "Industrial construction (warehouse, plant, infrastructure)"
+                    ]
                 }
             ],
-            tradesHeading: "Renovation Estimating Trades",
-            tradesIntro: "We cover all trades required for renovation projects, from demolition to final finishes.",
+            tradesHeading: "Our Trades of Construction Takeoff Services",
+            tradesIntro: "Construction takeoff trades analyze plans,specifications and project requirements. We use modern and industry standard software and material. Thus we prepare clear breakdowns that support competitive bids and budget planning. We also serve for other trades such as:",
             tradesOverview: [
-                "Demolition & Abatement",
-                "Carpentry & Framing",
-                "Drywall & Insulation",
-                "Flooring & Tile",
-                "Painting & Wallcovering",
-                "Cabinetry & Millwork",
-                "Plumbing & HVAC",
-                "Electrical & Lighting"
+                "Mechanical Estimating",
+                "Electrical Estimating",
+                "Duct Takeoff",
+                "Tree House Estimating",
+                "Millwork Estimating",
+                "MEP Estimating",
+                "Sitework Estimating",
+                "Electrical Power Generation Estimating"
             ],
             trades: [
                 {
-                    title: "Demolition Estimating",
-                    description: "Estimates for selective demolition, debris removal, and hazardous material abatement."
+                    title: "Concrete Estimating Services",
+                    description: "Our Concrete estimating tells you how much concrete you need for a project. It helps builders know the right amount so nothing is wasted. This makes planning easy, smooth, and cost-friendly."
                 },
                 {
-                    title: "Carpentry Estimating",
-                    description: "Takeoffs for rough carpentry, framing modifications, and finish carpentry."
+                    title: "Electrical Estimating",
+                    description: "We provide accurate and fast electrical estimating. Electrical estimating counts wires, panels, lights, and switches needed for the project. This helps electricians know the exact cost and avoid delays."
                 },
                 {
-                    title: "Finishes Estimating",
-                    description: "Detailed estimates for flooring, tile, painting, and wall coverings."
+                    title: "Masonry Estimating",
+                    description: "Paradise estimating provides details of all masonry. Masonry estimating counts all the bricks, blocks, and materials needed to build walls. It helps contractors understand the cost and finish the job on time."
                 },
                 {
-                    title: "MEP Estimating",
-                    description: "Estimates for plumbing, HVAC, and electrical modifications and upgrades."
+                    title: "MEP  Estimating",
+                    description: "MEP estimating combines mechanical, electrical, and plumbing estimating in one place. It helps builders understand all building systems together, so the project stays on budget, on time, and well-organized."
+                },
+                {
+                    title: "Metals Estimating",
+                    description: "Our metal estimating helps to know the exact amount of metal materials for a project. It includes measuring items like steel beams, columns, metal studs, and roof panels. This takeoff makes it easy to plan costs and order the right materials."
                 }
             ],
-            renovation: {
-                heading: "Complete Renovation Solutions",
-                description: "From minor updates to major overhauls, we provide accurate estimates for all renovation projects.",
-                helpHeading: "Our renovation services help:",
-                servicesHelp: [
-                    "Renovation contractors",
-                    "Property owners",
-                    "Real estate investors",
-                    "Facility managers"
-                ]
-            },
             portfolio: {
-                heading: "Our Renovation Estimating Portfolio",
-                intro: "Our renovation estimating services cover residential, commercial, and industrial renovation projects.",
+                heading: "Our Construction Takeoff Portfolio",
+                intro: "The Takeoff portfolio highlights that our company is the Best Construction Takeoff Company. This portfolio shows our precision, consistency, and reliability in takeoff services. We have proof of 98% accuracy from residential builds to large developments.",
                 overview: [
-                    "Home Renovations",
-                    "Office Remodels",
-                    "Retail Fit-outs",
-                    "Historic Restorations",
-                    "Adaptive Reuse",
-                    "Multi-family Upgrades"
+                    "Oakridge Apartments",
+                    "Greenfield Shopping Plaza",
+                    "Riverside Townhomes",
+                    "Metro Office Tower Renovation",
+                    "Horizon Senior Living Facility",
+                    "Northgate Industrial Warehouse",
+                    "Westside Elementary School Addition",
+                    "Harbor Point Mixed-Use Development ",
+                    "Lakeview Community Center"
                 ],
                 items: [
                     {
-                        title: "Home Renovations",
-                        description: "Estimates for kitchen remodels, bathroom upgrades, and whole-house renovations.",
-                        points: [
-                            "Kitchens & Baths",
-                            "Basement Finishing",
-                            "Additions"
-                        ]
+                        title: "Residential Projects",
+                        description: "We have provided accurate material takeoffs for USA home builders. For years, our team has been providing residential takeoff in the USA. We covered framing, concrete, drywall, flooring, and finishes in the past. We construct an estimate, ensure coordination between design, procurement, and construction teams.",
+
                     },
                     {
-                        title: "Office Remodels",
-                        description: "Cost projections for office renovations, tenant improvements, and layout changes.",
-                        points: [
-                            "Open plan conversions",
-                            "Conference rooms",
-                            "Break rooms"
-                        ]
+                        title: "Commercial Projects",
+                        description: "We helped set up office buildings that included retail spaces. We offered detailed construction takeoff services to support project planning. Our commercial construction takeoff services deliver detailed material quantities and estimates. Houston, Dallas, and Austin contractors rely on our data-driven reports. They always contact Paradise Estimating to create competitive bids and manage complex timelines.",
+
                     },
                     {
-                        title: "Historic Restorations",
-                        description: "Specialized estimates for restoring historic buildings while preserving their character.",
-                        points: [
-                            "Facade restoration",
-                            "Interior preservation",
-                            "Code upgrades"
-                        ]
+                        title: "Industrial & Infrastructure",
+                        description: "Our expertise extends to industrial facilities, warehouses, and public works projects. We generate complete takeoff reports for steel structures, mechanical, and civil works. We always made sure to follow local rules and keep costs under control.",
+
+                    },
+                    {
+                        title: "Remodeling & Renovation",
+                        description: "We offer quick and affordable takeoff services for remodeling contractors. These services include demolition, finishes, and upgrade materials. These fast-turnaround estimates support smaller, recurring projects throughout Texas and the USA.",
+
                     }
                 ]
             },
-            nearbyAreasHeading: "Renovation Services Near Me",
+            nearbyAreasHeading: "Construction Takeoff Services Near Me",
             nearbyAreas: [
+                "Alabama",
+                "Alaska",
+                "Arizona",
+                "Arkansas",
                 "California",
-                "Texas",
+                "Colorado",
+                "Connecticut",
+                "Delaware",
                 "Florida",
-                "New York",
-                "Pennsylvania",
-                "Ohio",
                 "Georgia",
+                "Hawaii",
+                "Idaho",
+                "Illinois",
+                "Indiana",
+                "Iowa",
+                "Nevada",
+                "Kansas",
+                "Kentucky",
+                "Louisiana",
+                "Maine",
+                "Maryland",
+                "Massachusetts",
+                "Michigan",
+                "Minnesota",
+                "Mississippi",
+                "Missouri",
+                "Montana",
+                "Nebraska",
+                "Nevada",
+                "New Hampshire",
                 "New Jersey",
-                "Washington",
+                "New Mexico",
+                "New York",
+                "North Carolina",
+                "North Dakota",
+                "Ohio",
+                "Oklahoma",
+                "Oregon",
+                "Pennsylvania",
+                "Rhode Island",
+                "South Carolina",
+                "South Dakota",
                 "Tennessee",
-                "Colorado"
+                "Texas",
+                "Utah",
+                "Vermont",
+                "Virginia",
+                "Washington",
+                "West Virginia",
+                "Wisconsin",
+                "Wyoming"
             ],
             faqs: [
                 {
-                    question: "What's included in a renovation estimate?",
-                    answer: "Our renovation estimates include demolition, structural modifications, new materials, labor, permits, and contingencies for unforeseen conditions."
+                    question: "What are Takeoff Services for Construction, and why are they important?",
+                    answer: "Takeoff Services are materials needed for a project based on your plans or drawings. They are important because they give contractors accurate quantities. They help you avoid waste, stay on budget, and bid. Without proper takeoffs, even small miscalculations can lead to big cost overruns."
                 },
                 {
-                    question: "How do you handle unforeseen conditions?",
-                    answer: "We include contingency allowances based on project scope and existing building conditions to account for potential surprises."
+                    question: "Who needs construction takeoff services?",
+                    answer: "These services are ideal for contractors, subcontractors, architects, and developers. These are for those who need material quantities before starting or bidding on a project. A professional takeoff saves time and reduces errors in all types of projects."
                 },
                 {
-                    question: "Do you estimate for historic renovations?",
-                    answer: "Yes, we have experience estimating historic restoration projects, which require specialized materials and labor."
-                }
-            ]
+                    question: "How do professional takeoff services help me win more bids?",
+                    answer: "Accurate takeoffs mean accurate bids. When your quantities are correct, your pricing becomes more competitive and realistic. Our digital construction takeoff reports help you submit data-backed bids that clients trust. It will increase your chances of winning contracts and boosting profitability."
+                },
+                {
+                    question: " Do you use digital software for construction takeoffs?",
+                    answer: "Yes. We use advanced takeoff software to ensure measurement is accurate and traceable. This technology allows us to deliver fast, detailed, and error-free reports. This is easy to review and customize for any trade or project type."
+                },
+                {
+                    question: "How long does it take to complete a construction takeoff?",
+                    answer: "Turnaround time depends on the size and complexity of your project. Small residential plans may take 1–2 days. Large commercial or industrial projects can take several days. We make sure you get a clear timeline from the start. So you can schedule your bid submissions easy and avoid last-minute stress."
+                },
+                {
+                    question: "What types of projects do you handle?",
+                    answer: "We handle all types of construction projects. We handle homes and renovations to commercial complexes and industrial facilities. Our trades specialists include concrete, drywall, steel, roofing, mechanical, and electrical work."
+                },
+                {
+                    question: "How accurate are your material takeoff reports?",
+                    answer: "Our reports are well prepared by experienced estimators. We are using updated pricing databases and precise digital measurement tools. Every takeoff goes through a multi-step review to ensure accuracy and consistency."
+                },
+                {
+                    question: "Can I get a sample of your takeoff report before ordering?",
+                    answer: "Yes. We can share a sample construction takeoff report. This sample will show the layout, format, and level of detail you will receive. This helps you find how our service will support your estimating and bidding process."
+                },
+                {
+                    question: "Why should I outsource construction takeoff services instead of doing it in-house?",
+                    answer: "Outsourcing saves both time and cost. Instead of hiring full-time estimators or investing in expensive software. You can rely on our outsourced construction takeoff experts. They can deliver quick, accurate, and affordable reports. This allows you to focus on bidding for more projects and growing your business."
+                },
+                {
+                    question: " How can you provide a sample to start with your takeoff services?",
+                    answer: "It is very simple. You have to upload your drawings or blueprints. Our team will review them and send you a quote. Once approved, we will prepare your material takeoff report within the agreed timeline. You will receive everything in an easy-to-read format. It will be ready for bidding or project planning."
+                },
+
+            ],
+
         }
     },
-    "apartments-estimating": {
-        title: "Apartments Estimating Services",
-        description: "Professional apartments estimating services for multi-family residential projects.",
+    "construction-estimating-consultant": {
+        title: "Construction Estimating Consultant",
+        description: "Paradise Estimating is more trusted by contractors and developers nationwide. Our consultant provides the best estimates you need to stay competitive and win projects.",
         content: {
-            heroTitle: "Accurate Apartments Estimating Services",
+            heroTitle: "Construction Estimating Consultant",
             heroSubtitle: "PARADISE ESTIMATING SERVICE COMPANY",
-            mainHeading: "Apartments Estimating Services",
-            tagline: "Precise. Professional. Profitable",
-            heading: "",
-            description: ["Multi-family residential projects require detailed cost analysis and efficient planning. Our apartment estimating services provide comprehensive material takeoffs, labor calculations, and cost projections for apartment buildings, condominiums, and multi-unit developments."],
+            mainHeading: "Best Construction Estimating Consultant",
+            tagline: "Accurate.Reliable.Efficient",
+            heading: "What’s included in our Construction Estimating Services?",
+            SubDescription: "Construction Estimating Consultant offers the details of every aspect of estimating. We will deliver fast, reliable services on a low budget. Paradise Estimating Company makes the clients tension-free.",
+            description: ["Are you tired of chasing bid deadlines and guessing your numbers? Or are you losing jobs to competitors who always seem to undercut you? You are not alone. Construction Estimating Consultants of Paradise Estimating Company are here to help you",
+                "We help contractors, builders, developers, and architects take the guesswork out of estimating. You can bid faster, price smarter, and grow stronger with our best estimate consultant. We build accuracy and success in all areas of construction and building. Our expert estimators use more reliable and advanced takeoff tools. We use updated prices for materials and labor, along with local cost data, to give clear estimates. We are here to help you from the initial budget estimates all the way to the final documents and ensure every dollar and detail aligns with your project goals.",
+                "We completed 1,500 successful projects across the USA and Canada.",
+                "We follow high standards from the American Association of Cost Engineers (AACE). We also use guidelines from the Australian Institute of Quantity Surveyors (AIQS). This helps us maintain quality and accuracy in our work."
+            ],
             items: [
                 {
-                    title: "Multi-Family Material Takeoff",
-                    description: "We provide detailed material takeoffs for apartment complexes, including framing, drywall, insulation, flooring, and exterior finishes."
+                    title: "Material Takeoffs",
+                    description: "We measure all materials needed for your industrial project. This includes steel, concrete, pipes, insulation, and other materials. It helps you order the right amount without shortages. Your project stays on track and avoids delays."
                 },
                 {
-                    title: "Unit Cost Analysis",
-                    description: "We calculate the cost per unit for different unit types (studio, 1-bedroom, 2-bedroom, etc.) to help you optimize your design and budget."
+                    title: "Equipment Estimating",
+                    description: "We list all tools, machines, and specialized equipment required. This includes cranes, lifts, mixers, and other heavy equipment. helps you schedule machines on time and avoid downtime. Your project stays organized and cost-effective."
                 },
                 {
-                    title: "Common Area Estimating",
-                    description: "Estimates for common areas such as lobbies, corridors, gyms, pools, and landscaping."
+                    title: "Cost Estimating",
+                    description: " We prepare a full breakdown of project costs. This includes materials, labor, equipment, and overheads. You get a clear picture of your total project budget. This helps you plan finances and make accurate bids."
                 },
                 {
-                    title: "Site Development Costs",
-                    description: "We estimate site work costs, including grading, utilities, paving, and retaining walls."
-                }
+                    title: "Bid Preparation & Support",
+                    description: "We prepare complete bid packages for contractors. We also review drawings to ensure accuracy and competitiveness. It saves time and helps you win more projects. You submit professional and reliable bids every time."
+                },
+                {
+                    title: "Budget Estimating",
+                    description: "We create early-stage estimates even with limited drawings. This helps you plan budgets and compare options. It gives a clear idea of costs before design is complete. You can make confident decisions early in the project."
+                },
             ],
-            processHeading: "Our Apartments Takeoff Process",
+            processHeading: "Process For Construction Takeoff Consultant",
+            processDescription: "We use proven and tested methods or rules to take off your submitted plans. We do estimates in different steps that make the process easy. Our estimations are made such that everyone can easily understand them. Best Construction Consultant Company ensures that if you get our services, you will win the project.",
             processSteps: [
                 {
                     number: 1,
-                    title: "Plan Review",
-                    description: "We review architectural, structural, and MEP plans for the apartment complex."
+                    title: "Project Analysis",
+                    description: "First, send your drawings or blueprints (PDF, DWG, or CAD) to our contact number. Add all details about the project, such as scope, trade, and deadlines. Our team will review all the details of your submitted plans and provide an estimate. So that you will get an accurate estimation of your plans on time, with an accurate budget."
                 },
                 {
                     number: 2,
-                    title: "Unit Takeoff",
-                    description: "We perform detailed takeoffs for each unit type and multiply by the number of units."
+                    title: "Detailed Takeoff",
+                    description: "We will review your plans after preparing material quantities, labor costs, and pricing. Then, we will check your estimate according to the local market rates."
                 },
                 {
                     number: 3,
-                    title: "Common Area Takeoff",
-                    description: "We measure quantities for all common areas and site work."
+                    title: "Cost Development",
+                    description: "We will review documents in detail. We will send you a custom quote based on project size, trade, and complexity. After your approval, we will assign an estimator specialized in your project type to you."
                 },
                 {
                     number: 4,
-                    title: "Consolidation & Reporting",
-                    description: "We consolidate all data into a comprehensive estimate report, broken down by building, floor, and trade."
+                    title: "Final Delivery",
+                    description: "You will receive your complete estimate report in Excel and PDF formats. CSI divisions, cost summaries, and detailed line items are also in the provided list. We also offer follow-up revisions in case of scope or design updates."
                 }
             ],
-            whyChooseHeading: "Why Choose Our Apartments Estimating Services?",
-            whyChooseIntro: "We specialize in multi-family construction estimating. Our experience helps developers and contractors build profitable apartment projects.",
+            whyChooseHeading: "Why Choose Paradise Estimating for a Construction Estimating Consultant?",
+            whyChooseIntro: "We know that construction projects demand precision and speed. That is why we build our estimating services around real data, timelines, and results. Best Estimate Consultant makes simple reports that are useful for clients.",
             whyChoose: [
                 {
-                    title: "Multi-Family Specialization",
-                    description: "We understand the specific requirements of multi-family construction, including soundproofing, fire ratings, and ADA compliance."
+                    title: "Proven Experience",
+                    description: "Over 20 years in construction estimating with thousands of successful projects."
                 },
                 {
-                    title: "Scalable Solutions",
-                    description: "Whether you are building a small 4-plex or a large apartment complex, our estimating services scale to meet your needs."
+                    title: "Accurate Results",
+                    description: "Every estimate is double-checked for precision to help you bid with confidence."
                 },
                 {
-                    title: "Detailed Unit Breakdowns",
-                    description: "We provide cost breakdowns for each unit type, helping you analyze profitability and make design decisions."
+                    title: "Trade Expertise:",
+                    description: "We know bid deadlines are tight. We deliver most estimates within 9-24 hours."
                 },
                 {
-                    title: "Fast & Accurate",
-                    description: "We deliver accurate estimates quickly, allowing you to move forward with financing and construction."
+                    title: "Certified Estimators",
+                    description: "Our team includes professionals who follow AACE and ASPE standards."
+                },
+                {
+                    title: "Advanced Software",
+                    description: "We use the latest tools, PlanSwift, Bluebeam, CostX, and RSMeans, for accuracy."
+                },
+                {
+                    title: "Customized Estimates",
+                    description: "Each project is tailored to your scope, location, and market conditions."
                 }
             ],
-            tradesHeading: "Apartments Estimating Trades",
-            tradesIntro: "We cover all trades involved in apartment construction, ensuring a complete and accurate estimate.",
+            tradesHeading: "Trades For Construction Estimating Consultant",
+            tradesIntro: "Construction Bid Consulting analyzes plans, specifications, and project requirements. We use modern and industry-standard software and materials. Thu, we prepare clear breakdowns that support competitive bids and budget planning. We also serve other trades such as:",
             tradesOverview: [
-                "Framing & Carpentry",
-                "Drywall & Insulation",
-                "Flooring & Tile",
-                "Painting",
-                "Cabinetry & Countertops",
-                "Plumbing & HVAC",
-                "Electrical",
-                "Exterior Siding & Roofing"
+                "Sitework Estimating",
+                "Electrical Power Generation Estimating",
+                "Gutter Estimating",
+                "Flooring Estimating",
+                "Tree House Estimating",
+                "Brick Wall Estimating",
+                "Waterproofing Estimating",
+                "MEP Estimating", "Mechanical Estimating", "Electrical Estimating"
             ],
             trades: [
+                {
+                    title: "Duct Takeoff",
+                    description: "We measure all ductwork needed for your project. This includes sizes, lengths, and fittings for HVAC systems. It helps plan materials and labor accurately. Your heating and cooling installation stays on schedule and is cost-efficient."
+                },
+                {
+                    title: "HVAC Estimating",
+                    description: "We provide HVAC estimating lists of all heating, cooling, and ventilation materials. It includes ductwork, units, vents, insulation, and related parts. This helps contractors install the right systems for the building. And it keeps the project comfortable, energy-efficient, and on budget."
+                },
                 {
                     title: "Framing Estimating",
-                    description: "Takeoffs for wood or metal framing, trusses, and sheathing for multi-story apartment buildings."
+                    description: "Our framing estimating shows how much wood, metal studs, and hardware your project needs. It includes measuring walls, floors, roofs, and structural parts. This helps contractors order the right materials without waste. And it keeps the building strong, safe, and on schedule."
                 },
                 {
-                    title: "Interior Finishes",
-                    description: "Detailed estimates for drywall, paint, flooring, trim, and doors for all units and common areas."
-                },
-                {
-                    title: "Kitchen & Bath",
-                    description: "Estimates for cabinets, countertops, appliances, and fixtures for kitchens and bathrooms."
-                },
-                {
-                    title: "MEP Systems",
-                    description: "Takeoffs for plumbing, HVAC, and electrical systems, including unit panels and main switchgear."
+                    title: "Concrete Estimating",
+                    description: "Our Concrete Takeoff Services provide a precise measurement of all concrete materials needed for your project. We calculate slabs, footings, foundations, and reinforcements from your plans. This ensures you order the right amount of concrete, avoid waste, and reduce costs. Accurate concrete takeoffs help your project stay on budget and on schedule."
                 }
             ],
-            renovation: {
-                heading: "Apartment Renovation Estimates",
-                description: "We also provide estimating services for apartment renovations and value-add projects. We help you budget for unit upgrades, common area improvements, and exterior facelifts.",
-                helpHeading: "Our apartment renovation services help:",
-                servicesHelp: [
-                    "Multi-family Developers",
-                    "Apartment Owners",
-                    "Property Management Firms",
-                    "General Contractors"
-                ]
-            },
             portfolio: {
-                heading: "Our Apartments Estimating Portfolio",
-                intro: "Our portfolio includes a wide range of multi-family projects, from garden-style apartments to high-rise condominiums.",
+                heading: "Portfolio For Construction Estimating Consultant",
+                intro: "You can save thousands of dollars by investing in our construction estimating consultant. Our accurate estimates gave our clients smoother and more confident estimations.",
                 overview: [
-                    "Garden Apartments",
-                    "Mid-Rise Buildings",
-                    "High-Rise Condos",
-                    "Student Housing",
-                    "Senior Living",
-                    "Affordable Housing"
+                    "High-rise residential buildings",
+                    "Single-family homes",
+                    "Office complexes",
+                    "Shopping centers and retail outlets",
+                    "Schools and educational campuses",
+                    "Water treatment plants"
                 ],
                 items: [
                     {
-                        title: "Garden Style Apartments",
-                        description: "Estimates for low-rise apartment complexes with surface parking.",
+                        title: "Residential Projects",
+                        description: "Our consultants have successfully estimated costs for a variety of residential projects:",
                         points: [
-                            "Wood frame construction",
-                            "Surface parking",
-                            "Amenities centers"
+                            "High-rise apartments: 12–30 stories, budgets ranging from $15M to $50M",
+                            "Single-family homes: 2,000–6,000 sq. ft., budgets from $300K to $1.2M",
+
                         ]
                     },
                     {
-                        title: "Mid-Rise Apartments",
-                        description: "Cost projections for 4-7 story apartment buildings with podium parking.",
+                        title: "Commercial Buildings",
+                        description: "We provide precise cost estimates for commercial developments, including:",
                         points: [
-                            "Podium construction",
-                            "Elevators",
-                            "Structured parking"
+                            "Office complexes and coworking spaces – 50,000–150,000 sq. ft.",
+                            "Retail outlets and shopping centers – 10,000–100,000 sq. ft.",
+
                         ]
                     },
                     {
-                        title: "Student Housing",
-                        description: "Estimates for purpose-built student housing projects.",
+                        title: "Industrial & Warehouse Facilities",
+                        description: "",
                         points: [
-                            "Dormitory style",
-                            "Suite style",
-                            "Common study areas"
+                            "Manufacturing plants – $5M–$40M",
+                            "Warehouses and distribution centers – 25,000–200,000 sq. ft.",
+                            "Cold storage facilities – including refrigeration system cost analysis"
                         ]
-                    }
+                    },
+                    {
+                        title: "Infrastructure & Public Works",
+                        description: "",
+                        points: [
+                            "Roads, highways, and bridges – Cost ranges: $2M–$150",
+                            "Water and sewage treatment plants – Complex piping and treatment equipment included",
+                            "Airport terminals and runways – Detailed estimates for construction"
+                        ]
+                    },
+                    {
+                        title: "Renovation & Restoration Projects",
+                        description: "Historic building restorations – Preserving heritage while managing costs",
+                        points: [
+                            "Office and retail renovations – 5,000–50,000 sq. ft.",
+                            "Hospital and healthcare facility upgrades – Ensuring compliance with modern standards",
+
+                        ]
+                    },
+                    {
+                        title: "Value Engineering & Risk Management",
+                        description: "",
+                        points: [
+                            "Alternative material suggestions – Reducing costs without compromising quality",
+                            "Labor optimization strategies – Cutting unnecessary overhead",
+                            "Risk analysis – Identifying potential cost escalations before construction starts"
+                        ]
+                    },
+
                 ]
             },
-            nearbyAreasHeading: "Apartment Services Near Me",
+            nearbyAreasHeading: "Construction Estimating Consultant Near Me",
             nearbyAreas: [
-                "California",
-                "Texas",
-                "Florida",
-                "New York",
-                "Georgia",
-                "North Carolina",
+                "Alabama",
+                "Alaska",
                 "Arizona",
-                "Washington",
+                "Arkansas",
+                "California",
                 "Colorado",
-                "Tennessee"
+                "Connecticut",
+                "Delaware",
+                "Florida",
+                "Georgia",
+                "Hawaii",
+                "Idaho",
+                "Illinois",
+                "Indiana",
+                "Iowa",
+                "Nevada",
+                "Kansas",
+                "Kentucky",
+                "Louisiana",
+                "Maine",
+                "Maryland",
+                "Massachusetts",
+                "Michigan",
+                "Minnesota",
+                "Mississippi",
+                "Missouri",
+                "Montana",
+                "Nebraska",
+                "Nevada",
+                "New Hampshire",
+                "New Jersey",
+                "New Mexico",
+                "New York",
+                "North Carolina",
+                "North Dakota",
+                "Ohio",
+                "Oklahoma",
+                "Oregon",
+                "Pennsylvania",
+                "Rhode Island",
+                "South Carolina",
+                "South Dakota",
+                "Tennessee",
+                "Texas",
+                "Utah",
+                "Vermont",
+                "Virginia",
+                "Washington",
+                "West Virginia",
+                "Wisconsin",
+                "Wyoming"
             ],
             faqs: [
                 {
-                    question: "Do you estimate for mixed-use apartment projects?",
-                    answer: "Yes, we have experience estimating mixed-use developments with retail on the ground floor and residential units above."
+                    question: "What does a construction estimating consultant do?",
+                    answer: "A construction estimating consultant prepares cost estimates, quantity takeoffs, and budgeting plans to help contractors bid accurately and win more projects."
                 },
                 {
-                    question: "Can you provide cost per unit estimates?",
-                    answer: "Yes, we can provide a detailed cost breakdown per unit type to help you analyze the financial feasibility of your project."
+                    question: "Why should I hire a construction estimating consultant?",
+                    answer: "Hiring a consultant saves time, ensures accuracy. It helps you submit competitive bids with reliable cost data and estimating expertise."
                 },
                 {
-                    question: "Do you estimate for HUD or affordable housing projects?",
-                    answer: "Yes, we are familiar with the reporting requirements for HUD and affordable housing projects."
-                }
-            ]
+                    question: "What types of construction projects do you estimate?",
+                    answer: "consultant? Hiring a consultant saves time, ensures accuracy. It helps you submit competitive bids with reliable cost data and estimating expertise. What types of construction projects do you estimate?"
+                },
+                {
+                    question: "How accurate are your construction cost estimates?",
+                    answer: "Our estimates maintain 98–99% accuracy. These are the results of updated material costs, labor rates, and the software tools."
+                },
+                {
+                    question: "Which software do your estimators use for takeoffs?",
+                    answer: "We use the latest estimating software tools. Bluebeam, PlanSwift, CostX, and On-Screen Takeoff to ensure precise and efficient takeoffs."
+                },
+                {
+                    question: "Can you estimate large and complex construction projects?",
+                    answer: "Yes, our Best Construction Consultant Company handles projects of all sizes. We deal with small renovations to large multi-million-dollar commercial and industrial projects."
+                },
+                {
+                    question: "Do you provide full-scope or trade-specific estimates?",
+                    answer: "We provide both full-scope and trade-specific estimates. These are tailored to the client’s project requirements, scope of work, and budget."
+                },
+                {
+                    question: "How fast can you deliver a construction estimate?",
+                    answer: "Most estimates are delivered within 9-24 hours. It depends on the project size, number of trades, and required level of builder's detail."
+                },
+                {
+                    question: "What documents do you need to start estimating?",
+                    answer: "We require project drawings, scope details, specifications, and deadlines to start preparing your accurate and comprehensive cost estimate."
+                },
+                {
+                    question: "Do you follow standard estimating formats and codes?",
+                    answer: "Yes, we follow AACE, ASPE, CSI, and ASTM standards to ensure accuracy. Consistency and compliance with construction codes are also required."
+                },
+                {
+                    question: "",
+                    answer: ""
+                },
+                {
+                    question: "",
+                    answer: ""
+                },
+                {
+                    question: "",
+                    answer: ""
+                },
+                {
+                    question: "",
+                    answer: ""
+                },
+                {
+                    question: "",
+                    answer: ""
+                },
+                {
+                    question: "",
+                    answer: ""
+                },
+                {
+                    question: "",
+                    answer: ""
+                },
+            ],
+
         }
     },
-    "remodeling-estimating": {
-        title: "Remodeling Estimating Services",
-        description: "Professional remodeling estimating services for residential and commercial projects.",
-        content: {
-            heroTitle: "Accurate Remodeling Estimating Services",
-            heroSubtitle: "PARADISE ESTIMATING SERVICE COMPANY",
-            mainHeading: "Remodeling Estimating Services",
-            tagline: "Detailed. Dependable. Delivered",
-            heading: "",
-            description: ["Remodeling projects demand precision and attention to detail. Our remodeling estimating services provide accurate cost projections for kitchen remodels, bathroom upgrades, whole-house renovations, and commercial space transformations."],
-            items: [
-                {
-                    title: "Kitchen Remodeling Estimates",
-                    description: "Detailed estimates for kitchen renovations, including cabinets, countertops, appliances, flooring, and lighting."
-                },
-                {
-                    title: "Bathroom Remodeling Estimates",
-                    description: "Cost projections for bathroom upgrades, including vanities, tubs, showers, tile, and plumbing fixtures."
-                },
-                {
-                    title: "Basement Finishing Estimates",
-                    description: "Estimates for finishing basements, including framing, drywall, flooring, and MEP systems."
-                },
-                {
-                    title: "Room Additions",
-                    description: "We estimate costs for adding new rooms, sunrooms, or second-story additions to existing homes."
-                }
-            ],
-            processHeading: "Our Remodeling Takeoff Process",
-            processSteps: [
-                {
-                    number: 1,
-                    title: "Design Review",
-                    description: "We review your design sketches or architectural plans to understand the remodeling scope."
-                },
-                {
-                    number: 2,
-                    title: "Existing Conditions",
-                    description: "We account for existing conditions and demolition requirements in our estimate."
-                },
-                {
-                    number: 3,
-                    title: "Detailed Takeoff",
-                    description: "We measure all new materials required for the remodel, from rough materials to high-end finishes."
-                },
-                {
-                    number: 4,
-                    title: "Cost Estimation",
-                    description: "We apply local labor and material costs to provide a precise estimate for your remodeling project."
-                }
-            ],
-            whyChooseHeading: "Why Choose Our Remodeling Estimating Services?",
-            whyChooseIntro: "Remodeling can be unpredictable. Our detailed estimates help you avoid budget surprises and manage client expectations.",
-            whyChoose: [
-                {
-                    title: "Remodeling Specialists",
-                    description: "We focus on remodeling and understand the unique challenges of working within existing structures."
-                },
-                {
-                    title: "Detailed Finish Schedules",
-                    description: "We pay close attention to finish schedules to ensure accurate pricing for all selected materials."
-                },
-                {
-                    title: "Client-Ready Proposals",
-                    description: "Our estimates can be used to create professional proposals for your clients, helping you win more jobs."
-                },
-                {
-                    title: "Budget Management",
-                    description: "We help you track costs and manage the budget throughout the remodeling process."
-                }
-            ],
-            tradesHeading: "Remodeling Estimating Trades",
-            tradesIntro: "We estimate all trades required for residential and commercial remodeling projects.",
-            tradesOverview: [
-                "Demolition",
-                "Carpentry",
-                "Drywall & Paint",
-                "Flooring & Tile",
-                "Cabinetry",
-                "Plumbing",
-                "Electrical",
-                "HVAC"
-            ],
-            trades: [
-                {
-                    title: "Cabinetry & Millwork",
-                    description: "Detailed takeoffs for custom cabinets, stock cabinets, moldings, and trim."
-                },
-                {
-                    title: "Tile & Stone",
-                    description: "Estimates for tile flooring, backsplashes, shower surrounds, and stone countertops."
-                },
-                {
-                    title: "Plumbing & Electrical",
-                    description: "Cost projections for moving or adding plumbing fixtures and electrical outlets/lights."
-                },
-                {
-                    title: "Painting & Finishing",
-                    description: "Estimates for interior painting, staining, and wall coverings."
-                }
-            ],
-            renovation: {
-                heading: "Transform Your Space",
-                description: "Whether it's a small update or a complete transformation, our remodeling estimates give you the confidence to proceed. We help you understand the costs associated with your design choices.",
-                helpHeading: "Our remodeling services help:",
-                servicesHelp: [
-                    "Remodeling Contractors",
-                    "Interior Designers",
-                    "Homeowners",
-                    "Real Estate Flippers"
-                ]
-            },
-            portfolio: {
-                heading: "Our Remodeling Estimating Portfolio",
-                intro: "We have estimated thousands of remodeling projects, from simple bathroom updates to luxury home renovations.",
-                overview: [
-                    "Kitchen Remodels",
-                    "Bathroom Renovations",
-                    "Basement Finishing",
-                    "Home Additions",
-                    "Whole House Remodels",
-                    "Exterior Makeovers"
-                ],
-                items: [
-                    {
-                        title: "Kitchens",
-                        description: "Estimates for all styles of kitchens, from modern to traditional.",
-                        points: [
-                            "Cabinet replacement",
-                            "Island installation",
-                            "Appliance upgrades"
-                        ]
-                    },
-                    {
-                        title: "Bathrooms",
-                        description: "Cost projections for master baths, guest baths, and powder rooms.",
-                        points: [
-                            "Walk-in showers",
-                            "Soaking tubs",
-                            "Vanity upgrades"
-                        ]
-                    },
-                    {
-                        title: "Additions",
-                        description: "Estimates for expanding living space.",
-                        points: [
-                            "Master suite additions",
-                            "Family room extensions",
-                            "Garage additions"
-                        ]
-                    }
-                ]
-            },
-            nearbyAreasHeading: "Remodeling Services Near Me",
-            nearbyAreas: [
-                "California",
-                "Texas",
-                "Florida",
-                "New York",
-                "Pennsylvania",
-                "Ohio",
-                "Georgia",
-                "New Jersey",
-                "Washington",
-                "Tennessee",
-                "Colorado"
-            ],
-            faqs: [
-                {
-                    question: "Can you estimate labor costs for remodeling?",
-                    answer: "Yes, we provide detailed labor cost estimates based on local rates and the complexity of the remodeling work."
-                },
-                {
-                    question: "Do you help with material allowances?",
-                    answer: "Yes, we can include allowances for finish materials that haven't been selected yet, helping you establish a realistic budget."
-                },
-                {
-                    question: "How detailed are your remodeling estimates?",
-                    answer: "Our estimates are very detailed, breaking down costs by room and by trade, so you know exactly where the money is going."
-                }
-            ]
-        }
-    }
-};
+}
+
 
 // Helper function to get service data by slug
 export const getServiceTemplateData = (slug: string): ServiceTemplateContent | null => {

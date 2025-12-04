@@ -38,7 +38,7 @@ const FreeEstimateSection = () => {
                                 </div>
                                 <div>
                                     <p className="font-bold text-white text-lg">Email Us</p>
-                                    <p className="text-[#7ED957] text-lg">info@paradiseestimating.com</p>
+                                    <p className="text-[#7ED957] text-lg">Paradisestimating@gmail.com</p>
                                 </div>
                             </div>
                         </div>
