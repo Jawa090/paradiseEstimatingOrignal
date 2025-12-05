@@ -136,104 +136,6 @@ const Contact = () => {
             </div>
           </div>
         </section>
-
-        {/* Contact Section */}
-        <section className="py-16 lg:py-24 bg-white">
-          <div className="container mx-auto px-4 lg:px-6">
-            <div className="grid lg:grid-cols-2 gap-8 lg:gap-12">
-              {/* Left Content */}
-              <div className="flex flex-col h-full">
-                <h2 className="text-3xl lg:text-5xl font-black text-black mb-2">
-                  Your Construction Outsourcing partner
-                </h2>
-                <p className="text-xl lg:text-2xl font-bold text-[#82E658] mb-8">
-                  is one message away from you.
-                </p>
-
-                <div className="space-y-4 flex-grow">
-                  {/* Phone Numbers */}
-                  <div className="bg-gray-50 p-6 rounded-lg space-y-4">
-                    <div className="flex items-center gap-4">
-                      <div className="w-12 h-12 bg-[#82E658] flex items-center justify-center flex-shrink-0">
-                        <Phone className="w-6 h-6 text-black fill-black" />
-                      </div>
-                      <span className="text-xl font-bold text-black">(718) 719-6171</span>
-                    </div>
-
-                  </div>
-
-                  {/* Email */}
-                  <div className="bg-gray-50 p-6 rounded-lg">
-                    <h3 className="text-xl font-bold text-black mb-4">Email Address:</h3>
-                    <div className="flex items-center gap-4">
-                      <div className="w-12 h-12 bg-[#82E658] flex items-center justify-center flex-shrink-0">
-                        <Mail className="w-6 h-6 text-black" />
-                      </div>
-                      <span className="text-xl font-bold text-black">Paradisestimating@gmail.com</span>
-                    </div>
-                  </div>
-
-                  {/* Location */}
-                  <div className="bg-gray-50 p-6 rounded-lg">
-                    <h3 className="text-xl font-bold text-black mb-4">Location:</h3>
-                    <div className="flex items-center gap-4">
-                      <div className="w-12 h-12 bg-[#82E658] flex items-center justify-center flex-shrink-0">
-                        <MapPin className="w-6 h-6 text-black fill-black" />
-                      </div>
-                      <span className="text-xl font-bold text-black">898 Bay Ridge Avenue, Brooklyn, NY 11220, USA.</span>
-                    </div>
-                  </div>
-
-                  {/* Social Media */}
-                  <div className="bg-gray-50 p-6 rounded-lg">
-                    <h3 className="text-xl font-bold text-black mb-6">Social Media:</h3>
-                    <div className="grid grid-cols-2 gap-6">
-                      <div className="flex items-center gap-4">
-                        <div className="w-12 h-12 bg-[#82E658] flex items-center justify-center flex-shrink-0">
-                          <Facebook className="w-6 h-6 text-black fill-black" />
-                        </div>
-                        <span className="text-xl font-bold text-black">Facebook</span>
-                      </div>
-                      <div className="flex items-center gap-4">
-                        <div className="w-12 h-12 bg-[#82E658] flex items-center justify-center flex-shrink-0">
-                          <Youtube className="w-6 h-6 text-black fill-black" />
-                        </div>
-                        <span className="text-xl font-bold text-black">Youtube</span>
-                      </div>
-                      <div className="flex items-center gap-4">
-                        <div className="w-12 h-12 bg-[#82E658] flex items-center justify-center flex-shrink-0">
-                          <Instagram className="w-6 h-6 text-black" />
-                        </div>
-                        <span className="text-xl font-bold text-black">Instagram</span>
-                      </div>
-                      <div className="flex items-center gap-4">
-                        <div className="w-12 h-12 bg-[#82E658] flex items-center justify-center flex-shrink-0">
-                          <Linkedin className="w-6 h-6 text-black fill-black" />
-                        </div>
-                        <span className="text-xl font-bold text-black">Linkedin</span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              {/* Right Map */}
-              <div className="h-full min-h-[500px] rounded-lg overflow-hidden">
-                <iframe
-                  src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8&q=898+Bay+Ridge+Avenue,Brooklyn,NY+11220,USA&zoom=15"
-                  width="100%"
-                  height="100%"
-                  style={{ border: 0, minHeight: "100%" }}
-                  allowFullScreen
-                  loading="lazy"
-                  referrerPolicy="no-referrer-when-downgrade"
-                  title="Paradise Estimating Location"
-                ></iframe>
-              </div>
-            </div>
-          </div>
-        </section>
-
         {/* Get in Touch Form Section */}
         <section className="py-8 lg:py-10 bg-white">
           <div className="container mx-auto px-4 lg:px-6">
@@ -371,6 +273,105 @@ const Contact = () => {
             </div>
           </div>
         </section>
+
+        {/* Contact Section */}
+        <section className="py-16 lg:py-24 bg-white">
+          <div className="container mx-auto px-4 lg:px-6">
+            <div className="grid lg:grid-cols-2 gap-8 lg:gap-12">
+              {/* Left Content */}
+              <div className="flex flex-col h-full">
+                <h2 className="text-3xl lg:text-5xl font-black text-black mb-2">
+                  Your Construction Outsourcing partner
+                </h2>
+                <p className="text-xl lg:text-2xl font-bold text-[#82E658] mb-8">
+                  is one message away from you.
+                </p>
+
+                <div className="space-y-4 flex-grow">
+                  {/* Phone Numbers */}
+                  <div className="bg-gray-50 p-6 rounded-lg space-y-4">
+                    <div className="flex items-center gap-4">
+                      <div className="w-12 h-12 bg-[#82E658] flex items-center justify-center flex-shrink-0">
+                        <Phone className="w-6 h-6 text-black fill-black" />
+                      </div>
+                      <span className="text-xl font-bold text-black">(718) 719-6171</span>
+                    </div>
+
+                  </div>
+
+                  {/* Email */}
+                  <div className="bg-gray-50 p-6 rounded-lg">
+                    <h3 className="text-xl font-bold text-black mb-4">Email Address:</h3>
+                    <div className="flex items-center gap-4">
+                      <div className="w-12 h-12 bg-[#82E658] flex items-center justify-center flex-shrink-0">
+                        <Mail className="w-6 h-6 text-black" />
+                      </div>
+                      <span className="text-xl font-bold text-black">Paradisestimating@gmail.com</span>
+                    </div>
+                  </div>
+
+                  {/* Location */}
+                  <div className="bg-gray-50 p-6 rounded-lg">
+                    <h3 className="text-xl font-bold text-black mb-4">Location:</h3>
+                    <div className="flex items-center gap-4">
+                      <div className="w-12 h-12 bg-[#82E658] flex items-center justify-center flex-shrink-0">
+                        <MapPin className="w-6 h-6 text-black fill-black" />
+                      </div>
+                      <span className="text-xl font-bold text-black">898 Bay Ridge Avenue, Brooklyn, NY 11220, USA.</span>
+                    </div>
+                  </div>
+
+                  {/* Social Media */}
+                  <div className="bg-gray-50 p-6 rounded-lg">
+                    <h3 className="text-xl font-bold text-black mb-6">Social Media:</h3>
+                    <div className="grid grid-cols-2 gap-6">
+                      <div className="flex items-center gap-4">
+                        <div className="w-12 h-12 bg-[#82E658] flex items-center justify-center flex-shrink-0">
+                          <Facebook className="w-6 h-6 text-black fill-black" />
+                        </div>
+                        <span className="text-xl font-bold text-black">Facebook</span>
+                      </div>
+                      <div className="flex items-center gap-4">
+                        <div className="w-12 h-12 bg-[#82E658] flex items-center justify-center flex-shrink-0">
+                          <Youtube className="w-6 h-6 text-black fill-black" />
+                        </div>
+                        <span className="text-xl font-bold text-black">Youtube</span>
+                      </div>
+                      <div className="flex items-center gap-4">
+                        <div className="w-12 h-12 bg-[#82E658] flex items-center justify-center flex-shrink-0">
+                          <Instagram className="w-6 h-6 text-black" />
+                        </div>
+                        <span className="text-xl font-bold text-black">Instagram</span>
+                      </div>
+                      <div className="flex items-center gap-4">
+                        <div className="w-12 h-12 bg-[#82E658] flex items-center justify-center flex-shrink-0">
+                          <Linkedin className="w-6 h-6 text-black fill-black" />
+                        </div>
+                        <span className="text-xl font-bold text-black">Linkedin</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              {/* Right Map */}
+              <div className="h-full min-h-[500px] rounded-lg overflow-hidden">
+                <iframe
+                  src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8&q=898+Bay+Ridge+Avenue,Brooklyn,NY+11220,USA&zoom=15"
+                  width="100%"
+                  height="100%"
+                  style={{ border: 0, minHeight: "100%" }}
+                  allowFullScreen
+                  loading="lazy"
+                  referrerPolicy="no-referrer-when-downgrade"
+                  title="Paradise Estimating Location"
+                ></iframe>
+              </div>
+            </div>
+          </div>
+        </section>
+
+
 
         {/* Our Commitment Section */}
         <section className="py-8 lg:py-10 bg-[#1A1F2C] items-center justify-center w-full">
